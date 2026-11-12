@@ -94,12 +94,12 @@ INDEX = [
 ("Prayer and quiet time", "2.61 2.65 2.72"),
 ]
 CSS = """
-/* Layout: one narrow reading column set like a printed booklet. One accent colour, no boxes. */
-:root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c;
+/* Layout: phone = one reading column; tablet = wider column; laptop = contents sidebar + each verse in two columns (verse left, practice right). Section labels carry colour. */
+:root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c; --c-title: #27408f; --c-moments: #0b6e7f; --c-helps: #2f7d32; --c-try: #c2500a; --c-bhakti: #7a3594;
   --text: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sanskrit: "Tiro Devanagari Sanskrit", "Kohinoor Devanagari", "Noto Serif Devanagari", serif; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; color-scheme: dark } }
-:root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; color-scheme: dark }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; color-scheme: dark }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 1rem; -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--text); font-size: 1.125rem; line-height: 1.65; }
@@ -140,7 +140,36 @@ details > p:first-of-type { margin-top: 0; }
 .h + .group, .h + ul { margin-top: .5rem; }
 .top { position: fixed; right: max(14px, env(safe-area-inset-right, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: .3rem .7rem; font-size: .95rem; text-decoration: none; }
 footer { margin-top: 4rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 1rem; }
-@media print { .top { display: none; } body { font-size: 11pt; } main { max-width: none; padding: 0; }
+
+h1 { color: var(--accent); }
+.part h2 { color: var(--accent); }
+.verse h3 { color: var(--c-title); }
+.h.moments { color: var(--c-moments); } .h.helps { color: var(--c-helps); }
+b.try { color: var(--c-try); } b.bh { color: var(--c-bhakti); }
+.stories summary::marker { color: var(--c-moments); }
+.helps li::marker { color: var(--c-helps); }
+.side { display: none; }
+@media (min-width: 44rem) { main { max-width: 44rem; padding-inline: 2.5rem; } body { font-size: 1.1875rem; } }
+@media (min-width: 64rem) {
+  body { font-size: 1.125rem; }
+  .layout { display: grid; grid-template-columns: 17rem minmax(0, 1fr); max-width: 96rem; margin: 0 auto; }
+  .side { display: block; position: sticky; top: 0; align-self: start; height: 100vh; overflow-y: auto; border-right: 1px solid var(--line); font-size: .95rem; line-height: 1.45;
+    padding-block: 2rem; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: 1rem; }
+  .side .home { display: block; font-weight: 600; color: var(--accent); text-decoration: none; margin-bottom: 1rem; }
+  .side .tofind { display: block; margin-bottom: 1rem; }
+  .side summary { font-weight: 600; }
+  .side .toc a { padding: .2rem 0; } .side .toc a span:first-child { min-width: 2.2rem; }
+  main { max-width: none; margin: 0; padding-block: 2.5rem 5rem; padding-left: 3.5rem; padding-right: max(3.5rem, env(safe-area-inset-right, 0px)); }
+  .intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 4rem; align-items: start; }
+  .intro h2 { margin-top: 0; }
+  .contents-m, .top { display: none; }
+  .find { columns: 3 15rem; column-gap: 3rem; } .find li { break-inside: avoid; }
+  .verse { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 4rem; align-items: start; }
+  .vb > .h:first-child { margin-top: 0; }
+  .part > p { max-width: 44rem; }
+  footer { max-width: 44rem; }
+}
+@media print { .side { display: none !important; } .layout, .verse, .intro { display: block !important; }  .top { display: none; } body { font-size: 11pt; } main { max-width: none; padding: 0; }
   summary { break-after: avoid; } .h, .num, .verse h3 { break-after: avoid; } .sk, .read, li { break-inside: avoid; } .part { break-before: page; } }
 """
 vid = lambda n: "v" + n.replace(".", "-")
@@ -150,19 +179,25 @@ def page(finder, title, standalone):
     if standalone:
         H.append('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n<meta name="description" content="Bhagavad Gita, Chapter 2, in simple words for young readers, with real-life moments for every verse.">\n' + head + "\n</head>\n<body>")
     else: H.append(head)
-    H.append('<main id="top">')
-    H.append("<h1>Bhagavad Gita, Chapter 2</h1><p class='sub'>A readable edition for young people. All 72 verses.</p>")
+    H.append('<div class="layout"><nav class="side" aria-label="Contents"><a class="home" href="#top">Bhagavad Gita, Chapter 2</a>')
+    if finder: H.append('<a class="tofind" href="#find">Find a verse by what is on your mind</a>')
+    for p in parts:
+        H.append(f"<details open><summary>{E(p['title'])}</summary><ul class='toc'>")
+        for n in p["verses"]: H.append(f"<li><a href='#{vid(n)}'><span>{n}</span><span>{E(V[n]['t'])}</span></a></li>")
+        H.append("</ul></details>")
+    H.append('</nav><main id="top">')
+    H.append("<div class='intro'><div><h1>Bhagavad Gita, Chapter 2</h1><p class='sub'>A readable edition for young people. All 72 verses.</p>")
     H.append("<p>Every verse is set out the same way. First comes its message in one line, then the Sanskrit, how to read it aloud, and the meaning. After that are three real-life moments. Tap a title to open the one that sounds like your day. Each verse ends with what helps, one thing to try today, and a bhakti thought.</p>")
     H.append("<p>The chapter is one conversation, so it is best read in order, a few verses at a time.</p>" if not finder else "<p>The chapter is one conversation, so it is best read in order, a few verses at a time. If something particular is on your mind, the list further down will take you to a verse that speaks to it.</p>")
-    H.append("<h2>Four Gems to carry through the chapter</h2><ul>")
+    H.append("</div><div><h2>Four Gems to carry through the chapter</h2><ul>")
     for g in D["gems"]: H.append(f"<li>{q(g)}</li>")
-    H.append("</ul><p><b>When it feels heavy.</b> If a feeling stays for many days, talk to a parent, an elder, a close friend, a cousin or a sibling you trust.</p>")
-    H.append('<h2 id="contents">Contents</h2><div class="group">')
+    H.append("</ul><p><b>When it feels heavy.</b> If a feeling stays for many days, talk to a parent, an elder, a close friend, a cousin or a sibling you trust.</p></div></div>")
+    H.append('<section class="contents-m"><h2 id="contents">Contents</h2><div class="group">')
     for p in parts:
         H.append(f"<details><summary>{E(p['title'])}</summary><ul class='toc'>")
         for n in p["verses"]: H.append(f"<li><a href='#{vid(n)}'><span>{n}</span><span>{E(V[n]['t'])}</span></a></li>")
         H.append("</ul></details>")
-    H.append("</div>")
+    H.append("</div></section>")
     if finder:
         H.append('<h2 id="find">Find a verse by what is on your mind</h2><ul class="find">')
         for topic, vs in INDEX:
@@ -174,19 +209,19 @@ def page(finder, title, standalone):
         for n in p["verses"]:
             v = V[n]
             who = f" · {v['who']}" if v["who"] else ""
-            H.append(f'<article class="verse" id="{vid(n)}"><p class="num">Verse {n}{who}</p><h3>{v["one"]}</h3>')
+            H.append(f'<article class="verse" id="{vid(n)}"><div class="va"><p class="num">Verse {n}{who}</p><h3>{v["one"]}</h3>')
             H.append(f'<p class="sk" lang="sa">{v["sk"]}</p><p class="read">{html.escape(v["read"], quote=False).replace(chr(39), "’")}</p>')
             H.append(f'<p class="meaning">{v["meaning"]}</p><p class="muted">Gem: {v["gem"]}</p>')
             if v["next"]: H.append(f'<p><b>What Krishna will teach next:</b> {v["next"]}</p>')
-            H.append('<p class="h">Real-life moments</p><div class="group">')
+            H.append('</div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">')
             for l, s in v["stories"]: H.append(f"<details><summary>{l}</summary><p>{s}</p></details>")
-            H.append('</div><p class="h">What helps</p><ul>')
+            H.append('</div><p class="h helps">What helps</p><ul class="helps">')
             for h_ in v["helps"]: H.append(f"<li>{h_}</li>")
-            H.append(f'</ul><p><b>Try this today:</b> {v["try"]}</p>')
+            H.append(f'</ul><p><b class="try">Try this today:</b> {v["try"]}</p>')
             if v["note"]: H.append(f'<p>{v["note"]}</p>')
-            H.append(f'<p><b>Bhakti thought:</b> {v["bhakti"]}</p></article>')
+            H.append(f'<p><b class="bh">Bhakti thought:</b> {v["bhakti"]}</p></div></article>')
     H.append("<footer>The Sanskrit follows the Gita Press, Gorakhpur edition. The meanings are in simple words, and the real-life moments are illustrations, not case studies.</footer>")
-    H.append('</main><a class="top" href="#contents">Contents</a>')
+    H.append('</main></div><a class="top" href="#contents">Contents</a>')
     if standalone: H.append("</body>\n</html>")
     return "\n".join(H)
 w = lambda path, s: open(path, "w").write(s)

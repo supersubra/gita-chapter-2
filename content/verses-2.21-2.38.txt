@@ -39,7 +39,7 @@ meaning: "Weapons cannot cut the Self, fire cannot burn it, water cannot wet it,
 gem: My steady Self (unhurt at the core)
 s: The cutting remark | During a quarrel, your close friend says, "No wonder nobody picks you." The words feel like a knife. That evening your elder sister says, "Words can hurt your feelings. They cannot cut what you are. And your friend will be sorry by tomorrow."
 s: Burned by a group | Your college friends leave you out of a trip and post the photos. You burn with anger for a week. A friend from another group says, "Come with us on Sunday." Sitting with them, you notice the fire has not burned anything that matters.
-s: The cold shoulder | A colleague you thought of as a friend stops talking to you after you get the project she wanted. The silence in the lunch room is cold. You keep greeting her politely, and you find you can still do good work in the same room.
+s: The cold shoulder | A colleague you thought of as a friend stops talking to you after you get the project she wanted. The silence in the lunch room is cold, and you expect it to spoil everything: your mood, your manners and your work. It does not. You keep greeting her politely, because that is how you behave, whatever she does. You sit down to your work and find it is as good as it was last month. Her silence is sad, but it is outside you. It has not reached the part of you that is steady, and that is why you can still be polite and still work well, even in the same room as her.
 h: **Name what was hurt.** "My feelings are hurt" is true. "I am destroyed" is not.
 h: **Do not throw the same weapon back.** A sharp reply cuts the friendship further.
 h: **Go to a friend or an elder who knows your worth** when words keep ringing in your head.
@@ -149,6 +149,7 @@ t: The same Self in everyone
 one: The same Self lives safely in every single person, which is a reason to treat every one of them well.
 meaning: "The Self that lives in everyone's body can never be destroyed, Arjuna. So you should not grieve for any being."
 gem: Same Self in all
+star: This verse sums up everything Krishna has said about the Self. The Self in you can never be harmed, and the very same Self lives in every person you meet: the friend, the stranger and the one you find difficult. If you remember only this much, nothing that happens can crush you, and you will never look down on anyone.
 s: The new student | A new student joins mid-year. His accent is different, and some of your friends copy it for fun. You remember your own first day at this school. At lunch you say, "Come and sit with us," and your friends make room.
 s: The new neighbours | A family from another state moves in next door. Their food, language and festivals are all different from yours, and in the first month you keep your distance from their daughter. By the third month you are celebrating each other's festivals and calling each other's mothers "aunty."
 s: The cousin nobody includes | At family gatherings, one older cousin is never called to play because he is "not our type." You start asking him along. He turns out to be the funniest person in the room.
@@ -168,6 +169,7 @@ t: Your own duty
 one: Look at what your own duty is right now, and do not waver from it.
 meaning: "Looking at your own duty too, you should not waver. For a warrior, there is nothing better than a fight for what is right."
 gem: Mindful action (knowing my part)
+star: Here Krishna turns from who you are to what you must do. Your own duty, svadharma, is the idea on which the rest of the Gita is built.
 s: More than what you were asked | Your mother asks you to lay the table, and you do it. Then you notice that the dustbin is full and the clothes are still on the line with rain coming. Nobody has asked you. You bring the clothes in and take the dustbin out. A home is not a hotel where you are a guest. You are part of it, and its work is partly yours.
 s: The wrapper on the ground | After the match, you and your friends finish your snacks, and the wrappers stay on the ground. "Nobody else picks theirs up," one of them says. That is true. You pick up yours anyway, and then a few more, and walk to the bin. You do it because it is the right thing to do, whatever anyone else does. One friend quietly follows you.
 s: Charging the phone, not yourself | During the holidays you stay up past midnight with shows, eat chips in place of lunch and do not step outside for days. You feel dull and cross. Your father says to you, "My girl, you charge your phone every night without fail. Who is charging you?" You begin with one thing: lights off at ten.
@@ -282,6 +284,7 @@ t: Win or lose, the same
 one: Treat joy and sorrow, gain and loss, winning and losing alike, and then give your best.
 meaning: "Treat pleasure and pain, gain and loss, victory and defeat as the same, and then get ready for the fight. In this way you will do no wrong."
 gem: Evenness
+star: This one verse holds the whole Gem of Evenness. Treat joy and sorrow, gain and loss, winning and losing alike, and then act. Whoever works in this way does no wrong.
 s: Playing against your best friend | You and your best friend reach the badminton final from opposite sides. You are afraid that whoever loses will be hurt. Before the match you agree, "We both play our best, and afterwards we eat together, whatever the score." You do.
 s: One got in, one did not | You and your friend both try for the choir. You get in, and she does not. You do not hide your news, and you do not show it off either. You sit with her while she plans what to try next, and the friendship holds.
 s: The team that lost | Your street's team practises for a month and loses its first match. The next match is a week away. Your captain says, "Same effort as last time. The result is not ours to fix." You find it easier to begin this time.

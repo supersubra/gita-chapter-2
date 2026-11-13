@@ -9,8 +9,9 @@ t: What does a steady person look like?
 one: Arjuna asks a practical question: how does a steady person speak, sit and move?
 meaning: "Krishna, what is a person of steady wisdom like? How does such a person speak, how do they sit, and how do they walk?"
 gem: My steady Self (learning from steady people)
+star: Arjuna's question opens the most loved part of this chapter: the picture of the sthitaprajna, the person of steady wisdom. The eighteen verses that answer it are among the most recited in the whole Gita.
 next: Krishna will answer in the next eighteen verses, describing a steady person one quality at a time.
-s: The calm classmate | One girl in your class never panics before tests and never gossips. You and your friends call her "the monk." One day you ask her seriously, "How do you stay like that?" She is surprised that anyone noticed, and she tells you.
+s: The calm classmate | One girl in your class never panics before tests and never gossips. You and your friends call her "the monk." One day you ask her seriously, "How do you stay like that?" She is surprised that anyone noticed. "I do three small things," she says. "I finish my revision the day before, so there is nothing left to panic about in the morning. I do not discuss the paper at the gate, before or after. And when people start talking about someone who is not there, I go and fill my water bottle." You try the first one that same week.
 s: The boy everyone goes to | An older boy in your colony is the one everyone goes to in a crisis. You start watching how he behaves: how he listens, how he answers slowly, how he never talks about people behind their backs.
 s: Your mother on a bad morning | The tank overflows, the guests arrive early and the gas runs out, all in one hour, and your mother stays level. You ask your father, "Was she always like this?" He says, "Watch what she does each morning. She takes ten quiet minutes before anyone else is awake."
 h: **Find one steady person** among your friends, family or teachers.
@@ -34,6 +35,13 @@ h: **Notice what you already have** before you look at what is missing.
 h: **Enjoy simple time with friends,** with no spending and no plan.
 h: **When a want appears, ask,** "Will I be all right without this?" The answer is usually yes.
 try: Spend one evening this week with a friend doing something that costs nothing.
+note: **When someone has what you do not.** Jealousy begins with counting what another person has and you lack. Contentment begins with counting differently, and with practice, what others have stops deciding how you feel. These steps help:
+ni: **Admit the feeling to yourself.** Almost everyone feels jealous at times. Seeing it clearly is the first step to letting it go.
+ni: **Remember that you see only one part of their life.** You see the new phone or the prize. You do not see their worries.
+ni: **Count what you already have.** Each night, name three things you would not exchange for anything: a person, a skill, a place or a memory.
+ni: **Say something glad out loud.** "That is lovely. I am happy for you." The words help the heart to follow.
+ni: **Remember that turns come at different times.** Today the good thing has come to them. On other days it has come to you, and it will again.
+ni: **Ask for what you need, not for what they have.** "I need shoes that fit" is a need. "I need the shoes she has" is only comparison.
 bhakti: The one who is content within has found the Lord seated there. No other treasure is needed.
 
 ## 2.56
@@ -56,17 +64,18 @@ bhakti: Clinging, fear and anger leave a heart that trusts God. Each time we pau
 sk: यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् । नाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ॥
 read: yah sarvatraanabhisnehas tat tat praapya shubhaashubham | naabhinandati na dveshti tasya prajnaa pratishthitaa
 t: Neither carried away nor bitter
-one: A steady person is not carried away by good fortune and does not turn bitter at bad fortune, their own or anyone else's.
+one: A steady person is not carried away when good things come and does not turn bitter when bad things come.
 meaning: "One who is unattached everywhere, who neither rejoices on meeting good fortune nor hates bad fortune, has steady wisdom."
-gem: Evenness (free of comparison and jealousy)
-s: Your friend got the prize | Your best friend wins the prize you both wanted. You clap, but inside you feel a pinch. That night you admit it to her. She says, "I felt the same when you won last year." You both laugh, and the pinch goes.
-s: The friend with the better phone, cycle and marks | One friend in your group seems to get everything. You notice you have started avoiding him. Then he asks you for help with a family problem, and you see that he too has his share of difficulties.
-s: Your sister was chosen first | Your younger sister is chosen for the school team before you ever were. You congratulate her, and you mean most of it. Then you ask her to show you how she practises. She shows you gladly.
-h: **Admit jealousy to yourself.** It is a common feeling and it passes sooner when it is seen.
-h: **Congratulate the person out loud.** The words help the heart to follow.
-h: **Learn from the friend you envy** instead of moving away from them.
-try: Congratulate one person today on something they did well, and mean it.
-bhakti: The same Lord gives to each of us in His own time. When we are glad for another person's gift, we honour the Giver.
+gem: Evenness (the same in good luck and bad)
+s: The window seat | On the train to your grandparents' town, you get the window seat. You are thrilled, and you tease your brother about it for the whole journey. On the way back, he gets the window and you get the middle seat, and you sulk for six hours. Your grandmother is travelling with you. Whichever seat she gets, she is the same. She looks out when there is a window and tells stories when there is not. "A seat is only a seat," she says. "The journey is what we came for."
+s: Her new cycle, your old one | Your sister gets a brand-new cycle because her new school is far away. Yours is three years old. You turn bitter: "They always give her more." Your father hears you and says, "Last year the new thing in this house was your keyboard. Nobody counted then. We give each of you what you need when you need it. Fair does not always mean the same thing on the same day." You think back and find he is right. You had never counted the times when it was your turn.
+s: The broken arm | Two weeks before the colony tournament you have trained for all year, you fall and break your arm. For three days you are bitter with everyone, and you keep asking, "Why me?" Then the coach asks if you will keep the scores and time the practice runs. You say yes. On the day of the tournament you are on the ground with a whistle and a plaster, shouting for your team. You did not get the day you wanted, but you did not waste the day you got.
+h: **Enjoy good things without showing off or holding on tight.** They came, and they will change.
+h: **When something goes badly, say, "This is what has come. What can I do now?"** Asking that question is how people bounce back.
+h: **Do not keep a count of what a brother, sister or friend received.** Parents give each child what that child needs at the time. Fair does not always mean equal on the same day.
+h: **If something still feels unfair, say so calmly to your parent, once,** and listen to the answer.
+try: The next time a small thing does not go your way, say "All right" and move on without complaining to anyone.
+bhakti: The same Lord gives to each of us in His own time. Receiving the sweet and the bitter with the same folded hands is a way of trusting Him.
 
 ## 2.58
 sk: यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः । इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥
@@ -74,14 +83,14 @@ read: yadaa samharate chaayam koormo 'ngaaneeva sarvashah | indriyaaneendriyaart
 t: Like a tortoise
 one: Like a tortoise pulling in its limbs, a steady person can draw the senses back whenever needed.
 meaning: "When a person draws the senses back from their objects, as a tortoise draws in its limbs, that person's wisdom is steady."
-gem: Mindful action (choosing where my attention goes)
-s: Phones in the basket | You and three friends meet to study, and within minutes all four of you are on your phones. One friend puts a basket on the table. "Phones in. We take them out at the break." You get more done in an hour than in the whole of last week.
-s: The game at midnight | Your friends play online every night till two, and you join because you do not want to miss out. Your mornings are ruined. You tell them, "I am in till ten, then I am out." They grumble, and then two of them start doing the same.
-s: Dinner and the notifications | At dinner, your eyes keep dropping to your phone. Your father turns his face down on the shelf before every meal. You copy him and find that you are actually listening to the conversation.
-h: **Decide when to pull in.** Phone away during study, meals and conversations.
-h: **Make it easy.** Put the phone in another room, a bag or a basket.
-h: **Do it with friends.** A shared rule is easier to keep.
-try: Keep your phone out of reach for one full hour today.
+gem: Mindful action (choosing what my senses take in)
+s: The talk in the next room | Two of your aunts are talking in low voices in the next room about your cousin's trouble at home. You could stand near the door and hear everything, and you badly want to know. Then you think, "This was not meant for my ears." You go out to the balcony and water the plants. Later your cousin tells you about it himself, in his own words, and you are glad you can look him in the eye.
+s: Straight to the shop | You go to the mall with your birthday money to buy a shawl for your grandmother. Every window calls to your eyes: shoes, headphones, a watch, a game. Each one says, "Just come in and look." You know that if you look, you will want, and if you want, the money will go. So you keep your eyes on the way ahead, as a tortoise keeps its limbs in, and walk straight to the shawl shop. On the way out, with the shawl in your hand, you can look at the windows as much as you like. They have nothing to pull at now.
+s: The warm blanket | You have promised to go running with your father at six. The alarm rings, the morning is cold, and the blanket is warm and soft. Your whole body says, "Five more minutes." You know those five minutes will become an hour. You put your feet on the cold floor before your mind can argue. Ten minutes later you are outside in the fresh air, and you are glad that you made the decision and the blanket did not.
+h: **Know your five gates.** Eyes, ears, tongue, nose and skin each pull you towards what they like. Notice which one pulls you most.
+h: **Pull in early.** It is easier not to look, listen or taste the first time than to stop halfway.
+h: **Pulling in is not hiding.** The tortoise puts its limbs out again when it chooses. You are learning to choose too.
+try: Choose one sense today. When it pulls you towards something you do not need, such as a second look, a conversation that is not yours or five more minutes in bed, draw it back once, on purpose.
 bhakti: The tortoise is not afraid of the world. It simply knows when to turn inward. Prayer is our way of turning inward to God.
 
 ## 2.59
@@ -107,13 +116,14 @@ t: Even the wise can slip
 one: The senses are strong and can carry off even a wise person who is trying hard, so do not be overconfident.
 meaning: "Arjuna, the restless senses can forcibly carry away the mind of even a wise person who is striving."
 gem: Mindful action (being honest about temptation)
-s: "Just one episode" | You are the disciplined one in your group. During study leave you tell yourself, "Just one episode," and look up four hours later. You are shocked at yourself. Your friend says, "It happens to everyone. Give me your password till Friday."
+s: "Just one level" | You are the careful one at home. You always finish your homework before you play, and your parents trust you with the tablet. One Sunday a cousin shows you a new game, and you tell yourself, "Just one level." When you look up, three hours have gone, lunch is cold and your homework is untouched. You are shocked at yourself. You go to your mother and tell her honestly what happened. "From tomorrow, please keep the tablet with you until my homework is done," you say. She smiles. "Being careful does not mean you will never slip. It means you know what to do when you have."
 s: The friend who "would never" | Your friend always said he would never copy. In a tough internal exam, an open book is lying within reach, and he glances at it. Afterwards he tells you, ashamed. You do not judge him. You sit apart from the books together next time.
 s: The festival sweets | You have decided to cut down on sweets. Then the festival boxes arrive, and by evening you have finished half a box on your own. The next morning you ask your mother to keep the boxes in her cupboard and give you two a day.
 h: **Do not say, "I am strong enough."** Keep temptation out of reach instead.
-h: **Tell a friend where you are weak,** and let them help.
+h: **Tell a parent or a friend where you are weak,** and let them help.
 h: **If you slip, do not hide it.** Admit it, repair it and start again.
-try: Put one thing that tempts you out of easy reach, for example by logging out or handing it to a friend.
+h: **Keep your gadgets safe.** Lock your phone or tablet, and never share your password, even with a close friend. When you need help with a temptation, leave the device itself with a parent for a while.
+try: Put one thing that tempts you out of easy reach, for example by logging out of it or leaving it with a parent.
 bhakti: Krishna is frank that this is hard, even for the wise. That is why He asks us, in the next verse, to lean on Him.
 
 ## 2.61
@@ -122,14 +132,15 @@ read: taani sarvaani samyamya yukta aaseeta mat-parah | vashe hi yasyendriyaani 
 t: Lean on Me
 one: Hold the senses steady and fix your mind on God. With His support, self-control becomes possible.
 meaning: "Having brought all the senses under control, one should sit steady, with Me as the highest goal. One whose senses are under control has steady wisdom."
-gem: My steady Self (support from God)
-s: The morning five minutes | Your friend's family sits together for five minutes of prayer before school. You used to think it was old-fashioned. When you stay over one night and join in, you notice how calmly their day begins.
-s: The friend who keeps you steady | One friend quietly keeps her fasts and her morning prayer wherever she is. She never preaches. On your worst day, hers is the house you go to, and you ask if you may sit with her while she prays.
-s: Before the day begins | You begin each day by checking messages in bed, and you are tense before you get up. A friend suggests two minutes of quiet and a short prayer first. After a week, your mornings feel like your own again.
+gem: My steady Self (an anchor in God)
+s: The lamp at dusk | Every evening at your friend's house, her grandmother lights the lamp in the pooja room. Your friend stops whatever she is doing, washes her hands and feet, stands before the deity and chants the Hanuman Chalisa. You used to wait outside and wish she would hurry. One evening you stand beside her instead. It takes only a few minutes. You notice how the whole house goes quiet, and how calm she is when she comes out to play again.
+s: Calm on a tense morning | Your elder brother has done his sandhyavandana every morning and evening since his upanayanam. On the morning of his biggest exam, the whole house is tense, and your mother is checking his hall ticket for the third time. He does his sandhyavandana as on any other day and comes out the calmest person in the house. You ask him how. "For those few minutes my mind is with God and with nothing else," he says. "Whatever happens in the exam hall, I have already stood before Him today."
+s: One shloka before the phone | You begin each day by checking messages in bed, and you are tense before you are even up. Your mother suggests something else: wash your face, go to the pooja room, fold your hands before the deity and chant one small shloka you know. You try it for a week, and the mornings feel like your own again. Then one day, just before you go on stage, your heart is pounding, and the same shloka comes to your lips by itself. The calm of the pooja room comes with it.
 h: **Give the mind something higher to hold.** Willpower alone gets tired.
-h: **Keep a short daily prayer or quiet time,** at the same time every day.
+h: **Keep one small daily practice at a fixed time.** It may be a shloka before the deity in the morning, your sandhyavandana, or lighting the lamp and chanting the Hanuman Chalisa in the evening.
+h: **Do it every day, not only on difficult days.** A daily practice is like an anchor. An anchored boat still feels the waves, but it does not drift away. Because you have remembered God that morning, you remember Him in the tense moment too, and you stay calmer than you otherwise would.
 h: **Stay close to friends whose habits steady you.**
-try: Before you touch your phone tomorrow morning, sit quietly for two minutes and say a prayer you know.
+try: Before you touch your phone tomorrow morning, wash your face, stand before the deity at home with folded hands and chant one shloka you know.
 bhakti: Here Krishna says "Me" for the first time in the chapter. Self-control is not a lonely fight. He is the support.
 
 ## 2.62
@@ -140,13 +151,13 @@ one: It begins with thinking about something again and again. That grows into at
 meaning: "When a person keeps thinking about the objects of the senses, attachment to them grows. From attachment comes craving, and from craving comes anger."
 gem: Mindful action (catching it early)
 s: The shoes | Your friend shows you the shoes he wants. You look at them online every night. Soon you feel you must have them. When your parents say, "Not this month," you slam your door. Later you wonder how a pair of shoes made you shout at your mother.
-s: Checking her profile | You keep looking at a classmate's profile and her photos with other friends. First it is curiosity, then you want to be in that group, and then you are angry with her for no reason she would understand.
+s: Checking her profile | A classmate posts photos every weekend of outings and birthday parties with her group. You begin looking at her profile every night. At first you are only curious. After a week, you start to feel that you belong in those photos. After two weeks, you want very badly to be invited. The invitation does not come, and one morning you find you are cold and sharp with her, though she has done nothing to you. She has no idea why. Trace it back and you will find every step of this verse: looking again and again, then attachment, then craving, then anger.
 s: The gift you kept imagining | Your grandfather is bringing a new cycle, and for weeks you imagine yourself riding it. When it turns out to be for your brother, you are furious with him, though he did nothing wrong. You trace the anger back and find that it began with the daydream.
 h: **Notice what you keep going back to** in your thoughts and on your screen.
 h: **Stop at the first step.** It is far easier to stop looking than to stop being angry.
 h: **When you are angry, ask,** "What did I want that I did not get?"
 try: Notice one thing you look at again and again, and skip it for one day.
-bhakti: What we dwell on shapes us. When the mind dwells on God's name and form, the same ladder leads upward.
+bhakti: What we dwell on shapes us, and that works both ways. The mind grows fond of whatever it visits often, so give it good places to visit. Keep a picture of your favourite deity where you study, and look at it for a moment before you begin. Chant God's name or a small shloka while you walk, wait or lie down to sleep. Listen to one story of Krishna, Rama or Hanuman every week. Thinking of God often grows into fondness, fondness grows into love, and that love brings peace where the other ladder brought anger.
 
 ## 2.63
 sk: क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः । स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥
@@ -155,9 +166,7 @@ t: Where anger leads
 one: Anger clouds the mind, the clouded mind forgets what it knows, and then good sense is lost.
 meaning: "From anger comes confusion, from confusion loss of memory, and from loss of memory the ruin of understanding. When understanding is ruined, the person is lost."
 gem: Evenness (stopping the slide)
-s: The words you cannot take back | In a fight, you tell your oldest friend, "I never liked you anyway." It is not true. You forgot, in that moment, ten years of friendship. It takes you three weeks and a long apology to mend what took ten seconds to say.
-s: The broken phone | Your friend loses a match online, throws his phone and cracks the screen. He stares at it. "I knew it would break," he says. "I just did not know it in that second."
-s: The message sent in anger | Your grandmother tells your parents something you wanted kept quiet, and you send her an angry message. An hour later, you remember all the times she took your side. Your sister helps you find the words, and you go to her room to say sorry in person.
+s: The broken model | You have spent two weeks building a model for the science fair. Your little brother picks it up while you are out, and it slips and breaks. Follow what happens next, one step at a time. || **Anger.** You see the pieces on the floor, and your face goes hot. || **Confusion.** In that heat you can no longer see things at their true size. A broken model looks like the end of the world, and your brother looks like an enemy. || **Memory is lost.** You forget things you know perfectly well. He is only seven. He picked it up because he admires everything you make. He sat by your bed with his own toys when you had fever last month. You have broken his things too. All of this is true, and none of it is in your mind. || **Good sense is lost.** With all that forgotten, nothing is left to guide you. You shout, "I wish I did not have a brother," and you snatch his drawing book off the table and tear it. || **Ruin.** Now two things are broken, not one. He is crying, your mother is upset, and the fair is still tomorrow. An hour later everything you forgot comes back, and you feel worse than he does. The model took one evening to mend. His trust in you took much longer. || The slide can be stopped only near the top. If you had walked out of the room at the first step, only a model would have been broken.
 h: **Do nothing important while angry.** Do not speak, send or decide.
 h: **Leave the room, drink water, walk.** Understanding returns when the heat goes down.
 h: **Repair quickly.** Say sorry the same day if you can.
@@ -172,7 +181,7 @@ one: You can live among all the things of the world and stay peaceful, if strong
 meaning: "But one who moves among the objects of the senses with self-control, free from attraction and dislike, attains peace."
 gem: Evenness (enjoying without being hooked)
 s: The friend who can stop | You and your friend both enjoy the same game. He plays for half an hour and stops. You cannot. He is not stricter than you. He says, "I like it. I just like other things too."
-s: At the wedding feast | At your cousin's wedding there is every sweet you love. Last time you ate until you felt sick. This time you take what you enjoy, eat slowly with your friends, and stop. You enjoy the whole evening.
+s: The last gulab jamun | Your mother has made gulab jamun, and you have been thinking about your share all through practice. You come home to an empty bowl. Your brother has eaten the last two, and one of them was yours. Your first feeling is fury: "He always takes more!" Then you catch yourself. It is a sweet. You have enjoyed it a hundred times, and you will again. You say, "You owe me one next time," and laugh. Your brother was ready for a fight. He is so surprised that he breaks his chocolate in half and gives you the bigger piece. You find that you can love a sweet and still be at peace without it.
 s: The match on television | You love watching cricket, and so does your uncle. He sits down for the last ten overs, enjoys every ball and switches off. You learn his method: decide how much you will watch before you sit down.
 h: **Enjoy things, and keep the off-switch in your own hand.**
 h: **Decide the limit before you start,** not in the middle.
@@ -187,13 +196,14 @@ t: What peace does
 one: In a peaceful mind, sorrows fade and clear thinking returns quickly.
 meaning: "In that peace, all sorrows come to an end. The understanding of a person with a peaceful mind soon becomes steady."
 gem: Evenness (peace first, then answers)
-s: The problem that solved itself | You and your friend struggle with a maths problem for an hour and grow more and more upset. She says, "Leave it. Let us get some air." On the walk back, the answer comes to you.
-s: After the quarrel | You have fought with your brother, and you spend the evening rehearsing arguments. You go for a run. When you return, you can see his side too, and the conversation takes five minutes.
-s: The decision after a good night's sleep | At eleven at night, a fight with your friend looks impossible to mend, and you write a long message ending the friendship. Your mother says, "Sleep. Send it tomorrow if you still want to." In the morning it is an ordinary quarrel with an ordinary answer.
-h: **When you are stuck, calm down first** and solve the problem afterwards.
-h: **Walk, sleep, pray or sit quietly** before a hard conversation.
+s: The missed bus | You wake up late on a day that matters, and the bus is already gone. You are furious with yourself, and your eyes are stinging. An elderly neighbour sees your face and says, "Sit down for a minute and drink some water." After a few slow breaths, your mind stops racing. You remember that your cousin lives two streets away and goes the same way. You call, and you arrive only a little late, calm enough to do your best.
+s: The joke at the family gathering | At a family gathering, a relative compares you with a cousin in front of everyone and makes a joke about your marks. Your face burns, and the words you want to say are not kind. You step outside instead and breathe. Your sister comes out and sits beside you without a word. After a few quiet minutes, the hurt shrinks, and you can think clearly about what to say. You return and answer politely, and later you tell a parent how it made you feel.
+s: The missing wallet | At the bus stop, you open your bag and find your wallet missing, with your ID card, some cash and a few photos you love. Your heart pounds, and you start blaming yourself and everyone else. A shopkeeper nearby asks you to sit and brings you a glass of water. After a few slow breaths, you begin to think step by step: where did you last use it? Within minutes you remember leaving it at the stationery shop, and when you walk back, it is safe on the counter.
+h: **When you are upset, sit down, drink some water and breathe slowly.** Do this first, before you try to solve anything.
+h: **Let a calm person help you.** A neighbour, a sister or a shopkeeper who says "Sit for a minute" is giving you exactly what you need.
+h: **Then think step by step.** Once the mind is quiet, the answer is often already there.
 h: **Do not trust the thoughts of an upset mind** late at night.
-try: The next time you are stuck or upset, take a ten-minute walk before you do anything else.
+try: The next time you are upset, sit down, drink a glass of water and take ten slow breaths before you do anything else.
 bhakti: Peace is not the prize at the end. It is the ground on which everything else can be done. We can ask God for it first.
 
 ## 2.66
@@ -203,9 +213,7 @@ t: No peace, no happiness
 one: Without a steady mind there is no peace, and without peace there can be no happiness.
 meaning: "The unsteady person has no understanding and no power to reflect. Without reflection there is no peace, and without peace, how can there be happiness?"
 gem: Evenness
-s: The restless holiday | In the holidays you have every freedom: games, shows, food and friends online. Yet by evening you feel dull and irritated. Your friend says the same. You both agree that last year's trek, with no network at all, felt far happier.
-s: The party and the walk | At a loud party, you keep checking your phone and comparing yourself with others. The next day you and one friend walk by the lake and talk for an hour. You go home happy and wonder why.
-s: The busy, unhappy week | Your week is full of outings, and still you feel empty on Sunday night. A friend who spent her weekend reading and cooking seems far more rested. You ask if you can join her next Saturday.
+s: The birthday that had everything | It is your birthday, and you have everything you asked for: the gift you wanted, your favourite food, your friends and a cake. Now follow your mind through the day. || **An unsteady mind.** It never stays on one thing. While you open a gift, you are checking your phone to see who has wished you. While your friends sing, you are comparing your gift with the one your cousin got last month. While you eat, you are wondering what comes next. || **No understanding.** A mind that does not stay cannot see what is in front of it. You do not notice that your grandmother travelled two hours to be there, or that your friend made her card by hand. || **No reflection.** You never pause long enough to let any of it sink in, so you never feel thankful. || **No peace.** By evening you are restless and cross, and you snap at your sister over nothing. || **No happiness.** At night you lie awake thinking, "I had everything today. Why was I not happy?" || The next morning you sit quietly with the handmade card and read it slowly. You call your grandmother to thank her. The happiness that a whole day of good things could not give you arrives in ten quiet minutes.
 h: **When you feel dull or irritated, look for what has disturbed your peace.**
 h: **Build some quiet into each day,** even ten minutes.
 h: **Choose company and activities that leave you calmer,** not more restless.
@@ -219,13 +227,13 @@ t: A boat in the wind
 one: A mind that follows every wandering sense is carried off course, like a boat in the wind.
 meaning: "When the mind runs after the wandering senses, it carries away a person's understanding, as the wind carries away a boat on the water."
 gem: Mindful action (holding the rudder)
-s: One notification | You are writing an essay when your phone buzzes. It is only a meme from a friend. You reply, then see a video, then another. Forty minutes later you cannot remember what the essay was about.
-s: "Let's go, everyone is going" | You are saving money for a course. Your friends decide on a sudden trip, then a concert, then new jackets. Each time you go along. At the end of the term, the savings are gone, and so is the course.
-s: The noisy house | You sit down to practise, and every sound in the house pulls you in: the television, your brother's game, a phone call in the next room. By evening you have joined in everything and practised nothing. Your sister shuts your door and says, "Decide where you are going before the wind decides."
-h: **Know where you are headed this hour** before you begin.
-h: **Remove the wind.** Silence notifications and move away from distraction.
-h: **When you notice you have drifted, come back without scolding yourself.**
-try: Turn off notifications for one app that pulls you away most often.
+s: The promise and the playground | You have promised your grandfather that you will be home by five to walk with him to the temple. On the way back, you hear shouting from the ground. A match is on. "Just two overs," you tell yourself. Your ears were pulled first, then your eyes. Your mind followed them, and it took your promise along with it. When you look up, it is dark. He is still sitting by the gate with his walking stick, and he says nothing. You did not stop loving him at any point, and you never decided to break your word. You were a boat with nobody holding the rudder.
+s: The story that went too far | At dinner with your cousins, you begin telling a funny story about a friend. Everyone laughs, and the laughter feels good. So you add a little more, then you exaggerate, and then, to keep them laughing, you tell them something she had told only you. Nobody forced you, and you never meant to give away her secret. The pleasure of being listened to was the wind, and it carried you one small step at a time. That night you cannot sleep. The next day you tell her yourself and say sorry.
+s: The same wind, a steady hand | Your sister made the same promise to your grandfather last week. She heard the same match from the same ground, and she loves cricket more than you do. She waved, shouted, "Tomorrow!" and kept walking. The wind did not blow any more gently for her. She had her hand on the rudder. She had decided where she was going before she set out, and so one pleasant sound could not turn her.
+h: **Decide where you are going before you set out.** A boat with a rudder can use the wind. A boat without one is used by it.
+h: **Watch the first small pull.** It never says, "Break your promise." It says, "Just two minutes."
+h: **When you notice you have drifted, come back at once,** without scolding yourself, and put right what you can.
+try: Before one task today, tell yourself where you are going: "For the next half hour, I am doing only this." Each time something pulls at you, notice it and come back.
 bhakti: A boat needs a rudder and a steady hand. When we give the rudder of the mind to God, the winds lose their power over us.
 
 ## 2.68
@@ -236,7 +244,7 @@ one: So the person whose senses are fully in hand is the one whose wisdom is ste
 meaning: "Therefore, mighty Arjuna, one whose senses are completely held back from their objects has steady wisdom."
 gem: Mindful action (self-control as strength)
 s: The friend who says no easily | When your group pushes someone to try a cigarette behind the school, one friend just says, "No, I'm fine," and changes the subject. Nobody teases him for long. You see that his "no" is a kind of strength, and you stand next to him.
-s: The exam month | During exam month, your friend keeps a simple rule: phone with her mother from nine to nine. People call her extreme. After the results, three of them ask her to hold them to the same rule next term.
+s: The exam month | Your cousin goes to college from home, and her exams are a month away. Home is comfortable, and that is the difficulty: the television in the hall, her phone, her bed two steps from her desk, snacks in the kitchen and someone always ready to chat. Nobody sets rules for a college student, so she sets her own and tells the family. Her phone stays with her mother during her study hours. She studies at the desk and never on the bed. She watches television with everyone for half an hour after dinner, takes a walk on the terrace at sunset and sleeps by half past ten. When friends message about a film, she says, "After the twentieth." Her family lowers the television without being asked. After the results, her younger brother asks her to write a timetable for him too.
 s: Movies till morning | At a sleepover, your cousins want to watch movies till morning and press you when you refuse. You keep saying, cheerfully, "I am in for one, and then I sleep." In time they stop pressing, and one cousin quietly rolls out her mat next to yours.
 h: **Practise saying no in a friendly voice,** without a long explanation.
 h: **Set your rule in advance,** so that you are not deciding under pressure.
@@ -249,7 +257,7 @@ sk: या निशा सर्वभूतानां तस्यां ज
 read: yaa nishaa sarva-bhootaanaam tasyaam jaagarti samyamee | yasyaam jaagrati bhootaani saa nishaa pashyato muneh
 t: Awake to different things
 one: A wise person is awake to what others ignore, and is not excited by what excites everyone else.
-meaning: "What is night for all beings is the time of waking for the self-controlled. What all beings are awake to is night for the sage who sees."
+meaning: "What is like night to most people is where the self-controlled person is wide awake: the knowledge and joy of the Self. And what most people are wide awake to, the passing pleasures of the world, is like night to the wise person who sees." Here, night stands for what a person does not notice or care for, and being awake stands for what they give their attention to.
 gem: My steady Self (my own values)
 s: Not interested in the gossip | At lunch, your whole table is excited about who said what about whom. One friend eats quietly and then asks you how your grandmother's operation went. You realise what she pays attention to, and what she does not.
 s: Carnatic music and film songs | You have learned Carnatic music since you were small, and you are good at it. Hardly anyone in your class knows what it is. Everyone sings film songs, which have a huge following, and you start hiding your music class as if it were something uncool. Then you sing at a school function. The hall goes quiet, and afterwards the same friends ask, "How do you do that?" You see that what you are good at does not have to be the popular thing. Growing it is what makes you stand out.
@@ -268,8 +276,8 @@ t: Like the ocean
 one: Be like the ocean. Rivers pour into it all day, yet it stays full and still.
 meaning: "Rivers flow into the ocean, which is always being filled and yet stays unmoved. In the same way, one into whom all desires flow without disturbing him attains peace, and not the one who runs after desires."
 gem: Evenness (wide and unshaken)
-s: Everyone's plans | Your phone fills with plans: a movie, a match, a birthday, a sale. Earlier you tried to do everything and ended up tired. Now you read them all, choose one and wish the others well. Your friends notice that you are calmer.
-s: The friend who is not shaken | Offers and temptations come to everyone in your group alike. One friend listens, smiles and takes only what suits him. Nothing seems to push him around. You ask him about it. "I do not have to chase everything that comes," he says.
+s: The wish list that kept growing | Each week someone in your group has something new: a smartwatch, wireless earphones, branded shoes, a gaming chair. You keep a wish list on your phone, and it gets longer every week. When you finally got the earphones, you were happy for about ten days, and then the list grew again. You show the list to your grandfather. He says, "The sea does not run after rivers. It is already full, so the rivers come and go, and it does not change. Be full first." That night you cut the list down to the two things you actually need, and you feel lighter than you did on the day the earphones came.
+s: The friend who is not shaken | Everyone in your group is offered the same things: the new game everybody is buying, a party on a school night, the latest shoes, a dare. Most of you jump at each one and feel bad about whatever you miss. One friend listens to every offer, smiles, takes the one or two that suit him and lets the rest go by without any fuss. He never looks as if he is missing out. He looks full. You ask him how he does it. "Wants keep coming, like rivers," he says. "I do not have to run after each one. I already have enough."
 s: A festival morning | On a festival morning, everyone wants something from you at once: fetch the flowers, find the lamp, mind your cousin, answer the door. You used to get flustered and snap. Now you take them all in, pick up one at a time and stay level. Your mother asks what has changed.
 h: **Let wants and offers arrive without jumping at each one.**
 h: **Make your inside bigger,** through sleep, prayer and time with good friends, so that small things do not flood you.
@@ -281,17 +289,18 @@ bhakti: The ocean is one of the great pictures of God in our tradition. A heart 
 sk: विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः । निर्ममो निरहङ्कारः स शान्तिमधिगच्छति ॥
 read: vihaaya kaamaan yah sarvaan pumaamsh charati nihsprihah | nirmamo nirahankaarah sa shaantim adhigachchhati
 t: Without "me" and "mine"
-one: Peace comes to the one who lets go of craving, of "mine" and of "I am the one who did it."
+one: Peace comes to the one who lets go of craving, of "mine" and of "I am the one who did it." It is all right not to have everything for yourself, and what you share has a way of coming back.
 meaning: "The person who gives up all cravings and lives free from longing, without the sense of 'mine' and without ego, attains peace."
 gem: Same Self in all (sharing, and less "me")
-s: "My" best friend | Your best friend has started spending time with a new girl, and you feel she is being taken from you. You keep saying "my friend." Then you invite the new girl to sit with both of you. Now there are three of you, and nobody has lost anyone.
-s: Who did the most | After the school fest, your team argues about who worked hardest. You know you did a great deal. You say, "We all did it. It went well." The argument ends, and people remember you kindly for it.
-s: "My" room | Your cousin comes to stay for a month and shares your room, your desk and your shelf. You begin to say, "That is mine," and stop. The room is fuller and louder and, you have to admit, more fun. You clear half a shelf for him.
+s: The bigger piece | Whenever your mother cuts a mango, you and your sister measure the pieces with your eyes, and one of you always complains. Today you say, "You take the bigger one," and you mean it. She stares at you. The mango tastes just as sweet. The next day she saves you the window seat in the car without being asked. The day after, she shares her new colour pens. You did not ask for any of it. When you stopped guarding your portion, she stopped guarding hers, and both of you ended up with more.
+s: Your Saturday | You have kept Saturday for yourself: a late morning, your game and your friends. Then your little brother needs help with his project, and your grandmother wants someone to go with her to the temple. You give up your morning, and you do not mention it to anyone. Two weeks later, you are stuck on the night before your own exhibition, with charts still to cut and paste. Your brother, your grandmother and your father all sit down around the table and work with you until it is finished. Nobody asked them to. The time you gave away came back when you needed it most, and more of it than you gave.
+s: Whose choice? | On family outings you always want pizza and your brother always wants dosa, and the evening begins with an argument. Today you say, "Let us go to his place." You expect to feel that you have lost. You do not. The dosa is good, everyone is laughing, and it is a happier evening than any you won by arguing. Next time, before you can open your mouth, your brother says, "Let her choose today."
+h: **It is all right not to have everything for yourself.** Your portion, your things, your time, your fun and your choice can all be given up sometimes, and you will still have enough.
 h: **Change "mine" to "ours"** wherever you can. Share friends, notes and credit.
-h: **Let good work speak.** You do not need to announce your part.
+h: **Trust that what you share comes back.** It may not come from the same person or on the same day, but it comes, and often as more than you gave. This is the universe's way of returning to us what we shared. So do not give in order to get. Give freely, and watch what happens.
 h: **Notice how tight "me" and "mine" feel,** and how light sharing feels.
-try: Share something you usually keep for yourself today, such as your notes, your snack or your friend's company.
-bhakti: Everything we call "mine" was given by God and belongs to Him. Remembering this turns owning into caring.
+try: Today, give up one thing that is yours, such as your portion, your turn, your choice or an hour of your time, and do not mention it. Over the next few days, quietly notice what comes back to you.
+bhakti: Everything we call "mine" was given by God and belongs to Him. When we share it freely, He sees that we do not run short.
 
 ## 2.72
 sk: एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति । स्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ॥

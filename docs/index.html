@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Tiro+Devanagari+Sanskrit&display=swap">
 <style>
 /* Layout: phone = one reading column; tablet = wider column; laptop = contents sidebar + each verse in two columns (verse left, practice right). Section labels carry colour. */
-:root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c; --c-title: #27408f; --c-moments: #0b6e7f; --c-helps: #2f7d32; --c-try: #c2500a; --c-bhakti: #7a3594;
+:root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c; --c-title: #27408f; --c-moments: #0b6e7f; --c-helps: #2f7d32; --c-try: #c2500a; --c-bhakti: #7a3594; --gem-bg: #f4eaf8; --c-star: #a35a00; --star-bg: #fff6df;
   --text: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sanskrit: "Tiro Devanagari Sanskrit", "Kohinoor Devanagari", "Noto Serif Devanagari", serif; }
-:root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; color-scheme: dark }
+:root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; --gem-bg: #33253b; --c-star: #f2c260; --star-bg: #2e2717; color-scheme: dark }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 1rem; -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--text); font-size: 1.125rem; line-height: 1.65; }
@@ -61,8 +61,17 @@ h1 { color: var(--accent); }
 b.try { color: var(--c-try); } b.bh { color: var(--c-bhakti); }
 .stories summary::marker { color: var(--c-moments); }
 .helps li::marker { color: var(--c-helps); }
-.gem { margin: 1.2rem 0 0; text-align: center; color: var(--c-bhakti); font-size: .95rem; letter-spacing: .01em; }
-.gem + .sk { margin-top: .5rem; }
+.gem { display: inline-block; margin: .55rem 0 0; padding: .2rem .8rem; border-radius: 999px; background: var(--gem-bg); color: var(--c-bhakti); font-size: .95rem; font-weight: 600; }
+.verse h3 { margin-top: .6rem; }
+.star { display: inline-block; margin-left: .5rem; padding: .05rem .6rem; border-radius: 999px; background: var(--star-bg); color: var(--c-star); font-weight: 600; white-space: nowrap; }
+.star i, .toc i { font-style: normal; display: inline-block; }
+.star i { animation: twinkle 2.4s ease-in-out infinite; }
+@keyframes twinkle { 50% { transform: scale(1.25) rotate(12deg); } }
+@media (prefers-reduced-motion: reduce) { .star i { animation: none; } }
+.why { margin-top: .9rem; padding: .7rem 1rem; border-left: 4px solid var(--c-star); border-radius: 0 6px 6px 0; background: var(--star-bg); }
+.why b { color: var(--c-star); }
+.note-list { margin-top: .5rem; }
+.stories details > p + p { margin-top: .7rem; }
 .theme { display: flex; align-items: center; gap: .6rem; margin-top: 1rem; font-size: 1rem; }
 .theme .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
 .theme button { font: inherit; color: var(--ink); background: var(--bg); border: 0; padding: .35rem .9rem; cursor: pointer; }
@@ -132,17 +141,17 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><a href='#v2-27'><span>2.27</span><span>What cannot be avoided</span></a></li>
 <li><a href='#v2-28'><span>2.28</span><span>The middle is ours</span></a></li>
 <li><a href='#v2-29'><span>2.29</span><span>A wonder</span></a></li>
-<li><a href='#v2-30'><span>2.30</span><span>The same Self in everyone</span></a></li>
+<li><a href='#v2-30'><span>2.30</span><span>The same Self in everyone <i aria-label='Star shloka'>🌟</i></span></a></li>
 </ul></details>
 <details open><summary>Part 3: Your part to play (2.31–2.38)</summary><ul class='toc'>
-<li><a href='#v2-31'><span>2.31</span><span>Your own duty</span></a></li>
+<li><a href='#v2-31'><span>2.31</span><span>Your own duty <i aria-label='Star shloka'>🌟</i></span></a></li>
 <li><a href='#v2-32'><span>2.32</span><span>An open door</span></a></li>
 <li><a href='#v2-33'><span>2.33</span><span>The cost of walking away</span></a></li>
 <li><a href='#v2-34'><span>2.34</span><span>A good name</span></a></li>
 <li><a href='#v2-35'><span>2.35</span><span>Fear or a real reason?</span></a></li>
 <li><a href='#v2-36'><span>2.36</span><span>When people talk</span></a></li>
 <li><a href='#v2-37'><span>2.37</span><span>You gain either way</span></a></li>
-<li><a href='#v2-38'><span>2.38</span><span>Win or lose, the same</span></a></li>
+<li><a href='#v2-38'><span>2.38</span><span>Win or lose, the same <i aria-label='Star shloka'>🌟</i></span></a></li>
 </ul></details>
 <details open><summary>Part 4: Do your best, let go of the result (2.39–2.53)</summary><ul class='toc'>
 <li><a href='#v2-39'><span>2.39</span><span>From knowing to doing</span></a></li>
@@ -153,7 +162,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><a href='#v2-44'><span>2.44</span><span>When the mind is carried off</span></a></li>
 <li><a href='#v2-45'><span>2.45</span><span>Rooted in yourself</span></a></li>
 <li><a href='#v2-46'><span>2.46</span><span>The well and the lake</span></a></li>
-<li><a href='#v2-47'><span>2.47</span><span>Your right is to the work</span></a></li>
+<li><a href='#v2-47'><span>2.47</span><span>Your right is to the work <i aria-label='Star shloka'>🌟</i></span></a></li>
 <li><a href='#v2-48'><span>2.48</span><span>Evenness is yoga</span></a></li>
 <li><a href='#v2-49'><span>2.49</span><span>Why you work matters</span></a></li>
 <li><a href='#v2-50'><span>2.50</span><span>Skill in action</span></a></li>
@@ -162,7 +171,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><a href='#v2-53'><span>2.53</span><span>A mind that stays</span></a></li>
 </ul></details>
 <details open><summary>Part 5: The steady mind (2.54–2.72)</summary><ul class='toc'>
-<li><a href='#v2-54'><span>2.54</span><span>What does a steady person look like?</span></a></li>
+<li><a href='#v2-54'><span>2.54</span><span>What does a steady person look like? <i aria-label='Star shloka'>🌟</i></span></a></li>
 <li><a href='#v2-55'><span>2.55</span><span>Content within</span></a></li>
 <li><a href='#v2-56'><span>2.56</span><span>Free of clinging, fear and anger</span></a></li>
 <li><a href='#v2-57'><span>2.57</span><span>Neither carried away nor bitter</span></a></li>
@@ -185,7 +194,8 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </nav><main id="top">
 <div class='intro'><div><h1>Bhagavad Gita, Chapter 2</h1><p class='sub'>A readable edition for young people. All 72 verses.</p>
 <div class="theme" role="group" aria-label="Theme"><span class="muted">Theme</span><span class="seg"><button type="button" data-set-theme="light" aria-pressed="true">Day</button><button type="button" data-set-theme="dark" aria-pressed="false">Night</button></span></div>
-<p>Every verse is set out the same way. First comes its message in one line and the Gem it belongs to, then the Sanskrit, how to read it aloud, and the meaning. After that are three real-life moments. Tap a title to open the one that sounds like your day. Each verse ends with what helps, one thing to try today, and a bhakti thought.</p>
+<p>Every verse is set out the same way. First comes the Gem it belongs to and its message in one line, then the Sanskrit, how to read it aloud, and the meaning. After that are real-life moments, usually three. Tap a title to open the one that sounds like your day. Each verse ends with what helps, one thing to try today, and a bhakti thought.</p>
+<p><span class="star" style="margin-left:0"><i>🌟</i> Star shloka</span> marks a verse that carries an especially high teaching. If you remember only a few verses from this chapter, let it be these.</p>
 <p>The chapter is one conversation, so it is best read in order, a few verses at a time.</p>
 </div><div><h2>Four Gems to carry through the chapter</h2><ul>
 <li><b>My steady Self:</b> something in me stays steady through every change. This is the root of resilience.</li>
@@ -226,17 +236,17 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><a href='#v2-27'><span>2.27</span><span>What cannot be avoided</span></a></li>
 <li><a href='#v2-28'><span>2.28</span><span>The middle is ours</span></a></li>
 <li><a href='#v2-29'><span>2.29</span><span>A wonder</span></a></li>
-<li><a href='#v2-30'><span>2.30</span><span>The same Self in everyone</span></a></li>
+<li><a href='#v2-30'><span>2.30</span><span>The same Self in everyone <i aria-label='Star shloka'>🌟</i></span></a></li>
 </ul></details>
 <details><summary>Part 3: Your part to play (2.31–2.38)</summary><ul class='toc'>
-<li><a href='#v2-31'><span>2.31</span><span>Your own duty</span></a></li>
+<li><a href='#v2-31'><span>2.31</span><span>Your own duty <i aria-label='Star shloka'>🌟</i></span></a></li>
 <li><a href='#v2-32'><span>2.32</span><span>An open door</span></a></li>
 <li><a href='#v2-33'><span>2.33</span><span>The cost of walking away</span></a></li>
 <li><a href='#v2-34'><span>2.34</span><span>A good name</span></a></li>
 <li><a href='#v2-35'><span>2.35</span><span>Fear or a real reason?</span></a></li>
 <li><a href='#v2-36'><span>2.36</span><span>When people talk</span></a></li>
 <li><a href='#v2-37'><span>2.37</span><span>You gain either way</span></a></li>
-<li><a href='#v2-38'><span>2.38</span><span>Win or lose, the same</span></a></li>
+<li><a href='#v2-38'><span>2.38</span><span>Win or lose, the same <i aria-label='Star shloka'>🌟</i></span></a></li>
 </ul></details>
 <details><summary>Part 4: Do your best, let go of the result (2.39–2.53)</summary><ul class='toc'>
 <li><a href='#v2-39'><span>2.39</span><span>From knowing to doing</span></a></li>
@@ -247,7 +257,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><a href='#v2-44'><span>2.44</span><span>When the mind is carried off</span></a></li>
 <li><a href='#v2-45'><span>2.45</span><span>Rooted in yourself</span></a></li>
 <li><a href='#v2-46'><span>2.46</span><span>The well and the lake</span></a></li>
-<li><a href='#v2-47'><span>2.47</span><span>Your right is to the work</span></a></li>
+<li><a href='#v2-47'><span>2.47</span><span>Your right is to the work <i aria-label='Star shloka'>🌟</i></span></a></li>
 <li><a href='#v2-48'><span>2.48</span><span>Evenness is yoga</span></a></li>
 <li><a href='#v2-49'><span>2.49</span><span>Why you work matters</span></a></li>
 <li><a href='#v2-50'><span>2.50</span><span>Skill in action</span></a></li>
@@ -256,7 +266,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><a href='#v2-53'><span>2.53</span><span>A mind that stays</span></a></li>
 </ul></details>
 <details><summary>Part 5: The steady mind (2.54–2.72)</summary><ul class='toc'>
-<li><a href='#v2-54'><span>2.54</span><span>What does a steady person look like?</span></a></li>
+<li><a href='#v2-54'><span>2.54</span><span>What does a steady person look like? <i aria-label='Star shloka'>🌟</i></span></a></li>
 <li><a href='#v2-55'><span>2.55</span><span>Content within</span></a></li>
 <li><a href='#v2-56'><span>2.56</span><span>Free of clinging, fear and anger</span></a></li>
 <li><a href='#v2-57'><span>2.57</span><span>Neither carried away nor bitter</span></a></li>
@@ -278,7 +288,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </ul></details>
 </div></section>
 <section class="part"><h2>Part 1<br>Arjuna’s sorrow (2.1–2.10)</h2><p>Arjuna stands between two armies, overwhelmed by love, duty and fear. These ten verses are about what that feels like and how to begin finding your way.</p></section>
-<article class="verse" id="v2-1"><div class="va"><p class="num">Verse 2.1 · Sanjaya narrating</p><h3>Krishna lets Arjuna’s tears be seen before He says a word. Caring enough to cry is not weakness.</h3><p class="gem">Gem: Same Self in all (compassion)</p>
+<article class="verse" id="v2-1"><div class="va"><p class="num">Verse 2.1 · Sanjaya narrating</p><p class="gem">💎 Gem: Same Self in all (compassion)</p><h3>Krishna lets Arjuna’s tears be seen before He says a word. Caring enough to cry is not weakness.</h3>
 <p class="sk" lang="sa">तं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् ।<br>विषीदन्तमिदं वाक्यमुवाच मधुसूदनः ॥</p><p class="read">tam tathaa kripayaa-vishtam ashru-poorna-aakulekshanam | visheedantam idam vaakyam uvaacha madhusoodanah</p>
 <p class="meaning">Arjuna was filled with pity and sorrow, his eyes full of tears and his mind troubled. Then Krishna spoke to him.</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -292,7 +302,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Be firm without being cruel,</b> because the person in front of you carries the same Self as you.</li>
 </ul><p><b class="try">Try this today:</b> Tell one trusted person about something that is weighing on your heart.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna does not call Arjuna’s tears wrong. He stays beside him. When love and duty pull in two directions, we can offer both to Him in prayer. The same God sits in the heart of the person we have to disappoint.</p></div></article>
-<article class="verse" id="v2-2"><div class="va"><p class="num">Verse 2.2 · Krishna speaking</p><h3>Fear and confusion are a fog that has come over you. They are not who you are.</h3><p class="gem">Gem: My steady Self</p>
+<article class="verse" id="v2-2"><div class="va"><p class="num">Verse 2.2 · Krishna speaking</p><p class="gem">💎 Gem: My steady Self</p><h3>Fear and confusion are a fog that has come over you. They are not who you are.</h3>
 <p class="sk" lang="sa">कुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् ।<br>अनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ॥</p><p class="read">kutas tvaa kashmalam idam vishame samupasthitam | anaarya-jushtam asvargyam akeerti-karam arjuna</p>
 <p class="meaning">Krishna said, “Arjuna, how has this fog of confusion come over you at such a serious moment? Good people do not hold on to it. It will not lift you up, and it will not bring you a good name.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -306,7 +316,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Tell someone who knows you,</b> like a parent, a sibling or a close friend. They can often see your steadiness when you cannot.</li>
 </ul><p><b class="try">Try this today:</b> Before something big, say a short prayer: “Lord, be with me. I will do my part.”</p>
 <p><b class="bh">Bhakti thought:</b> Krishna’s first words are a question, not a scolding, because He knows Arjuna’s true nature is stronger than the fog. A short prayer before a big moment can bring that steadiness back.</p></div></article>
-<article class="verse" id="v2-3"><div class="va"><p class="num">Verse 2.3</p><h3>Stand up. This heaviness is real, but it is not all of you.</h3><p class="gem">Gem: My steady Self (resilience)</p>
+<article class="verse" id="v2-3"><div class="va"><p class="num">Verse 2.3</p><p class="gem">💎 Gem: My steady Self (resilience)</p><h3>Stand up. This heaviness is real, but it is not all of you.</h3>
 <p class="sk" lang="sa">क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते ।<br>क्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ॥</p><p class="read">klaibyam maa sma gamah paartha naitat tvayy upapadyate | kshudram hridaya-daurbalyam tyaktvottishtha parantapa</p>
 <p class="meaning">“Do not give in to this loss of spirit, Arjuna. It does not suit you. Shake off this small weakness of the heart and stand up.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -319,7 +329,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Remember:</b> feelings of failure are heavy, but they are not the whole of you.</li>
 </ul><p><b class="try">Try this today:</b> Write down one small thing you will do tomorrow morning.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna says “stand up” with great affection, and He believes in Arjuna before Arjuna believes in himself. The word translated as “unmanliness” really means loss of spirit, which can happen to anyone, and anyone can recover it with His grace.</p></div></article>
-<article class="verse" id="v2-4"><div class="va"><p class="num">Verse 2.4 · Arjuna speaking</p><h3>Arjuna asks how he can fight the very teachers he respects most.</h3><p class="gem">Gem: Same Self in all (respect, gratitude and healthy competition)</p>
+<article class="verse" id="v2-4"><div class="va"><p class="num">Verse 2.4 · Arjuna speaking</p><p class="gem">💎 Gem: Same Self in all (respect, gratitude and healthy competition)</p><h3>Arjuna asks how he can fight the very teachers he respects most.</h3>
 <p class="sk" lang="sa">कथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन ।<br>इषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन ॥</p><p class="read">katham bheeshmam aham sankhye dronam cha madhusoodana | ishubhih pratiyotsyaami poojaarhaav arisoodana</p>
 <p class="meaning">“Krishna, how can I fight Bhishma and Drona with my arrows in battle? They deserve my deepest respect.”</p>
 <p><b>What Krishna will teach next:</b> Your respect for your teachers is good. Krishna will show Arjuna how to keep it and still do his duty.</p>
@@ -334,7 +344,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Notice jealousy without feeding it.</b> It is a normal feeling. Remember that the same Self lives in them and in you, and try to be glad for what they have achieved.</li>
 </ul><p><b class="try">Try this today:</b> Send a thank-you message to a teacher or an elder who helped you.</p>
 <p><b class="bh">Bhakti thought:</b> The Gita never calls Arjuna’s respect for his elders wrong. A grateful heart is part of devotion, and a good teacher carries a light that comes from God.</p></div></article>
-<article class="verse" id="v2-5"><div class="va"><p class="num">Verse 2.5</p><h3>A win that comes from hurting the people who guided you is not worth having.</h3><p class="gem">Gem: Mindful action (honesty, gratitude and sharing credit)</p>
+<article class="verse" id="v2-5"><div class="va"><p class="num">Verse 2.5</p><p class="gem">💎 Gem: Mindful action (honesty, gratitude and sharing credit)</p><h3>A win that comes from hurting the people who guided you is not worth having.</h3>
 <p class="sk" lang="sa">गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके ।<br>हत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान् ॥</p><p class="read">guroon ahatvaa hi mahaanubhaavaan shreyo bhoktum bhaikshyam apeeha loke | hatvaartha-kaamaams tu guroon ihaiva bhunjeeya bhogaan rudhira-pradigdhaan</p>
 <p class="meaning">“It is better to live on simple food than to harm my noble teachers. If I harmed them, every pleasure I gained would be stained with the pain I caused.”</p>
 <p><b>What Krishna will teach next:</b> Krishna will show Arjuna how to act with a clear conscience.</p>
@@ -349,7 +359,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Be big-hearted with your brother or sister.</b> A generous person gives the credit away and still feels rich.</li>
 </ul><p><b class="try">Try this today:</b> Thank, by name, someone who helped you recently.</p>
 <p><b class="bh">Bhakti thought:</b> Arjuna chooses gratitude over gain. A heart that stays thankful to its teachers is already close to God, because He lives in them too.</p></div></article>
-<article class="verse" id="v2-6"><div class="va"><p class="num">Verse 2.6</p><h3>Arjuna admits he does not know what is right, and it is honest to say so.</h3><p class="gem">Gem: Evenness (not knowing is okay)</p>
+<article class="verse" id="v2-6"><div class="va"><p class="num">Verse 2.6</p><p class="gem">💎 Gem: Evenness (not knowing is okay)</p><h3>Arjuna admits he does not know what is right, and it is honest to say so.</h3>
 <p class="sk" lang="sa">न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः ।<br>यानेव हत्वा न जिजीविषामस्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ॥</p><p class="read">na chaitad vidmah kataran no gareeyo yad vaa jayema yadi vaa no jayeyuh | yaan eva hatvaa na jijeevishaamas te ’vasthitaah pramukhe dhaartaraashtraah</p>
 <p class="meaning">“I do not even know which is better for us: to fight or not to fight, to win or to lose. The very people we would not want to live without are standing in front of us.”</p>
 <p><b>What Krishna will teach next:</b> Krishna will show Arjuna the next step, not the whole road.</p>
@@ -364,7 +374,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Give it your best,</b> and stay open to changing course.</li>
 </ul><p><b class="try">Try this today:</b> Write down three things you enjoy doing and three things people say you are good at.</p>
 <p><b class="bh">Bhakti thought:</b> Arjuna openly says, “I do not know.” That honesty is where he begins to learn. We too can offer our confusion to God and ask, “Show me the next step.”</p></div></article>
-<article class="verse" id="v2-7"><div class="va"><p class="num">Verse 2.7</p><h3>Arjuna stops arguing and asks to be taught. Asking for help is where learning begins.</h3><p class="gem">Gem: Mindful action (learning with an open heart, and respect for elders and teachers)</p>
+<article class="verse" id="v2-7"><div class="va"><p class="num">Verse 2.7</p><p class="gem">💎 Gem: Mindful action (learning with an open heart, and respect for elders and teachers)</p><h3>Arjuna stops arguing and asks to be taught. Asking for help is where learning begins.</h3>
 <p class="sk" lang="sa">कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः ।<br>यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ॥</p><p class="read">kaarpanya-doshopahata-svabhaavah prichchhaami tvaam dharma- sammoodha-chetaah | yach chhreyah syaan nishchitam broohi tan me shishyas te ’ham shaadhi maam tvaam prapannam</p>
 <p class="meaning">“My heart is heavy with helplessness, and my mind is confused about what is right. Please tell me clearly what is truly good for me. I am your student, and I have come to you for shelter. Please teach me.”</p>
 <p><b>What Krishna will teach next:</b> Krishna begins His teaching only after Arjuna humbly asks. Everything that follows opens from this one step.</p>
@@ -379,7 +389,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Try what they suggest,</b> and go back to tell them how it went.</li>
 </ul><p><b class="try">Try this today:</b> Write three questions for a person you respect, and ask one of them.</p>
 <p><b class="bh">Bhakti thought:</b> Arjuna says, “I am your student, teach me.” Asking for guidance with an open heart is itself a prayer, and the wisest teacher we meet carries a light from God.</p></div></article>
-<article class="verse" id="v2-8"><div class="va"><p class="num">Verse 2.8</p><h3>No prize, however big, can fill an ache on the inside.</h3><p class="gem">Gem: Evenness (what truly fills the heart: gratitude and contentment)</p>
+<article class="verse" id="v2-8"><div class="va"><p class="num">Verse 2.8</p><p class="gem">💎 Gem: Evenness (what truly fills the heart: gratitude and contentment)</p><h3>No prize, however big, can fill an ache on the inside.</h3>
 <p class="sk" lang="sa">न हि प्रपश्यामि ममापनुद्याद् यच्छोकमुच्छोषणमिन्द्रियाणाम् ।<br>अवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम् ॥</p><p class="read">na hi prapashyaami mamaapanudyaad yach chhokam uchchhoshanam indriyaanaam | avaapya bhoomaav asapatnam riddham raajyam suraanaam api chaadhipatyam</p>
 <p class="meaning">“I cannot see anything that will take away this sorrow that is drying up my strength, even if I won a rich kingdom on earth with no rivals, or even became ruler over the gods.”</p>
 <p><b>What Krishna will teach next:</b> Krishna will now turn Arjuna’s eyes inward.</p>
@@ -395,7 +405,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </ul><p><b class="try">Try this today:</b> Write three things you are grateful for, and tell one person about them.</p>
 <p>If the heaviness stays for many days, talk to a family member you trust, such as a parent, a grandparent or an elder.</p>
 <p><b class="bh">Bhakti thought:</b> Even a great warrior like Arjuna learned that no kingdom can fill the heart. The lasting fullness comes from within, from the Self and from God.</p></div></article>
-<article class="verse" id="v2-9"><div class="va"><p class="num">Verse 2.9 · Sanjaya narrating</p><h3>Arjuna runs out of words and goes silent. Silence is not the end of the story.</h3><p class="gem">Gem: My steady Self (silence is not the end)</p>
+<article class="verse" id="v2-9"><div class="va"><p class="num">Verse 2.9 · Sanjaya narrating</p><p class="gem">💎 Gem: My steady Self (silence is not the end)</p><h3>Arjuna runs out of words and goes silent. Silence is not the end of the story.</h3>
 <p class="sk" lang="sa">एवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप ।<br>न योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ॥</p><p class="read">evam uktvaa hrisheekesham gudaakeshah parantapa | na yotsya iti govindam uktvaa tooshneem babhoova ha</p>
 <p class="meaning">After saying this to Krishna, Arjuna said, “I will not fight,” and became silent.</p>
 <p><b>What Krishna will teach next:</b> Krishna is still right there in the chariot. He does not leave when Arjuna goes silent.</p>
@@ -410,7 +420,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>If the silence lasts for days,</b> tell a parent, a grandparent or an elder you trust.</li>
 </ul><p><b class="try">Try this today:</b> Send that one line to one person.</p>
 <p><b class="bh">Bhakti thought:</b> Arjuna’s silence is not the end of the story, because Krishna waits right beside him. When you have no words left, a silent prayer is enough.</p></div></article>
-<article class="verse" id="v2-10"><div class="va"><p class="num">Verse 2.10 · Sanjaya narrating</p><h3>Krishna smiles in the middle of the battlefield. His calm says the storm is not as big as it feels.</h3><p class="gem">Gem: Evenness (a calm presence)</p>
+<article class="verse" id="v2-10"><div class="va"><p class="num">Verse 2.10 · Sanjaya narrating</p><p class="gem">💎 Gem: Evenness (a calm presence)</p><h3>Krishna smiles in the middle of the battlefield. His calm says the storm is not as big as it feels.</h3>
 <p class="sk" lang="sa">तमुवाच हृषीकेशः प्रहसन्निव भारत ।<br>सेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ॥</p><p class="read">tam uvaacha hrisheekeshah prahasann iva bhaarata | senayor ubhayor madhye visheedantam idam vachah</p>
 <p class="meaning">Then, in the middle of the two armies, Krishna spoke these words to the sorrowful Arjuna, with a gentle smile.</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -424,7 +434,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </ul><p><b class="try">Try this today:</b> Offer to sit with someone who looks like they are having a hard day.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna stays steady in the middle of Arjuna’s storm. The same God lives in the heart of the person who is hurting, so when we sit calmly with them, we are keeping Him company too.</p></div></article>
 <section class="part"><h2>Part 2<br>Who am I, really? (2.11–2.30)</h2><p>Krishna’s first teaching: you are more than your results, your moods and your roles. Something steady in you does not change with the day.</p></section>
-<article class="verse" id="v2-11"><div class="va"><p class="num">Verse 2.11 · Krishna speaking</p><h3>You already have the wisdom you give to others. Use it on yourself.</h3><p class="gem">Gem: My steady Self (the wisdom is already in you)</p>
+<article class="verse" id="v2-11"><div class="va"><p class="num">Verse 2.11 · Krishna speaking</p><p class="gem">💎 Gem: My steady Self (the wisdom is already in you)</p><h3>You already have the wisdom you give to others. Use it on yourself.</h3>
 <p class="sk" lang="sa">अशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे ।<br>गतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ॥</p><p class="read">ashochyaan anvashochas tvam prajnaa-vaadaamsh cha bhaashase | gataasoon agataasoomsh cha naanushochanti panditaah</p>
 <p class="meaning">Krishna said, “You are sad about things that do not need such sorrow, yet you speak words of wisdom. Wise people do not grieve over those who have gone or those who are still here.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -437,7 +447,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask an elder sibling, a cousin or a close friend</b> to remind you of them when you forget.</li>
 </ul><p><b class="try">Try this today:</b> Write one piece of advice you once gave someone, and read it to yourself.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna begins with honesty and affection. He sees the wise person in Arjuna before Arjuna does. The wisdom you give to others comes from the same Self within you.</p></div></article>
-<article class="verse" id="v2-12"><div class="va"><p class="num">Verse 2.12</p><h3>You have always been you, and you always will be. No group, title or result can change that.</h3><p class="gem">Gem: My steady Self (always here, always held)</p>
+<article class="verse" id="v2-12"><div class="va"><p class="num">Verse 2.12</p><p class="gem">💎 Gem: My steady Self (always here, always held)</p><h3>You have always been you, and you always will be. No group, title or result can change that.</h3>
 <p class="sk" lang="sa">न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः ।<br>न चैव न भविष्यामः सर्वे वयमतः परम् ॥</p><p class="read">na tv evaaham jaatu naasam na tvam neme janaadhipaah | na chaiva na bhavishyaamah sarve vayam atah param</p>
 <p class="meaning">“There was never a time when I did not exist, or you, or all these people. And none of us will ever cease to be.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -450,7 +460,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Remind yourself each morning:</b> “I am more than today’s result.”</li>
 </ul><p><b class="try">Try this today:</b> Add one thing to your list that no result or title can take away.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna says “I, you and all of these,” which means every one of us has always been held in His presence. We are never truly alone, even when a group, a title or a place disappears.</p></div></article>
-<article class="verse" id="v2-13"><div class="va"><p class="num">Verse 2.13</p><h3>Life moves from one stage to the next, and the same “you” goes through all of them.</h3><p class="gem">Gem: My steady Self (change is natural, and I stay)</p>
+<article class="verse" id="v2-13"><div class="va"><p class="num">Verse 2.13</p><p class="gem">💎 Gem: My steady Self (change is natural, and I stay)</p><h3>Life moves from one stage to the next, and the same “you” goes through all of them.</h3>
 <p class="sk" lang="sa">देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा ।<br>तथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ॥</p><p class="read">dehino ’smin yathaa dehe kaumaaram yauvanam jaraa | tathaa dehaantara- praaptir dheeras tatra na muhyati</p>
 <p class="meaning">“Just as the one who lives in this body passes through childhood, youth and old age, in the same way it passes on to another body. A steady person is not troubled by this.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -463,7 +473,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Welcome one new thing this week,</b> like a new class, a new place or a new person.</li>
 </ul><p><b class="try">Try this today:</b> Send a message to one friend or cousin from an earlier chapter of your life.</p>
 <p><b class="bh">Bhakti thought:</b> The same “I” has been with you through every stage, and God has been with that “I” all along. He holds the child, the young person and the elder equally.</p></div></article>
-<article class="verse" id="v2-14"><div class="va"><p class="num">Verse 2.14</p><h3>Pleasant and unpleasant feelings both come and go. Bear them patiently, and they pass.</h3><p class="gem">Gem: Evenness and resilience</p>
+<article class="verse" id="v2-14"><div class="va"><p class="num">Verse 2.14</p><p class="gem">💎 Gem: Evenness and resilience</p><h3>Pleasant and unpleasant feelings both come and go. Bear them patiently, and they pass.</h3>
 <p class="sk" lang="sa">मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।<br>आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥</p><p class="read">maatraa-sparshaas tu kaunteya sheetoshna-sukha-duhkhadaah | aagamaapaayino ’nityaas taams titikshasva bhaarata</p>
 <p class="meaning">“The touch of the world on our senses brings cold and heat, pleasure and pain. They come and they go, and none of them lasts. So bear them patiently, Arjuna.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -477,7 +487,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Talk it over with a friend, a sibling or a parent</b> if it still hurts after a day or two.</li>
 </ul><p><b class="try">Try this today:</b> Do one small task you have been avoiding, such as a chore at home, for just ten minutes.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna calls Arjuna “Bharata”, a member of a great family, as if to say, “You already have the strength to bear this.” When we offer our discomfort to God, it feels lighter.</p></div></article>
-<article class="verse" id="v2-15"><div class="va"><p class="num">Verse 2.15</p><h3>Staying the same person on good days and bad days is the way to lasting peace.</h3><p class="gem">Gem: Evenness</p>
+<article class="verse" id="v2-15"><div class="va"><p class="num">Verse 2.15</p><p class="gem">💎 Gem: Evenness</p><h3>Staying the same person on good days and bad days is the way to lasting peace.</h3>
 <p class="sk" lang="sa">यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ ।<br>समदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ॥</p><p class="read">yam hi na vyathayanty ete purusham purusharshabha | sama-duhkha- sukham dheeram so ’mritatvaaya kalpate</p>
 <p class="meaning">“The steady person, who is not shaken by these feelings and stays the same in pain and in pleasure, becomes ready for lasting freedom.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -490,7 +500,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Learn from a steady person.</b> Watch how a grandparent, a teacher or a senior behaves after both good days and bad days.</li>
 </ul><p><b class="try">Try this today:</b> The next time something good or bad happens, take one slow breath before you react.</p>
 <p><b class="bh">Bhakti thought:</b> Evenness is a gift that grows with practice and with grace. A heart that rests in God is like a calm lake, which reflects both sunshine and storm without losing its depth.</p></div></article>
-<article class="verse" id="v2-16"><div class="va"><p class="num">Verse 2.16</p><h3>Much of what feels so important today is only passing. Look for what truly lasts.</h3><p class="gem">Gem: My steady Self (what is passing and what lasts)</p>
+<article class="verse" id="v2-16"><div class="va"><p class="num">Verse 2.16</p><p class="gem">💎 Gem: My steady Self (what is passing and what lasts)</p><h3>Much of what feels so important today is only passing. Look for what truly lasts.</h3>
 <p class="sk" lang="sa">नासतो विद्यते भावो नाभावो विद्यते सतः ।<br>उभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ॥</p><p class="read">naasato vidyate bhaavo naabhaavo vidyate satah | ubhayor api drishto ’ntas tv anayos tattva-darshibhih</p>
 <p class="meaning">“What is not lasting has no true existence, and what is truly real never ceases to be. Those who see the truth have understood the nature of both.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -503,7 +513,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>When jealousy comes, name it,</b> and then wish the other person well. It loosens its grip.</li>
 </ul><p><b class="try">Try this today:</b> Write down one thing you enjoy that no one can see online, and be thankful for it.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna teaches us to look for what truly lasts, and that search leads us to Him.</p></div></article>
-<article class="verse" id="v2-17"><div class="va"><p class="num">Verse 2.17</p><h3>Something in you cannot be broken by any failure or any remark.</h3><p class="gem">Gem: My steady Self</p>
+<article class="verse" id="v2-17"><div class="va"><p class="num">Verse 2.17</p><p class="gem">💎 Gem: My steady Self</p><h3>Something in you cannot be broken by any failure or any remark.</h3>
 <p class="sk" lang="sa">अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् ।<br>विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ॥</p><p class="read">avinaashi tu tad viddhi yena sarvam idam tatam | vinaasham avyayasyaasya na kashchit kartum arhati</p>
 <p class="meaning">“Know that to be unbreakable, by which this whole world is filled. No one can destroy that which never changes.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -516,7 +526,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask a parent, a sibling or a close friend</b> to tell you what they still admire in you.</li>
 </ul><p><b class="try">Try this today:</b> Write one sentence that begins, “Even after this, I am still someone who...”</p>
 <p><b class="bh">Bhakti thought:</b> The presence of God within you cannot be taken away by anyone’s remark or by any result.</p></div></article>
-<article class="verse" id="v2-18"><div class="va"><p class="num">Verse 2.18</p><h3>Do not let fear make your decisions. Do what must be done with a steady heart.</h3><p class="gem">Gem: Mindful action (do what must be done, without fear)</p>
+<article class="verse" id="v2-18"><div class="va"><p class="num">Verse 2.18</p><p class="gem">💎 Gem: Mindful action (do what must be done, without fear)</p><h3>Do not let fear make your decisions. Do what must be done with a steady heart.</h3>
 <p class="sk" lang="sa">अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः ।<br>अनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ॥</p><p class="read">antavanta ime dehaa nityasyoktaah shareerinah | anaashino ’prameyasya tasmaad yudhyasva bhaarata</p>
 <p class="meaning">“These bodies come to an end, but the Self that lives in them is eternal, cannot be destroyed and cannot be measured. So, Arjuna, rise and do what must be done.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -529,7 +539,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask a friend or a sibling to check in with you.</b></li>
 </ul><p><b class="try">Try this today:</b> Set a ten-minute timer and start the task you have been avoiding.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna gives this instruction with love, as if to say, “Do your part. I am with you.” Fear does not get the last word.</p></div></article>
-<article class="verse" id="v2-19"><div class="va"><p class="num">Verse 2.19</p><h3>A word cannot harm what you truly are, and the same is true of every other person.</h3><p class="gem">Gem: Same Self in all</p>
+<article class="verse" id="v2-19"><div class="va"><p class="num">Verse 2.19</p><p class="gem">💎 Gem: Same Self in all</p><h3>A word cannot harm what you truly are, and the same is true of every other person.</h3>
 <p class="sk" lang="sa">य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् ।<br>उभौ तौ न विजानीतो नायं हन्ति न हन्यते ॥</p><p class="read">ya enam vetti hantaaram yash chainam manyate hatam | ubhau tau na vijaaneeto naayam hanti na hanyate</p>
 <p class="meaning">“One who thinks the Self can kill, and one who thinks it can be killed, are both mistaken. The Self neither kills nor is killed.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -543,7 +553,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask an elder or a friend you trust</b> to tell you honestly how your words sound to others.</li>
 </ul><p><b class="try">Try this today:</b> Replace one rude word you use casually with a kinder one.</p>
 <p><b class="bh">Bhakti thought:</b> God lives within every person, untouched, including the one we hurt. Speaking kindly is a way of respecting Him.</p></div></article>
-<article class="verse" id="v2-20"><div class="va"><p class="num">Verse 2.20</p><h3>What is truly us is never lost, even when someone we love leaves this world.</h3><p class="gem">Gem: My steady Self</p>
+<article class="verse" id="v2-20"><div class="va"><p class="num">Verse 2.20</p><p class="gem">💎 Gem: My steady Self</p><h3>What is truly us is never lost, even when someone we love leaves this world.</h3>
 <p class="sk" lang="sa">न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः ।<br>अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥</p><p class="read">na jaayate mriyate vaa kadaachin naayam bhootvaa bhavitaa vaa na bhooyah | ajo nityah shaashvato ’yam puraano na hanyate hanyamaane shareere</p>
 <p class="meaning">“The Self is never born and never dies. It has always been and always will be, ancient and unchanging. It is not destroyed when the body is.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -557,7 +567,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Sit with a grieving friend</b> even if you have no words.</li>
 </ul><p><b class="try">Try this today:</b> Tell one story about someone you love and miss.</p>
 <p><b class="bh">Bhakti thought:</b> The Gita says that what is truly us is never lost. We can hold those we love in prayer, and their kindness continues to live in us.</p></div></article>
-<article class="verse" id="v2-21"><div class="va"><p class="num">Verse 2.21</p><h3>Once you know what cannot be destroyed in you, no single event can make you say “I am finished.”</h3><p class="gem">Gem: My steady Self</p>
+<article class="verse" id="v2-21"><div class="va"><p class="num">Verse 2.21</p><p class="gem">💎 Gem: My steady Self</p><h3>Once you know what cannot be destroyed in you, no single event can make you say “I am finished.”</h3>
 <p class="sk" lang="sa">वेदाविनाशिनं नित्यं य एनमजमव्ययम् ।<br>कथं स पुरुषः पार्थ कं घातयति हन्ति कम् ॥</p><p class="read">vedaavinaashinam nityam ya enam ajam avyayam | katham sa purushah paartha kam ghaatayati hanti kam</p>
 <p class="meaning">“Arjuna, a person who knows the Self to be indestructible, eternal, unborn and unchanging cannot truly destroy anyone, or cause anyone to be destroyed.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -570,7 +580,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask someone who has known you for years</b> what has not changed in you.</li>
 </ul><p><b class="try">Try this today:</b> Write one line about something that worried you this week: “This happened. I am still here.”</p>
 <p><b class="bh">Bhakti thought:</b> The Self in you is God’s own gift. No person and no event has the power to take it back.</p></div></article>
-<article class="verse" id="v2-22"><div class="va"><p class="num">Verse 2.22</p><h3>We put away worn-out clothes and wear new ones, and we are still the same person. In the same way, the Self stays the same when the body changes.</h3><p class="gem">Gem: My steady Self (letting go of what is worn out)</p>
+<article class="verse" id="v2-22"><div class="va"><p class="num">Verse 2.22</p><p class="gem">💎 Gem: My steady Self (letting go of what is worn out)</p><h3>We put away worn-out clothes and wear new ones, and we are still the same person. In the same way, the Self stays the same when the body changes.</h3>
 <p class="sk" lang="sa">वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि ।<br>तथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ॥</p><p class="read">vaasaamsi jeernaani yathaa vihaaya navaani grihnaati naro ’paraani | tathaa shareeraani vihaaya jeernaany anyaani samyaati navaani dehee</p>
 <p class="meaning">“A person puts away worn-out clothes and puts on new ones. In the same way, the Self leaves a worn-out body and takes a new one.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -583,20 +593,20 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Thank the old stage</b> before you step into the new one.</li>
 </ul><p><b class="try">Try this today:</b> Message one old friend and tell them one thing about them that has never changed.</p>
 <p><b class="bh">Bhakti thought:</b> God knows us without any of our costumes. He has loved the same you through every change of clothes.</p></div></article>
-<article class="verse" id="v2-23"><div class="va"><p class="num">Verse 2.23</p><h3>Weapons, fire, water and wind cannot touch the Self, and sharp words cannot either.</h3><p class="gem">Gem: My steady Self (unhurt at the core)</p>
+<article class="verse" id="v2-23"><div class="va"><p class="num">Verse 2.23</p><p class="gem">💎 Gem: My steady Self (unhurt at the core)</p><h3>Weapons, fire, water and wind cannot touch the Self, and sharp words cannot either.</h3>
 <p class="sk" lang="sa">नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।<br>न चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥</p><p class="read">nainam chhindanti shastraani nainam dahati paavakah | na chainam kledayanty aapo na shoshayati maarutah</p>
 <p class="meaning">“Weapons cannot cut the Self, fire cannot burn it, water cannot wet it, and wind cannot dry it.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>The cutting remark</summary><p>During a quarrel, your close friend says, “No wonder nobody picks you.” The words feel like a knife. That evening your elder sister says, “Words can hurt your feelings. They cannot cut what you are. And your friend will be sorry by tomorrow.”</p></details>
 <details><summary>Burned by a group</summary><p>Your college friends leave you out of a trip and post the photos. You burn with anger for a week. A friend from another group says, “Come with us on Sunday.” Sitting with them, you notice the fire has not burned anything that matters.</p></details>
-<details><summary>The cold shoulder</summary><p>A colleague you thought of as a friend stops talking to you after you get the project she wanted. The silence in the lunch room is cold. You keep greeting her politely, and you find you can still do good work in the same room.</p></details>
+<details><summary>The cold shoulder</summary><p>A colleague you thought of as a friend stops talking to you after you get the project she wanted. The silence in the lunch room is cold, and you expect it to spoil everything: your mood, your manners and your work. It does not. You keep greeting her politely, because that is how you behave, whatever she does. You sit down to your work and find it is as good as it was last month. Her silence is sad, but it is outside you. It has not reached the part of you that is steady, and that is why you can still be polite and still work well, even in the same room as her.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Name what was hurt.</b> “My feelings are hurt” is true. “I am destroyed” is not.</li>
 <li><b>Do not throw the same weapon back.</b> A sharp reply cuts the friendship further.</li>
 <li><b>Go to a friend or an elder who knows your worth</b> when words keep ringing in your head.</li>
 </ul><p><b class="try">Try this today:</b> Think of one harsh thing someone said to you long ago, and notice that you are still whole.</p>
 <p><b class="bh">Bhakti thought:</b> What God has placed in you is beyond the reach of any weapon. Rest in that when words sting.</p></div></article>
-<article class="verse" id="v2-24"><div class="va"><p class="num">Verse 2.24</p><h3>The Self is everywhere, firm and unmoving, like a rock in a river that the water flows around.</h3><p class="gem">Gem: My steady Self</p>
+<article class="verse" id="v2-24"><div class="va"><p class="num">Verse 2.24</p><p class="gem">💎 Gem: My steady Self</p><h3>The Self is everywhere, firm and unmoving, like a rock in a river that the water flows around.</h3>
 <p class="sk" lang="sa">अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च ।<br>नित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ॥</p><p class="read">achchhedyo ’yam adaahyo ’yam akledyo ’shoshya eva cha | nityah sarva-gatah sthaanur achalo ’yam sanaatanah</p>
 <p class="meaning">“The Self cannot be cut, burned, wetted or dried. It is eternal, present everywhere, firm, unmoving and ever the same.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -609,7 +619,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>When others are stormy, slow down</b> your voice and your breathing.</li>
 </ul><p><b class="try">Try this today:</b> The next time a friend is in a bad mood, stay kind and do not take the mood on yourself.</p>
 <p><b class="bh">Bhakti thought:</b> God is called achala, the one who does not move. When we hold on to Him, some of His steadiness becomes ours.</p></div></article>
-<article class="verse" id="v2-25"><div class="va"><p class="num">Verse 2.25</p><h3>The most real part of you cannot be seen, measured or ranked, so do not grieve over the parts that can.</h3><p class="gem">Gem: My steady Self (more than marks and looks)</p>
+<article class="verse" id="v2-25"><div class="va"><p class="num">Verse 2.25</p><p class="gem">💎 Gem: My steady Self (more than marks and looks)</p><h3>The most real part of you cannot be seen, measured or ranked, so do not grieve over the parts that can.</h3>
 <p class="sk" lang="sa">अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते ।<br>तस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ॥</p><p class="read">avyakto ’yam achintyo ’yam avikaaryo ’yam uchyate | tasmaad evam viditvainam naanushochitum arhasi</p>
 <p class="meaning">“The Self is said to be unseen, beyond thought and unchanging. Knowing this, you should not grieve.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -622,7 +632,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Step away from the list, the mirror or the number</b> when it starts to feel like the whole truth.</li>
 </ul><p><b class="try">Try this today:</b> Write three good things about yourself that no exam, mirror or payslip can show.</p>
 <p><b class="bh">Bhakti thought:</b> God does not look at the rank or the face. He sees the unseen Self, which is where He lives.</p></div></article>
-<article class="verse" id="v2-26"><div class="va"><p class="num">Verse 2.26</p><h3>Even if you are not sure about the big questions, sinking into sorrow still does not help.</h3><p class="gem">Gem: Evenness (you do not need every answer to take the next step)</p>
+<article class="verse" id="v2-26"><div class="va"><p class="num">Verse 2.26</p><p class="gem">💎 Gem: Evenness (you do not need every answer to take the next step)</p><h3>Even if you are not sure about the big questions, sinking into sorrow still does not help.</h3>
 <p class="sk" lang="sa">अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् ।<br>तथापि त्वं महाबाहो नैवं शोचितुमर्हसि ॥</p><p class="read">atha chainam nitya-jaatam nityam vaa manyase mritam | tathaapi tvam mahaa-baaho naivam shochitum arhasi</p>
 <p class="meaning">“Even if you think the Self is born again and again and dies again and again, mighty Arjuna, you still should not grieve like this.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -635,7 +645,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Take your big questions to an elder or a teacher you trust,</b> one at a time.</li>
 </ul><p><b class="try">Try this today:</b> Write down one question you cannot answer, and next to it one small thing you can still do today.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna meets Arjuna where he is, doubts and all. We too can come to God before we have understood everything.</p></div></article>
-<article class="verse" id="v2-27"><div class="va"><p class="num">Verse 2.27</p><h3>Some things cannot be avoided. Accepting them frees your strength for what you can still do.</h3><p class="gem">Gem: Evenness (accepting what cannot be changed)</p>
+<article class="verse" id="v2-27"><div class="va"><p class="num">Verse 2.27</p><p class="gem">💎 Gem: Evenness (accepting what cannot be changed)</p><h3>Some things cannot be avoided. Accepting them frees your strength for what you can still do.</h3>
 <p class="sk" lang="sa">जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च ।<br>तस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ॥</p><p class="read">jaatasya hi dhruvo mrityur dhruvam janma mritasya cha | tasmaad aparihaarye ’rthe na tvam shochitum arhasi</p>
 <p class="meaning">“For one who is born, death is certain, and for one who has died, birth is certain. So you should not grieve over what cannot be avoided.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -648,7 +658,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Share the sadness with a friend or family member</b> who is going through the same ending.</li>
 </ul><p><b class="try">Try this today:</b> Think of one thing that is ending soon, and plan one good thing to do before it does.</p>
 <p><b class="bh">Bhakti thought:</b> Beginnings and endings are both held in God’s hands. Trusting Him with what we cannot change brings rest.</p></div></article>
-<article class="verse" id="v2-28"><div class="va"><p class="num">Verse 2.28</p><h3>We see only the middle of every story, so make the most of the part you are in.</h3><p class="gem">Gem: Evenness (being present in the time we have)</p>
+<article class="verse" id="v2-28"><div class="va"><p class="num">Verse 2.28</p><p class="gem">💎 Gem: Evenness (being present in the time we have)</p><h3>We see only the middle of every story, so make the most of the part you are in.</h3>
 <p class="sk" lang="sa">अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत ।<br>अव्यक्तनिधनान्येव तत्र का परिदेवना ॥</p><p class="read">avyaktaadeeni bhootaani vyakta-madhyaani bhaarata | avyakta-nidhanaany eva tatra kaa paridevanaa</p>
 <p class="meaning">“All beings are unseen before they begin, seen in the middle, and unseen again at the end. What is there to grieve about in this, Arjuna?”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -661,7 +671,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Be thankful for the middle,</b> even when you cannot see what comes after.</li>
 </ul><p><b class="try">Try this today:</b> Spend twenty minutes with a friend or family member today with no phone in your hand.</p>
 <p><b class="bh">Bhakti thought:</b> We do not see where each person came from or where they go. God does, and He gave us this middle together.</p></div></article>
-<article class="verse" id="v2-29"><div class="va"><p class="num">Verse 2.29</p><h3>The Self is a wonder that is hard to understand, so stay curious about yourself and about others.</h3><p class="gem">Gem: Same Self in all (wonder and respect for every person)</p>
+<article class="verse" id="v2-29"><div class="va"><p class="num">Verse 2.29</p><p class="gem">💎 Gem: Same Self in all (wonder and respect for every person)</p><h3>The Self is a wonder that is hard to understand, so stay curious about yourself and about others.</h3>
 <p class="sk" lang="sa">आश्चर्यवत्पश्यति कश्चिदेनमाश्चर्यवद्वदति तथैव चान्यः ।<br>आश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित् ॥</p><p class="read">aashcharyavat pashyati kashchid enam aashcharyavad vadati tathaiva chaanyah | aashcharyavach chainam anyah shrinoti shrutvaapy enam veda na chaiva kashchit</p>
 <p class="meaning">“Some see the Self as a wonder, some speak of it as a wonder, and some hear of it as a wonder. Yet even after hearing, hardly anyone truly knows it.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -674,7 +684,8 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Be patient with yourself too.</b> You are also still discovering who you are.</li>
 </ul><p><b class="try">Try this today:</b> Ask a friend or a classmate, “What is something about you that most people do not know?”</p>
 <p><b class="bh">Bhakti thought:</b> Each person carries something of God that we can only wonder at. Wonder is a good beginning for devotion.</p></div></article>
-<article class="verse" id="v2-30"><div class="va"><p class="num">Verse 2.30</p><h3>The same Self lives safely in every single person, which is a reason to treat every one of them well.</h3><p class="gem">Gem: Same Self in all</p>
+<article class="verse" id="v2-30"><div class="va"><p class="num">Verse 2.30<span class="star"><i>🌟</i> Star shloka</span></p><p class="gem">💎 Gem: Same Self in all</p><h3>The same Self lives safely in every single person, which is a reason to treat every one of them well.</h3>
+<p class="why"><b>Why this is a star shloka:</b> This verse sums up everything Krishna has said about the Self. The Self in you can never be harmed, and the very same Self lives in every person you meet: the friend, the stranger and the one you find difficult. If you remember only this much, nothing that happens can crush you, and you will never look down on anyone.</p>
 <p class="sk" lang="sa">देही नित्यमवध्योऽयं देहे सर्वस्य भारत ।<br>तस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ॥</p><p class="read">dehee nityam avadhyo ’yam dehe sarvasya bhaarata | tasmaat sarvaani bhootaani na tvam shochitum arhasi</p>
 <p class="meaning">“The Self that lives in everyone’s body can never be destroyed, Arjuna. So you should not grieve for any being.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -688,7 +699,8 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </ul><p><b class="try">Try this today:</b> Include one person today who is usually left out.</p>
 <p><b class="bh">Bhakti thought:</b> The Lord lives in every heart, with no exceptions. Every time we make room for someone, we make room for Him.</p></div></article>
 <section class="part"><h2>Part 3<br>Your part to play (2.31–2.38)</h2><p>Krishna now speaks about duty. At every stage of life there is a part that is yours to play: as a student, at home, in your neighbourhood and towards yourself. Doing it with courage is better than running from it.</p></section>
-<article class="verse" id="v2-31"><div class="va"><p class="num">Verse 2.31</p><h3>Look at what your own duty is right now, and do not waver from it.</h3><p class="gem">Gem: Mindful action (knowing my part)</p>
+<article class="verse" id="v2-31"><div class="va"><p class="num">Verse 2.31<span class="star"><i>🌟</i> Star shloka</span></p><p class="gem">💎 Gem: Mindful action (knowing my part)</p><h3>Look at what your own duty is right now, and do not waver from it.</h3>
+<p class="why"><b>Why this is a star shloka:</b> Here Krishna turns from who you are to what you must do. Your own duty, svadharma, is the idea on which the rest of the Gita is built.</p>
 <p class="sk" lang="sa">स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि ।<br>धर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ॥</p><p class="read">sva-dharmam api chaavekshya na vikampitum arhasi | dharmyaad dhi yuddhaach chhreyo ’nyat kshatriyasya na vidyate</p>
 <p class="meaning">“Looking at your own duty too, you should not waver. For a warrior, there is nothing better than a fight for what is right.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -702,7 +714,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Look after yourself every day.</b> Eat healthy food, keep your body and mind fit, and keep your cravings for food and entertainment in hand. Too much of either is not good for you.</li>
 </ul><p><b class="try">Try this today:</b> Write one duty you have as a student, one at home, one to your neighbourhood and one to yourself. Do one of them today without being asked.</p>
 <p><b class="bh">Bhakti thought:</b> Each of us has been given a place and a part. Doing it well is a way of saying thank you to the One who gave it.</p></div></article>
-<article class="verse" id="v2-32"><div class="va"><p class="num">Verse 2.32</p><h3>A hard challenge that comes to you unasked is an open door, not a punishment.</h3><p class="gem">Gem: Mindful action (seeing a challenge as a chance)</p>
+<article class="verse" id="v2-32"><div class="va"><p class="num">Verse 2.32</p><p class="gem">💎 Gem: Mindful action (seeing a challenge as a chance)</p><h3>A hard challenge that comes to you unasked is an open door, not a punishment.</h3>
 <p class="sk" lang="sa">यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् ।<br>सुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ॥</p><p class="read">yadrichchhayaa chopapannam svarga-dvaaram apaavritam | sukhinah kshatriyaah paartha labhante yuddham eedrisham</p>
 <p class="meaning">“Fortunate are the warriors, Arjuna, to whom such a fight comes on its own, like an open door to heaven.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -715,7 +727,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask a friend to stand with you</b> while you prepare.</li>
 </ul><p><b class="try">Try this today:</b> Name one challenge in front of you and write one good thing that could come from it.</p>
 <p><b class="bh">Bhakti thought:</b> What looks like a burden is often a door God has opened. He does not send the test without the strength for it.</p></div></article>
-<article class="verse" id="v2-33"><div class="va"><p class="num">Verse 2.33</p><h3>Walking away from what is right has a cost too, both to you and to those who counted on you.</h3><p class="gem">Gem: Mindful action (not walking away)</p>
+<article class="verse" id="v2-33"><div class="va"><p class="num">Verse 2.33</p><p class="gem">💎 Gem: Mindful action (not walking away)</p><h3>Walking away from what is right has a cost too, both to you and to those who counted on you.</h3>
 <p class="sk" lang="sa">अथ चेत्त्वमिमं धर्म्यं सङ्ग्रामं न करिष्यसि ।<br>ततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि ॥</p><p class="read">atha chet tvam imam dharmyam sangraamam na karishyasi | tatah sva-dharmam keertim cha hitvaa paapam avaapsyasi</p>
 <p class="meaning">“But if you do not take up this fight for what is right, you will give up your duty and your good name, and you will do wrong.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -728,7 +740,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Take the smallest right step.</b> Sit beside someone. Show up. Say one sentence.</li>
 </ul><p><b class="try">Try this today:</b> Is there something you have been avoiding that someone is counting on? Do the first step today.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna reminds Arjuna that turning away is not neutral. When we stand up for what is right, we stand on God’s side.</p></div></article>
-<article class="verse" id="v2-34"><div class="va"><p class="num">Verse 2.34</p><h3>A good name is built by keeping your word, and it is worth protecting.</h3><p class="gem">Gem: Mindful action (keeping my word)</p>
+<article class="verse" id="v2-34"><div class="va"><p class="num">Verse 2.34</p><p class="gem">💎 Gem: Mindful action (keeping my word)</p><h3>A good name is built by keeping your word, and it is worth protecting.</h3>
 <p class="sk" lang="sa">अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् ।<br>सम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ॥</p><p class="read">akeertim chaapi bhootaani kathayishyanti te ’vyayaam | sambhaavitasya chaakeertir maranaad atirichyate</p>
 <p class="meaning">“People will speak of your dishonour for a long time. For one who has been respected, dishonour is worse than death.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -741,7 +753,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>If you break your word, admit it quickly</b> and make it right.</li>
 </ul><p><b class="try">Try this today:</b> Is there a promise you made and have not kept? Keep it today, or tell the person honestly.</p>
 <p><b class="bh">Bhakti thought:</b> A good name is not vanity. It is the trust others place in us, and keeping it is a way of honouring God, who is truth.</p></div></article>
-<article class="verse" id="v2-35"><div class="va"><p class="num">Verse 2.35</p><h3>Before you step back from something, be honest about whether the reason is good sense or only fear.</h3><p class="gem">Gem: My steady Self (courage)</p>
+<article class="verse" id="v2-35"><div class="va"><p class="num">Verse 2.35</p><p class="gem">💎 Gem: My steady Self (courage)</p><h3>Before you step back from something, be honest about whether the reason is good sense or only fear.</h3>
 <p class="sk" lang="sa">भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः ।<br>येषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ॥</p><p class="read">bhayaad ranaad uparatam mamsyante tvaam mahaa-rathaah | yeshaam cha tvam bahu-mato bhootvaa yaasyasi laaghavam</p>
 <p class="meaning">“The great warriors will think you left the battle out of fear. Those who once thought highly of you will think little of you.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -754,7 +766,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Take a friend along</b> for the first hard step.</li>
 </ul><p><b class="try">Try this today:</b> Think of one thing you avoided recently. Write the real reason, just for yourself.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna knows Arjuna is brave, and He will not let fear decide for him. God sees our courage even when we have lost sight of it.</p></div></article>
-<article class="verse" id="v2-36"><div class="va"><p class="num">Verse 2.36</p><h3>People will talk, and it hurts. Do not let their talk decide what you do.</h3><p class="gem">Gem: Evenness (not ruled by what people say)</p>
+<article class="verse" id="v2-36"><div class="va"><p class="num">Verse 2.36</p><p class="gem">💎 Gem: Evenness (not ruled by what people say)</p><h3>People will talk, and it hurts. Do not let their talk decide what you do.</h3>
 <p class="sk" lang="sa">अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः ।<br>निन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम् ॥</p><p class="read">avaachya-vaadaamsh cha bahoon vadishyanti tavaahitaah | nindantas tava saamarthyam tato duhkhataram nu kim</p>
 <p class="meaning">“Those who wish you ill will say many unkind things and mock your ability. What could be more painful than that?”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -768,7 +780,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Say the truth once, calmly,</b> and do not spread stories in return.</li>
 </ul><p><b class="try">Try this today:</b> Write the names of three people whose opinion of you truly matters. Listen to them first.</p>
 <p><b class="bh">Bhakti thought:</b> Even Arjuna would have been mocked. God’s opinion of us does not rise and fall with what people say.</p></div></article>
-<article class="verse" id="v2-37"><div class="va"><p class="num">Verse 2.37</p><h3>When you give an honest effort, you gain something whether you win or lose. So stand up and decide.</h3><p class="gem">Gem: Mindful action (making up my mind)</p>
+<article class="verse" id="v2-37"><div class="va"><p class="num">Verse 2.37</p><p class="gem">💎 Gem: Mindful action (making up my mind)</p><h3>When you give an honest effort, you gain something whether you win or lose. So stand up and decide.</h3>
 <p class="sk" lang="sa">हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।<br>तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ॥</p><p class="read">hato vaa praapsyasi svargam jitvaa vaa bhokshyase maheem | tasmaad uttishtha kaunteya yuddhaaya krita-nishchayah</p>
 <p class="meaning">“If you fall, you will reach heaven. If you win, you will enjoy the earth. So stand up, Arjuna, with your mind made up.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -781,7 +793,8 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Try together with a friend</b> when you can. Shared effort is lighter.</li>
 </ul><p><b class="try">Try this today:</b> Pick one thing you have been unsure about, and decide by tonight.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna shows Arjuna that an honest effort offered to God is never wasted, whichever way it turns out.</p></div></article>
-<article class="verse" id="v2-38"><div class="va"><p class="num">Verse 2.38</p><h3>Treat joy and sorrow, gain and loss, winning and losing alike, and then give your best.</h3><p class="gem">Gem: Evenness</p>
+<article class="verse" id="v2-38"><div class="va"><p class="num">Verse 2.38<span class="star"><i>🌟</i> Star shloka</span></p><p class="gem">💎 Gem: Evenness</p><h3>Treat joy and sorrow, gain and loss, winning and losing alike, and then give your best.</h3>
+<p class="why"><b>Why this is a star shloka:</b> This one verse holds the whole Gem of Evenness. Treat joy and sorrow, gain and loss, winning and losing alike, and then act. Whoever works in this way does no wrong.</p>
 <p class="sk" lang="sa">सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ ।<br>ततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ॥</p><p class="read">sukha-duhkhe same kritvaa laabhaalaabhau jayaajayau | tato yuddhaaya yujyasva naivam paapam avaapsyasi</p>
 <p class="meaning">“Treat pleasure and pain, gain and loss, victory and defeat as the same, and then get ready for the fight. In this way you will do no wrong.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -795,7 +808,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </ul><p><b class="try">Try this today:</b> Before your next test or match, say to yourself, “My job is the effort.”</p>
 <p><b class="bh">Bhakti thought:</b> A mind that stays even in gain and loss can offer everything to God. This verse opens the way to the teaching that follows.</p></div></article>
 <section class="part"><h2>Part 4<br>Do your best, let go of the result (2.39–2.53)</h2><p>This is the heart of the chapter. Krishna teaches how to work with full effort and a light heart, without being tied to marks, praise or rewards.</p></section>
-<article class="verse" id="v2-39"><div class="va"><p class="num">Verse 2.39</p><h3>Knowing something is the first half. Now learn how to live it.</h3><p class="gem">Gem: Mindful action (putting what I know into practice)</p>
+<article class="verse" id="v2-39"><div class="va"><p class="num">Verse 2.39</p><p class="gem">💎 Gem: Mindful action (putting what I know into practice)</p><h3>Knowing something is the first half. Now learn how to live it.</h3>
 <p class="sk" lang="sa">एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां शृणु ।<br>बुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ॥</p><p class="read">eshaa te ’bhihitaa saankhye buddhir yoge tv imaam shrinu | buddhyaa yukto yayaa paartha karma-bandham prahaasyasi</p>
 <p class="meaning">“So far I have given you this wisdom as knowledge. Now hear it as a way of acting. With this understanding, Arjuna, you will be free from the bondage of action.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -808,12 +821,12 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Keep it small.</b> One habit that you really do is better than ten that you only plan.</li>
 </ul><p><b class="try">Try this today:</b> Choose one piece of good advice you have heard many times, and follow it for one day.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna does not stop at explaining. He shows Arjuna how to live it. Devotion also grows by practice, a little every day.</p></div></article>
-<article class="verse" id="v2-40"><div class="va"><p class="num">Verse 2.40</p><h3>No honest effort is ever wasted, and even a little practice protects you from great fear.</h3><p class="gem">Gem: Mindful action (small steps count)</p>
+<article class="verse" id="v2-40"><div class="va"><p class="num">Verse 2.40</p><p class="gem">💎 Gem: Mindful action (small steps count)</p><h3>No honest effort is ever wasted, and even a little practice protects you from great fear.</h3>
 <p class="sk" lang="sa">नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते ।<br>स्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ॥</p><p class="read">nehaabhikrama-naasho ’sti pratyavaayo na vidyate | svalpam apy asya dharmasya traayate mahato bhayaat</p>
 <p class="meaning">“On this path no effort is lost, and there is no harm in trying. Even a little of this practice protects one from great fear.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>Ten minutes a day</summary><p>You are weak at maths and feel it is too late to catch up. Your friend says, “Give me ten minutes after school every day.” It seems too little to matter. After two months, you are no longer afraid of the maths period.</p></details>
-<details><summary>The friend learning to swim</summary><p>Your friend is ashamed that she cannot swim when all of you can. She goes to the pool twice a week and can only float. “It’s nothing,” she says. But the day your group goes to the river, she is the one who is not afraid.</p></details>
+<details><summary>The friend learning to swim</summary><p>Your friend cannot swim, and she is so afraid of water that she sits out every pool party and every beach trip. She joins a class twice a week. After two months she can only float and paddle across the shallow end. “It’s nothing,” she says. “Everyone else can do laps.” Then your families go to the beach together. For the first time she walks into the waves with the rest of you, laughing. She has learned only a little, but that little was enough to take away a big fear.</p></details>
 <details><summary>The unfinished lessons</summary><p>You learned the keyboard for a year and then stopped. You count it as a failure. Two years later your school needs someone to play one simple song on stage, and the half you learned is exactly enough.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Start small,</b> with five or ten minutes.</li>
@@ -821,7 +834,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Begin again without scolding yourself.</b></li>
 </ul><p><b class="try">Try this today:</b> Do ten minutes of something you gave up on.</p>
 <p><b class="bh">Bhakti thought:</b> God counts every small step taken toward the good. Even one sincere prayer or one kind act is kept safe with Him.</p></div></article>
-<article class="verse" id="v2-41"><div class="va"><p class="num">Verse 2.41</p><h3>A decided mind has one aim. An undecided mind runs along endless branches.</h3><p class="gem">Gem: Mindful action (one thing at a time)</p>
+<article class="verse" id="v2-41"><div class="va"><p class="num">Verse 2.41</p><p class="gem">💎 Gem: Mindful action (one thing at a time)</p><h3>A decided mind has one aim. An undecided mind runs along endless branches.</h3>
 <p class="sk" lang="sa">व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन ।<br>बहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ॥</p><p class="read">vyavasaayaatmikaa buddhir ekeha kuru-nandana | bahu-shaakhaa hy anantaash cha buddhayo ’vyavasaayinaam</p>
 <p class="meaning">“Those who are firm in purpose have a single aim, Arjuna. The thoughts of the undecided are many-branched and endless.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -834,12 +847,12 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask a friend to hold you to it.</b></li>
 </ul><p><b class="try">Try this today:</b> Do one task for twenty-five minutes with every other screen and tab closed.</p>
 <p><b class="bh">Bhakti thought:</b> A mind with one aim is a quiet place. In that quiet, it is easier to remember God.</p></div></article>
-<article class="verse" id="v2-42"><div class="va"><p class="num">Verse 2.42</p><h3>Do not be carried away by flowery promises. Check what lies behind them.</h3><p class="gem">Gem: Mindful action (seeing through big promises)</p>
+<article class="verse" id="v2-42"><div class="va"><p class="num">Verse 2.42</p><p class="gem">💎 Gem: Mindful action (seeing through big promises)</p><h3>Do not be carried away by flowery promises. Check what lies behind them.</h3>
 <p class="sk" lang="sa">यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः ।<br>वेदवादरताः पार्थ नान्यदस्तीति वादिनः ॥</p><p class="read">yaam imaam pushpitaam vaacham pravadanty avipashchitah | veda-vaada-rataah paartha naanyad asteeti vaadinah</p>
 <p class="meaning">“Those with little understanding speak flowery words, Arjuna. They delight in the letter of the scriptures and say, ’There is nothing else.'”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>“Score 95 in thirty days”</summary><p>An advertisement promises top marks in a month with a secret method. Your friend is ready to pay with his birthday money. You both ask a senior who topped last year. She laughs and says, “The secret is the textbook, twice.”</p></details>
-<details><summary>The friend who talks big</summary><p>A new friend talks of rich contacts and sure-shot plans and wants you to put your savings into his scheme. He speaks beautifully. You say, “Let me ask my father first.” His plan cannot answer your father’s three plain questions.</p></details>
+<details><summary>The friend who talks big</summary><p>An older boy in your colony says his uncle can get the newest gaming console at half price. “Only five pieces are left. Give me your savings today, and you will have it in two weeks.” He describes it so well that you can almost see it on your table. You say, “Let me ask my father first.” Your father asks three plain questions: “What is the uncle’s shop called? Can we go there and see the console? Will he give a bill?” The boy has no answer to any of them, and he stops asking you. The words were beautiful, but there was nothing behind them.</p></details>
 <details><summary>The shiny camp</summary><p>A cricket camp promises “state selection guaranteed.” A friend who went last year tells you what the days were really like. You are glad you asked before your parents paid.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Be careful when something sounds too good.</b> Ask, “What is the plain truth here?”</li>
@@ -847,7 +860,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Take a day before you decide,</b> and talk to a parent or an elder.</li>
 </ul><p><b class="try">Try this today:</b> Find one advertisement or post that promises too much, and work out what it leaves unsaid.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna warns that even holy words can be used to chase rewards. Real devotion is simple and does not need decoration.</p></div></article>
-<article class="verse" id="v2-43"><div class="va"><p class="num">Verse 2.43</p><h3>When the prize becomes the only reason, even good actions turn into a trade.</h3><p class="gem">Gem: Mindful action (the reason behind what I do)</p>
+<article class="verse" id="v2-43"><div class="va"><p class="num">Verse 2.43</p><p class="gem">💎 Gem: Mindful action (the reason behind what I do)</p><h3>When the prize becomes the only reason, even good actions turn into a trade.</h3>
 <p class="sk" lang="sa">कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् ।<br>क्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति ॥</p><p class="read">kaamaatmaanah svarga-paraa janma-karma-phala-pradaam | kriyaa-vishesha-bahulaam bhogaishvarya-gatim prati</p>
 <p class="meaning">“Full of desires and aiming only at heaven, they speak of many special rituals that lead to pleasure and power, and to more birth as the fruit of action.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -860,7 +873,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Value friends for who they are,</b> not for what they can give you.</li>
 </ul><p><b class="try">Try this today:</b> Help someone today and do not tell anyone about it.</p>
 <p><b class="bh">Bhakti thought:</b> Prayer is not a shop where we pay and collect. The sweetest prayer asks for nothing and simply stays near God.</p></div></article>
-<article class="verse" id="v2-44"><div class="va"><p class="num">Verse 2.44</p><h3>A mind that is always chasing pleasure and status cannot settle on anything.</h3><p class="gem">Gem: Evenness (a settled mind)</p>
+<article class="verse" id="v2-44"><div class="va"><p class="num">Verse 2.44</p><p class="gem">💎 Gem: Evenness (a settled mind)</p><h3>A mind that is always chasing pleasure and status cannot settle on anything.</h3>
 <p class="sk" lang="sa">भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् ।<br>व्यवसायात्मिका बुद्धिः समाधौ न विधीयते ॥</p><p class="read">bhogaishvarya-prasaktaanaam tayaapahrita-chetasaam | vyavasaayaatmikaa buddhih samaadhau na vidheeyate</p>
 <p class="meaning">“Those who cling to pleasure and power, and whose minds are carried away by such talk, cannot gain the steady, single-pointed mind.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -873,12 +886,12 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Spend time with friends on things that cost nothing,</b> such as a walk, a game or a talk.</li>
 </ul><p><b class="try">Try this today:</b> Write down one thing you badly wanted last year. Does it still make you as happy?</p>
 <p><b class="bh">Bhakti thought:</b> A mind pulled in many directions cannot sit with God for even a minute. A simple life makes room for Him.</p></div></article>
-<article class="verse" id="v2-45"><div class="va"><p class="num">Verse 2.45</p><h3>Rise above the pull of likes and dislikes, stop worrying about getting and keeping, and stay rooted in yourself.</h3><p class="gem">Gem: Evenness (free of the tug-of-war)</p>
+<article class="verse" id="v2-45"><div class="va"><p class="num">Verse 2.45</p><p class="gem">💎 Gem: Evenness (free of the tug-of-war)</p><h3>Rise above the pull of likes and dislikes, stop worrying about getting and keeping, and stay rooted in yourself.</h3>
 <p class="sk" lang="sa">त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन ।<br>निर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ॥</p><p class="read">traigunya-vishayaa vedaa nistraigunyo bhavaarjuna | nirdvandvo nitya-sattva-stho niryoga-kshema aatmavaan</p>
 <p class="meaning">“The scriptures deal with the three qualities of nature. Rise above them, Arjuna. Be free from the pairs of opposites, stay steady in goodness, do not worry about gaining and keeping, and be rooted in the Self.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>Liked today, ignored tomorrow</summary><p>On Monday the popular group calls you to sit with them, and you feel wonderful. On Thursday they ignore you, and you feel terrible. Your old friend, who has sat beside you since you were both small, says, “You are the same person on both days.”</p></details>
-<details><summary>Keeping your place</summary><p>You finally make it into the dance team, and now you are afraid of losing your place. You practise from worry, not from joy. An older dancer says, “Dance like the day you auditioned. You had nothing to protect then.”</p></details>
+<details><summary>Keeping your place</summary><p>You have finally made it into the dance team. Until now you danced because you loved it. Now a new girl has joined the class, and you are afraid the teacher will give her your place. At every practice you watch the teacher’s face and not your own steps, and you make more mistakes than before. An older dancer says, “At the audition you had no place to lose, so you simply danced. Do that again. Dancing well today is your job. Who stays in the team is the teacher’s decision.” You stop guarding your place, and your dancing comes back.</p></details>
 <details><summary>Holding on to first place</summary><p>You have come first in the art contest three years running, and now you lie awake working out how to keep it that way. Your sister, who has never won, draws happily every evening. You ask her how. “I just draw today’s picture,” she says. “The prize was never in my hands.”</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Notice the swing</b> between “they like me” and “they don’t.”</li>
@@ -886,7 +899,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Hold what you have with an open hand.</b> Look after it, but do not let fear guard it.</li>
 </ul><p><b class="try">Try this today:</b> Catch one moment today when your mood depended on someone’s reaction, and take a slow breath.</p>
 <p><b class="bh">Bhakti thought:</b> The one who is rooted in the Self trusts God for getting and keeping. Later in the Gita He promises to carry that load Himself.</p></div></article>
-<article class="verse" id="v2-46"><div class="va"><p class="num">Verse 2.46</p><h3>When you have found the real thing, the smaller things you chased matter less, like a well beside a great lake.</h3><p class="gem">Gem: My steady Self (finding the source)</p>
+<article class="verse" id="v2-46"><div class="va"><p class="num">Verse 2.46</p><p class="gem">💎 Gem: My steady Self (finding the source)</p><h3>When you have found the real thing, the smaller things you chased matter less, like a well beside a great lake.</h3>
 <p class="sk" lang="sa">यावानर्थ उदपाने सर्वतः सम्प्लुतोदके ।<br>तावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ॥</p><p class="read">yaavaan artha udapaane sarvatah samplutodake | taavaan sarveshu vedeshu braahmanasya vijaanatah</p>
 <p class="meaning">“When water is flooding everywhere, a small well is of little use. In the same way, all the scriptures are of little use to the wise person who knows the truth.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -896,10 +909,11 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Look for understanding,</b> not only more material.</li>
 <li><b>Value depth.</b> One real friend, one subject truly learned, one prayer truly meant.</li>
-<li><b>When you feel you need more and more, ask what you are really thirsty for.</b></li>
+<li><b>When you keep wanting more, ask what you actually need.</b> Wanting more guide books usually means you want to feel sure of the chapter. Wanting to be in more groups usually means you want one person who understands you. Go for that one thing directly, and the wish for “more” becomes quiet.</li>
 </ul><p><b class="try">Try this today:</b> Take one topic and explain it to a friend in your own words, without the book.</p>
 <p><b class="bh">Bhakti thought:</b> Rituals and books are wells. The love of God is the lake. The wells have done their work when they lead us there.</p></div></article>
-<article class="verse" id="v2-47"><div class="va"><p class="num">Verse 2.47</p><h3>The work is in your hands. The result is not. So give your full effort, and never use this as an excuse to do nothing.</h3><p class="gem">Gem: Mindful action</p>
+<article class="verse" id="v2-47"><div class="va"><p class="num">Verse 2.47<span class="star"><i>🌟</i> Star shloka</span></p><p class="gem">💎 Gem: Mindful action</p><h3>The work is in your hands. The result is not. So give your full effort, and never use this as an excuse to do nothing.</h3>
+<p class="why"><b>Why this is a star shloka:</b> This is the best-known verse of the Gita and the heart of its teaching on action. Your right is to the work, never to the result. A person who truly takes this in can work hard all their life without fear.</p>
 <p class="sk" lang="sa">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।<br>मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥</p><p class="read">karmany evaadhikaaras te maa phaleshu kadaachana | maa karma-phala-hetur bhoor maa te sango ’stv akarmani</p>
 <p class="meaning">“You have a right to your work alone, never to its fruits. Do not let the fruit be your reason for acting, and do not be drawn to doing nothing.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -909,23 +923,23 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Ask, “What part of this is in my hands?”</b> Do that part fully.</li>
 <li><b>Hand over the rest.</b> Marks, selection and other people’s choices are not yours to control.</li>
-<li><b>Do not swing to the other side</b> and say, “Then why try?” Not trying is never the answer.</li>
+<li><b>Do not swing to the other side</b> and say, “Then why try?” The result is not in your hands, but without your effort there is no result at all. A seed that is not sown cannot grow, however good the rain. The effort also changes you. You come out of it more skilled and stronger, even when the result disappoints you. Giving up gives you nothing, which is why not trying is never the answer.</li>
 </ul><p><b class="try">Try this today:</b> Before your next piece of work, write two lists: “In my hands” and “Not in my hands.”</p>
 <p><b class="bh">Bhakti thought:</b> This is the best-known verse of the Gita. We do the work as an offering, and we receive whatever comes as His prasad.</p></div></article>
-<article class="verse" id="v2-48"><div class="va"><p class="num">Verse 2.48</p><h3>Work with a steady mind, the same in success and in failure. That evenness is what yoga means.</h3><p class="gem">Gem: Evenness</p>
+<article class="verse" id="v2-48"><div class="va"><p class="num">Verse 2.48</p><p class="gem">💎 Gem: Evenness</p><h3>Work with a steady mind, the same in success and in failure. That evenness is what yoga means.</h3>
 <p class="sk" lang="sa">योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।<br>सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥</p><p class="read">yoga-sthah kuru karmaani sangam tyaktvaa dhananjaya | siddhy-asiddhyoh samo bhootvaa samatvam yoga uchyate</p>
 <p class="meaning">“Stay steady in yoga and do your work, Arjuna, giving up attachment and remaining the same in success and failure. This evenness is called yoga.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>Results day</summary><p>You and your three closest friends open your results together. Two did well, one did badly, and you are in the middle. You make a pact: nobody boasts and nobody sulks today. You all go out to eat as planned.</p></details>
-<details><summary>Winning and losing in one week</summary><p>Your team wins on Tuesday and loses on Friday. After the win, your captain says, “Good. Practice tomorrow at six.” After the loss, she says exactly the same words. You begin to see why the team follows her.</p></details>
-<details><summary>The compliment and the correction</summary><p>On Monday your aunt tells everyone how well you sang. On Thursday your music teacher stops you three times in one song. Your brother says, “Same singer on both days. Learn from both. Come and eat.”</p></details>
+<details><summary>A hackathon win and a hackathon loss</summary><p>In March your team builds an app at the school hackathon and wins first prize. In August, at the city hackathon, your app crashes in the middle of the demo, and you do not even reach the final round. After the win, your team leader says, “Good. Let us write down what worked and what did not, and meet on Saturday.” After the loss, she says exactly the same words. Both days go into the same notebook, and you begin to see why her teams keep getting better.</p></details>
+<details><summary>Sent back twice</summary><p>You send a story to a children’s magazine, and it comes back with a polite “no.” You feel flat for an evening, and the next day you write at your usual hour. The second story comes back too, and again you write the next day. The third story is printed. You are happy, your family is proud, and the next day you sit down at the same hour and write again. The “no” did not stop you, and the “yes” did not either.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Keep your routine the same</b> after a win and after a loss.</li>
 <li><b>Celebrate lightly and grieve lightly.</b> Then return to the work.</li>
 <li><b>Stand by friends in both.</b> Be glad for the one who won, and sit with the one who lost.</li>
 </ul><p><b class="try">Try this today:</b> The next time you get a result, wait ten minutes before you tell anyone.</p>
 <p><b class="bh">Bhakti thought:</b> Yoga is not only postures. Krishna says it is evenness of mind, and a mind like that rests easily in God.</p></div></article>
-<article class="verse" id="v2-49"><div class="va"><p class="num">Verse 2.49</p><h3>Work done only for reward is poor work. Take shelter in a wiser reason.</h3><p class="gem">Gem: Mindful action (working from a better reason)</p>
+<article class="verse" id="v2-49"><div class="va"><p class="num">Verse 2.49</p><p class="gem">💎 Gem: Mindful action (working from a better reason)</p><h3>Work done only for reward is poor work. Take shelter in a wiser reason.</h3>
 <p class="sk" lang="sa">दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय ।<br>बुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ॥</p><p class="read">doorena hy avaram karma buddhi-yogaad dhananjaya | buddhau sharanam anvichchha kripanaah phala-hetavah</p>
 <p class="meaning">“Work done for reward is far below work done with this understanding, Arjuna. Take refuge in this wisdom. Those who work only for the fruit are to be pitied.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -938,7 +952,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Help a friend do well</b> even when you are competing with them.</li>
 </ul><p><b class="try">Try this today:</b> Do one task today as well as you can, for no reason except to do it well.</p>
 <p><b class="bh">Bhakti thought:</b> The wiser reason Krishna offers is to make our work an offering to Him. Then even small work becomes worship.</p></div></article>
-<article class="verse" id="v2-50"><div class="va"><p class="num">Verse 2.50</p><h3>Yoga is skill in action. A calm mind does the same work better.</h3><p class="gem">Gem: Mindful action (calm skill)</p>
+<article class="verse" id="v2-50"><div class="va"><p class="num">Verse 2.50</p><p class="gem">💎 Gem: Mindful action (calm skill)</p><h3>Yoga is skill in action. A calm mind does the same work better.</h3>
 <p class="sk" lang="sa">बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।<br>तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥</p><p class="read">buddhi-yukto jahaateeha ubhe sukrita-dushkrite | tasmaad yogaaya yujyasva yogah karmasu kaushalam</p>
 <p class="meaning">“One who has this understanding leaves behind both good and bad results in this very life. So devote yourself to yoga. Yoga is skill in action.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -949,9 +963,9 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Bring your mind to the step in front of you,</b> not to the scoreboard.</li>
 <li><b>Breathe before the important moment.</b> Three slow breaths are enough.</li>
 <li><b>Practise calm on small things,</b> so that it is there for the big ones.</li>
-</ul><p><b class="try">Try this today:</b> Do one ordinary task today, such as writing a page or washing a plate, with your full attention.</p>
+</ul><p><b class="try">Try this today:</b> Pick one ordinary task today, such as washing your plate after dinner. While you do it, think only about that task: the water, the soap, getting the plate properly clean. Do not hurry to finish. If your mind runs to something else, bring it back to the plate. This is how skill in action is practised, by giving full attention to the step in front of you.</p>
 <p><b class="bh">Bhakti thought:</b> Work done calmly and carefully is itself a prayer. Krishna calls this skill yoga.</p></div></article>
-<article class="verse" id="v2-51"><div class="va"><p class="num">Verse 2.51</p><h3>The wise let go of the results of their work, and so they are free of a great load.</h3><p class="gem">Gem: Evenness (travelling light)</p>
+<article class="verse" id="v2-51"><div class="va"><p class="num">Verse 2.51</p><p class="gem">💎 Gem: Evenness (travelling light)</p><h3>The wise let go of the results of their work, and so they are free of a great load.</h3>
 <p class="sk" lang="sa">कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः ।<br>जन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ॥</p><p class="read">karma-jam buddhi-yuktaa hi phalam tyaktvaa maneeshinah | janma-bandha-vinirmuktaah padam gachchhanty anaamayam</p>
 <p class="meaning">“The wise, who have this understanding, give up the fruit of their actions. Freed from bondage, they reach a state beyond all sorrow.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -961,10 +975,10 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Do the good thing and drop it.</b> Do not keep a list of what others owe you.</li>
 <li><b>Let last week’s result stay in last week.</b></li>
-<li><b>Notice how light you feel</b> when you stop keeping score.</li>
+<li><b>Notice how light you feel when you stop keeping score.</b> Keeping score means holding a list in your head: who thanked you and who did not, who owes you a favour, who got more credit than you. Each item on that list is a small weight, and you carry it into every meeting with that person. When you drop the list, you can simply enjoy your friends again, and helping becomes a pleasure and not a loan.</li>
 </ul><p><b class="try">Try this today:</b> Let go of one old favour or one old result that you keep bringing up.</p>
 <p><b class="bh">Bhakti thought:</b> Whatever we hand over to God, we no longer have to carry. That is the freedom Krishna speaks of.</p></div></article>
-<article class="verse" id="v2-52"><div class="va"><p class="num">Verse 2.52</p><h3>When your mind comes out of the mud of confusion, other people’s noise loses its hold on you.</h3><p class="gem">Gem: My steady Self (clear thinking)</p>
+<article class="verse" id="v2-52"><div class="va"><p class="num">Verse 2.52</p><p class="gem">💎 Gem: My steady Self (clear thinking)</p><h3>When your mind comes out of the mud of confusion, other people’s noise loses its hold on you.</h3>
 <p class="sk" lang="sa">यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति ।<br>तदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ॥</p><p class="read">yadaa te moha-kalilam buddhir vyatitarishyati | tadaa gantaasi nirvedam shrotavyasya shrutasya cha</p>
 <p class="meaning">“When your understanding crosses the mud of confusion, you will no longer be troubled by what you have heard or what you may yet hear.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -977,13 +991,13 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Talk it through with one clear-headed friend or elder.</b></li>
 </ul><p><b class="try">Try this today:</b> The next time you hear “everyone is saying,” ask, “Who exactly, and how do they know?”</p>
 <p><b class="bh">Bhakti thought:</b> A clear mind is a gift of grace. We can ask for it every morning: “Lord, let me see things as they are.”</p></div></article>
-<article class="verse" id="v2-53"><div class="va"><p class="num">Verse 2.53</p><h3>When your mind stops being pulled by conflicting voices and stays steady within, you have reached yoga.</h3><p class="gem">Gem: My steady Self (a settled mind)</p>
+<article class="verse" id="v2-53"><div class="va"><p class="num">Verse 2.53</p><p class="gem">💎 Gem: My steady Self (a settled mind)</p><h3>When your mind stops being pulled by conflicting voices and stays steady within, you have reached yoga.</h3>
 <p class="sk" lang="sa">श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला ।<br>समाधावचला बुद्धिस्तदा योगमवाप्स्यसि ॥</p><p class="read">shruti-vipratipannaa te yadaa sthaasyati nishchalaa | samaadhaav achalaa buddhis tadaa yogam avaapsyasi</p>
 <p class="meaning">“When your mind, now confused by all you have heard, stands firm and steady within, then you will reach yoga.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>Two friends, two opinions</summary><p>One friend says, “Take biology.” Another says, “Take computers.” Each time you talk to one of them, you change your mind. Finally you sit alone for an evening with a notebook. In the quiet, you already know which one you want.</p></details>
-<details><summary>The noisy feed</summary><p>Before every decision, you ask in three groups and watch five videos. You end up more confused. A friend suggests one day with no feed. By evening your own thoughts are clear enough to hear.</p></details>
-<details><summary>After all the advice</summary><p>You have to choose between the summer camp and a month at your grandparents’ house, and you have heard from your parents, friends and cousins. You thank them all. Then you take a long walk by yourself. When you return, you know your answer, and you feel calm about it.</p></details>
+<details><summary>The painting everyone corrected</summary><p>You are painting a picture for a competition. Your mother says, “Add more colour.” Your friend says, “Keep it simple.” Your cousin says, “Why not paint a village scene?” You change it after each visit, and by evening it is a muddle that belongs to nobody. The next morning you take a fresh sheet, close your door and paint what you first saw in your mind. It may or may not win, but it is one clear picture, and it is yours.</p></details>
+<details><summary>Two friends, two stories</summary><p>Two of your friends have quarrelled, and each one tells you her side. After listening to the first, you are angry with the second. After listening to the second, you are angry with the first. Your mind swings like this for a week. Then you sit quietly by yourself and decide: “I will stay a friend to both, and I will not carry words from one to the other.” Both of them go on telling you their stories, but the stories no longer swing you.</p></details>
+<details><summary>Who should you be?</summary><p>An aunt says you are too quiet. A friend says you talk too much. Your teacher says, “Speak up.” Your cousin says, “Don’t show off.” You try to obey all of them, and soon you no longer know how to behave. Your grandmother says, “Sit with yourself for a while. You already know what kind of person you want to be.” You think it over and settle on three things: to be kind, to be honest, and to speak when you have something to say. After that, other people’s remarks stop pushing you from side to side.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Listen to advice, and then stop collecting it.</b></li>
 <li><b>Give yourself quiet time</b> with no phone before a decision.</li>
@@ -991,12 +1005,13 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 </ul><p><b class="try">Try this today:</b> Sit quietly for five minutes today with no phone, no music and no book.</p>
 <p><b class="bh">Bhakti thought:</b> When the mind is still, it rests in God. That stillness is what Krishna calls samadhi.</p></div></article>
 <section class="part"><h2>Part 5<br>The steady mind (2.54–2.72)</h2><p>Arjuna asks what a steady person is like. Krishna describes someone who is content inside, careful about what the senses take in, and at peace.</p></section>
-<article class="verse" id="v2-54"><div class="va"><p class="num">Verse 2.54 · Arjuna speaking</p><h3>Arjuna asks a practical question: how does a steady person speak, sit and move?</h3><p class="gem">Gem: My steady Self (learning from steady people)</p>
+<article class="verse" id="v2-54"><div class="va"><p class="num">Verse 2.54 · Arjuna speaking<span class="star"><i>🌟</i> Star shloka</span></p><p class="gem">💎 Gem: My steady Self (learning from steady people)</p><h3>Arjuna asks a practical question: how does a steady person speak, sit and move?</h3>
+<p class="why"><b>Why this is a star shloka:</b> Arjuna’s question opens the most loved part of this chapter: the picture of the sthitaprajna, the person of steady wisdom. The eighteen verses that answer it are among the most recited in the whole Gita.</p>
 <p class="sk" lang="sa">स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव ।<br>स्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ॥</p><p class="read">sthita-prajnasya kaa bhaashaa samaadhi-sthasya keshava | sthita-dheeh kim prabhaasheta kim aaseeta vrajeta kim</p>
 <p class="meaning">“Krishna, what is a person of steady wisdom like? How does such a person speak, how do they sit, and how do they walk?”</p>
 <p><b>What Krishna will teach next:</b> Krishna will answer in the next eighteen verses, describing a steady person one quality at a time.</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>The calm classmate</summary><p>One girl in your class never panics before tests and never gossips. You and your friends call her “the monk.” One day you ask her seriously, “How do you stay like that?” She is surprised that anyone noticed, and she tells you.</p></details>
+<details><summary>The calm classmate</summary><p>One girl in your class never panics before tests and never gossips. You and your friends call her “the monk.” One day you ask her seriously, “How do you stay like that?” She is surprised that anyone noticed. “I do three small things,” she says. “I finish my revision the day before, so there is nothing left to panic about in the morning. I do not discuss the paper at the gate, before or after. And when people start talking about someone who is not there, I go and fill my water bottle.” You try the first one that same week.</p></details>
 <details><summary>The boy everyone goes to</summary><p>An older boy in your colony is the one everyone goes to in a crisis. You start watching how he behaves: how he listens, how he answers slowly, how he never talks about people behind their backs.</p></details>
 <details><summary>Your mother on a bad morning</summary><p>The tank overflows, the guests arrive early and the gas runs out, all in one hour, and your mother stays level. You ask your father, “Was she always like this?” He says, “Watch what she does each morning. She takes ten quiet minutes before anyone else is awake.”</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
@@ -1005,7 +1020,7 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Ask them directly.</b> Most steady people are happy to share how they learned it.</li>
 </ul><p><b class="try">Try this today:</b> Name the steadiest person you know, and write three things they do differently.</p>
 <p><b class="bh">Bhakti thought:</b> Arjuna asks to see wisdom in a living person. God often teaches us through the steady people He places around us.</p></div></article>
-<article class="verse" id="v2-55"><div class="va"><p class="num">Verse 2.55 · Krishna speaking</p><h3>A steady person is content inside and does not need a long list of things to feel happy.</h3><p class="gem">Gem: Evenness (contentment)</p>
+<article class="verse" id="v2-55"><div class="va"><p class="num">Verse 2.55 · Krishna speaking</p><p class="gem">💎 Gem: Evenness (contentment)</p><h3>A steady person is content inside and does not need a long list of things to feel happy.</h3>
 <p class="sk" lang="sa">प्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् ।<br>आत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥</p><p class="read">prajahaati yadaa kaamaan sarvaan paartha mano-gataan | aatmany evaatmanaa tushtah sthita-prajnas tadochyate</p>
 <p class="meaning">“Arjuna, when a person gives up all the cravings of the mind and is content in the Self alone, that person is said to be of steady wisdom.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -1017,8 +1032,10 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Enjoy simple time with friends,</b> with no spending and no plan.</li>
 <li><b>When a want appears, ask,</b> “Will I be all right without this?” The answer is usually yes.</li>
 </ul><p><b class="try">Try this today:</b> Spend one evening this week with a friend doing something that costs nothing.</p>
+<p><b>When someone has what you do not.</b> Jealousy begins with counting what another person has and you lack. Contentment begins with counting differently, and with practice, what others have stops deciding how you feel. These steps help:</p>
+<ul class="note-list"><li><b>Admit the feeling to yourself.</b> Almost everyone feels jealous at times. Seeing it clearly is the first step to letting it go.</li><li><b>Remember that you see only one part of their life.</b> You see the new phone or the prize. You do not see their worries.</li><li><b>Count what you already have.</b> Each night, name three things you would not exchange for anything: a person, a skill, a place or a memory.</li><li><b>Say something glad out loud.</b> “That is lovely. I am happy for you.” The words help the heart to follow.</li><li><b>Remember that turns come at different times.</b> Today the good thing has come to them. On other days it has come to you, and it will again.</li><li><b>Ask for what you need, not for what they have.</b> “I need shoes that fit” is a need. “I need the shoes she has” is only comparison.</li></ul>
 <p><b class="bh">Bhakti thought:</b> The one who is content within has found the Lord seated there. No other treasure is needed.</p></div></article>
-<article class="verse" id="v2-56"><div class="va"><p class="num">Verse 2.56</p><h3>A steady person is not shaken in sorrow, does not chase pleasure, and is free of clinging, fear and anger.</h3><p class="gem">Gem: Evenness</p>
+<article class="verse" id="v2-56"><div class="va"><p class="num">Verse 2.56</p><p class="gem">💎 Gem: Evenness</p><h3>A steady person is not shaken in sorrow, does not chase pleasure, and is free of clinging, fear and anger.</h3>
 <p class="sk" lang="sa">दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः ।<br>वीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ॥</p><p class="read">duhkheshv anudvigna-manaah sukheshu vigata-sprihah | veeta-raaga-bhaya-krodhah sthita-dheer munir uchyate</p>
 <p class="meaning">“One whose mind is not shaken in sorrow, who does not crave pleasure, and who is free from attachment, fear and anger, is called a sage of steady mind.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -1031,33 +1048,34 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Talk in person</b> when a message has upset you.</li>
 </ul><p><b class="try">Try this today:</b> The next time you feel angry, count ten slow breaths before you say or type anything.</p>
 <p><b class="bh">Bhakti thought:</b> Clinging, fear and anger leave a heart that trusts God. Each time we pause instead of reacting, we make room for that trust.</p></div></article>
-<article class="verse" id="v2-57"><div class="va"><p class="num">Verse 2.57</p><h3>A steady person is not carried away by good fortune and does not turn bitter at bad fortune, their own or anyone else’s.</h3><p class="gem">Gem: Evenness (free of comparison and jealousy)</p>
+<article class="verse" id="v2-57"><div class="va"><p class="num">Verse 2.57</p><p class="gem">💎 Gem: Evenness (the same in good luck and bad)</p><h3>A steady person is not carried away when good things come and does not turn bitter when bad things come.</h3>
 <p class="sk" lang="sa">यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् ।<br>नाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ॥</p><p class="read">yah sarvatraanabhisnehas tat tat praapya shubhaashubham | naabhinandati na dveshti tasya prajnaa pratishthitaa</p>
 <p class="meaning">“One who is unattached everywhere, who neither rejoices on meeting good fortune nor hates bad fortune, has steady wisdom.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>Your friend got the prize</summary><p>Your best friend wins the prize you both wanted. You clap, but inside you feel a pinch. That night you admit it to her. She says, “I felt the same when you won last year.” You both laugh, and the pinch goes.</p></details>
-<details><summary>The friend with the better phone, cycle and marks</summary><p>One friend in your group seems to get everything. You notice you have started avoiding him. Then he asks you for help with a family problem, and you see that he too has his share of difficulties.</p></details>
-<details><summary>Your sister was chosen first</summary><p>Your younger sister is chosen for the school team before you ever were. You congratulate her, and you mean most of it. Then you ask her to show you how she practises. She shows you gladly.</p></details>
+<details><summary>The window seat</summary><p>On the train to your grandparents’ town, you get the window seat. You are thrilled, and you tease your brother about it for the whole journey. On the way back, he gets the window and you get the middle seat, and you sulk for six hours. Your grandmother is travelling with you. Whichever seat she gets, she is the same. She looks out when there is a window and tells stories when there is not. “A seat is only a seat,” she says. “The journey is what we came for.”</p></details>
+<details><summary>Her new cycle, your old one</summary><p>Your sister gets a brand-new cycle because her new school is far away. Yours is three years old. You turn bitter: “They always give her more.” Your father hears you and says, “Last year the new thing in this house was your keyboard. Nobody counted then. We give each of you what you need when you need it. Fair does not always mean the same thing on the same day.” You think back and find he is right. You had never counted the times when it was your turn.</p></details>
+<details><summary>The broken arm</summary><p>Two weeks before the colony tournament you have trained for all year, you fall and break your arm. For three days you are bitter with everyone, and you keep asking, “Why me?” Then the coach asks if you will keep the scores and time the practice runs. You say yes. On the day of the tournament you are on the ground with a whistle and a plaster, shouting for your team. You did not get the day you wanted, but you did not waste the day you got.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
-<li><b>Admit jealousy to yourself.</b> It is a common feeling and it passes sooner when it is seen.</li>
-<li><b>Congratulate the person out loud.</b> The words help the heart to follow.</li>
-<li><b>Learn from the friend you envy</b> instead of moving away from them.</li>
-</ul><p><b class="try">Try this today:</b> Congratulate one person today on something they did well, and mean it.</p>
-<p><b class="bh">Bhakti thought:</b> The same Lord gives to each of us in His own time. When we are glad for another person’s gift, we honour the Giver.</p></div></article>
-<article class="verse" id="v2-58"><div class="va"><p class="num">Verse 2.58</p><h3>Like a tortoise pulling in its limbs, a steady person can draw the senses back whenever needed.</h3><p class="gem">Gem: Mindful action (choosing where my attention goes)</p>
+<li><b>Enjoy good things without showing off or holding on tight.</b> They came, and they will change.</li>
+<li><b>When something goes badly, say, “This is what has come. What can I do now?”</b> Asking that question is how people bounce back.</li>
+<li><b>Do not keep a count of what a brother, sister or friend received.</b> Parents give each child what that child needs at the time. Fair does not always mean equal on the same day.</li>
+<li><b>If something still feels unfair, say so calmly to your parent, once,</b> and listen to the answer.</li>
+</ul><p><b class="try">Try this today:</b> The next time a small thing does not go your way, say “All right” and move on without complaining to anyone.</p>
+<p><b class="bh">Bhakti thought:</b> The same Lord gives to each of us in His own time. Receiving the sweet and the bitter with the same folded hands is a way of trusting Him.</p></div></article>
+<article class="verse" id="v2-58"><div class="va"><p class="num">Verse 2.58</p><p class="gem">💎 Gem: Mindful action (choosing what my senses take in)</p><h3>Like a tortoise pulling in its limbs, a steady person can draw the senses back whenever needed.</h3>
 <p class="sk" lang="sa">यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।<br>इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥</p><p class="read">yadaa samharate chaayam koormo ’ngaaneeva sarvashah | indriyaaneendriyaarthebhyas tasya prajnaa pratishthitaa</p>
 <p class="meaning">“When a person draws the senses back from their objects, as a tortoise draws in its limbs, that person’s wisdom is steady.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>Phones in the basket</summary><p>You and three friends meet to study, and within minutes all four of you are on your phones. One friend puts a basket on the table. “Phones in. We take them out at the break.” You get more done in an hour than in the whole of last week.</p></details>
-<details><summary>The game at midnight</summary><p>Your friends play online every night till two, and you join because you do not want to miss out. Your mornings are ruined. You tell them, “I am in till ten, then I am out.” They grumble, and then two of them start doing the same.</p></details>
-<details><summary>Dinner and the notifications</summary><p>At dinner, your eyes keep dropping to your phone. Your father turns his face down on the shelf before every meal. You copy him and find that you are actually listening to the conversation.</p></details>
+<details><summary>The talk in the next room</summary><p>Two of your aunts are talking in low voices in the next room about your cousin’s trouble at home. You could stand near the door and hear everything, and you badly want to know. Then you think, “This was not meant for my ears.” You go out to the balcony and water the plants. Later your cousin tells you about it himself, in his own words, and you are glad you can look him in the eye.</p></details>
+<details><summary>Straight to the shop</summary><p>You go to the mall with your birthday money to buy a shawl for your grandmother. Every window calls to your eyes: shoes, headphones, a watch, a game. Each one says, “Just come in and look.” You know that if you look, you will want, and if you want, the money will go. So you keep your eyes on the way ahead, as a tortoise keeps its limbs in, and walk straight to the shawl shop. On the way out, with the shawl in your hand, you can look at the windows as much as you like. They have nothing to pull at now.</p></details>
+<details><summary>The warm blanket</summary><p>You have promised to go running with your father at six. The alarm rings, the morning is cold, and the blanket is warm and soft. Your whole body says, “Five more minutes.” You know those five minutes will become an hour. You put your feet on the cold floor before your mind can argue. Ten minutes later you are outside in the fresh air, and you are glad that you made the decision and the blanket did not.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
-<li><b>Decide when to pull in.</b> Phone away during study, meals and conversations.</li>
-<li><b>Make it easy.</b> Put the phone in another room, a bag or a basket.</li>
-<li><b>Do it with friends.</b> A shared rule is easier to keep.</li>
-</ul><p><b class="try">Try this today:</b> Keep your phone out of reach for one full hour today.</p>
+<li><b>Know your five gates.</b> Eyes, ears, tongue, nose and skin each pull you towards what they like. Notice which one pulls you most.</li>
+<li><b>Pull in early.</b> It is easier not to look, listen or taste the first time than to stop halfway.</li>
+<li><b>Pulling in is not hiding.</b> The tortoise puts its limbs out again when it chooses. You are learning to choose too.</li>
+</ul><p><b class="try">Try this today:</b> Choose one sense today. When it pulls you towards something you do not need, such as a second look, a conversation that is not yours or five more minutes in bed, draw it back once, on purpose.</p>
 <p><b class="bh">Bhakti thought:</b> The tortoise is not afraid of the world. It simply knows when to turn inward. Prayer is our way of turning inward to God.</p></div></article>
-<article class="verse" id="v2-59"><div class="va"><p class="num">Verse 2.59</p><h3>Staying away from something removes the thing but not the taste for it. The taste fades when you find something better.</h3><p class="gem">Gem: Mindful action (replacing a habit with something better)</p>
+<article class="verse" id="v2-59"><div class="va"><p class="num">Verse 2.59</p><p class="gem">💎 Gem: Mindful action (replacing a habit with something better)</p><h3>Staying away from something removes the thing but not the taste for it. The taste fades when you find something better.</h3>
 <p class="sk" lang="sa">विषया विनिवर्तन्ते निराहारस्य देहिनः ।<br>रसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ॥</p><p class="read">vishayaa vinivartante niraahaarasya dehinah | rasa-varjam raso ’py asya param drishtvaa nivartate</p>
 <p class="meaning">“The objects of the senses fall away from one who does not feed on them, but the taste for them remains. Even the taste falls away when one has seen the Highest.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
@@ -1070,64 +1088,64 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Find a friend to share the better thing with.</b></li>
 </ul><p><b class="try">Try this today:</b> Choose one habit you want to reduce, and write what you will do instead at that time of day.</p>
 <p><b class="bh">Bhakti thought:</b> The higher taste Krishna speaks of is the joy of knowing God. Once we have tasted a little of it, smaller cravings loosen by themselves.</p></div></article>
-<article class="verse" id="v2-60"><div class="va"><p class="num">Verse 2.60</p><h3>The senses are strong and can carry off even a wise person who is trying hard, so do not be overconfident.</h3><p class="gem">Gem: Mindful action (being honest about temptation)</p>
+<article class="verse" id="v2-60"><div class="va"><p class="num">Verse 2.60</p><p class="gem">💎 Gem: Mindful action (being honest about temptation)</p><h3>The senses are strong and can carry off even a wise person who is trying hard, so do not be overconfident.</h3>
 <p class="sk" lang="sa">यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः ।<br>इन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ॥</p><p class="read">yatato hy api kaunteya purushasya vipashchitah | indriyaani pramaatheeni haranti prasabham manah</p>
 <p class="meaning">“Arjuna, the restless senses can forcibly carry away the mind of even a wise person who is striving.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>“Just one episode”</summary><p>You are the disciplined one in your group. During study leave you tell yourself, “Just one episode,” and look up four hours later. You are shocked at yourself. Your friend says, “It happens to everyone. Give me your password till Friday.”</p></details>
+<details><summary>“Just one level”</summary><p>You are the careful one at home. You always finish your homework before you play, and your parents trust you with the tablet. One Sunday a cousin shows you a new game, and you tell yourself, “Just one level.” When you look up, three hours have gone, lunch is cold and your homework is untouched. You are shocked at yourself. You go to your mother and tell her honestly what happened. “From tomorrow, please keep the tablet with you until my homework is done,” you say. She smiles. “Being careful does not mean you will never slip. It means you know what to do when you have.”</p></details>
 <details><summary>The friend who “would never”</summary><p>Your friend always said he would never copy. In a tough internal exam, an open book is lying within reach, and he glances at it. Afterwards he tells you, ashamed. You do not judge him. You sit apart from the books together next time.</p></details>
 <details><summary>The festival sweets</summary><p>You have decided to cut down on sweets. Then the festival boxes arrive, and by evening you have finished half a box on your own. The next morning you ask your mother to keep the boxes in her cupboard and give you two a day.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Do not say, “I am strong enough.”</b> Keep temptation out of reach instead.</li>
-<li><b>Tell a friend where you are weak,</b> and let them help.</li>
+<li><b>Tell a parent or a friend where you are weak,</b> and let them help.</li>
 <li><b>If you slip, do not hide it.</b> Admit it, repair it and start again.</li>
-</ul><p><b class="try">Try this today:</b> Put one thing that tempts you out of easy reach, for example by logging out or handing it to a friend.</p>
+<li><b>Keep your gadgets safe.</b> Lock your phone or tablet, and never share your password, even with a close friend. When you need help with a temptation, leave the device itself with a parent for a while.</li>
+</ul><p><b class="try">Try this today:</b> Put one thing that tempts you out of easy reach, for example by logging out of it or leaving it with a parent.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna is frank that this is hard, even for the wise. That is why He asks us, in the next verse, to lean on Him.</p></div></article>
-<article class="verse" id="v2-61"><div class="va"><p class="num">Verse 2.61</p><h3>Hold the senses steady and fix your mind on God. With His support, self-control becomes possible.</h3><p class="gem">Gem: My steady Self (support from God)</p>
+<article class="verse" id="v2-61"><div class="va"><p class="num">Verse 2.61</p><p class="gem">💎 Gem: My steady Self (an anchor in God)</p><h3>Hold the senses steady and fix your mind on God. With His support, self-control becomes possible.</h3>
 <p class="sk" lang="sa">तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।<br>वशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ॥</p><p class="read">taani sarvaani samyamya yukta aaseeta mat-parah | vashe hi yasyendriyaani tasya prajnaa pratishthitaa</p>
 <p class="meaning">“Having brought all the senses under control, one should sit steady, with Me as the highest goal. One whose senses are under control has steady wisdom.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>The morning five minutes</summary><p>Your friend’s family sits together for five minutes of prayer before school. You used to think it was old-fashioned. When you stay over one night and join in, you notice how calmly their day begins.</p></details>
-<details><summary>The friend who keeps you steady</summary><p>One friend quietly keeps her fasts and her morning prayer wherever she is. She never preaches. On your worst day, hers is the house you go to, and you ask if you may sit with her while she prays.</p></details>
-<details><summary>Before the day begins</summary><p>You begin each day by checking messages in bed, and you are tense before you get up. A friend suggests two minutes of quiet and a short prayer first. After a week, your mornings feel like your own again.</p></details>
+<details><summary>The lamp at dusk</summary><p>Every evening at your friend’s house, her grandmother lights the lamp in the pooja room. Your friend stops whatever she is doing, washes her hands and feet, stands before the deity and chants the Hanuman Chalisa. You used to wait outside and wish she would hurry. One evening you stand beside her instead. It takes only a few minutes. You notice how the whole house goes quiet, and how calm she is when she comes out to play again.</p></details>
+<details><summary>Calm on a tense morning</summary><p>Your elder brother has done his sandhyavandana every morning and evening since his upanayanam. On the morning of his biggest exam, the whole house is tense, and your mother is checking his hall ticket for the third time. He does his sandhyavandana as on any other day and comes out the calmest person in the house. You ask him how. “For those few minutes my mind is with God and with nothing else,” he says. “Whatever happens in the exam hall, I have already stood before Him today.”</p></details>
+<details><summary>One shloka before the phone</summary><p>You begin each day by checking messages in bed, and you are tense before you are even up. Your mother suggests something else: wash your face, go to the pooja room, fold your hands before the deity and chant one small shloka you know. You try it for a week, and the mornings feel like your own again. Then one day, just before you go on stage, your heart is pounding, and the same shloka comes to your lips by itself. The calm of the pooja room comes with it.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Give the mind something higher to hold.</b> Willpower alone gets tired.</li>
-<li><b>Keep a short daily prayer or quiet time,</b> at the same time every day.</li>
+<li><b>Keep one small daily practice at a fixed time.</b> It may be a shloka before the deity in the morning, your sandhyavandana, or lighting the lamp and chanting the Hanuman Chalisa in the evening.</li>
+<li><b>Do it every day, not only on difficult days.</b> A daily practice is like an anchor. An anchored boat still feels the waves, but it does not drift away. Because you have remembered God that morning, you remember Him in the tense moment too, and you stay calmer than you otherwise would.</li>
 <li><b>Stay close to friends whose habits steady you.</b></li>
-</ul><p><b class="try">Try this today:</b> Before you touch your phone tomorrow morning, sit quietly for two minutes and say a prayer you know.</p>
+</ul><p><b class="try">Try this today:</b> Before you touch your phone tomorrow morning, wash your face, stand before the deity at home with folded hands and chant one shloka you know.</p>
 <p><b class="bh">Bhakti thought:</b> Here Krishna says “Me” for the first time in the chapter. Self-control is not a lonely fight. He is the support.</p></div></article>
-<article class="verse" id="v2-62"><div class="va"><p class="num">Verse 2.62</p><h3>It begins with thinking about something again and again. That grows into attachment, then craving, then anger.</h3><p class="gem">Gem: Mindful action (catching it early)</p>
+<article class="verse" id="v2-62"><div class="va"><p class="num">Verse 2.62</p><p class="gem">💎 Gem: Mindful action (catching it early)</p><h3>It begins with thinking about something again and again. That grows into attachment, then craving, then anger.</h3>
 <p class="sk" lang="sa">ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।<br>सङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ॥</p><p class="read">dhyaayato vishayaan pumsah sangas teshoopajaayate | sangaat sanjaayate kaamah kaamaat krodho ’bhijaayate</p>
 <p class="meaning">“When a person keeps thinking about the objects of the senses, attachment to them grows. From attachment comes craving, and from craving comes anger.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>The shoes</summary><p>Your friend shows you the shoes he wants. You look at them online every night. Soon you feel you must have them. When your parents say, “Not this month,” you slam your door. Later you wonder how a pair of shoes made you shout at your mother.</p></details>
-<details><summary>Checking her profile</summary><p>You keep looking at a classmate’s profile and her photos with other friends. First it is curiosity, then you want to be in that group, and then you are angry with her for no reason she would understand.</p></details>
+<details><summary>Checking her profile</summary><p>A classmate posts photos every weekend of outings and birthday parties with her group. You begin looking at her profile every night. At first you are only curious. After a week, you start to feel that you belong in those photos. After two weeks, you want very badly to be invited. The invitation does not come, and one morning you find you are cold and sharp with her, though she has done nothing to you. She has no idea why. Trace it back and you will find every step of this verse: looking again and again, then attachment, then craving, then anger.</p></details>
 <details><summary>The gift you kept imagining</summary><p>Your grandfather is bringing a new cycle, and for weeks you imagine yourself riding it. When it turns out to be for your brother, you are furious with him, though he did nothing wrong. You trace the anger back and find that it began with the daydream.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Notice what you keep going back to</b> in your thoughts and on your screen.</li>
 <li><b>Stop at the first step.</b> It is far easier to stop looking than to stop being angry.</li>
 <li><b>When you are angry, ask,</b> “What did I want that I did not get?”</li>
 </ul><p><b class="try">Try this today:</b> Notice one thing you look at again and again, and skip it for one day.</p>
-<p><b class="bh">Bhakti thought:</b> What we dwell on shapes us. When the mind dwells on God’s name and form, the same ladder leads upward.</p></div></article>
-<article class="verse" id="v2-63"><div class="va"><p class="num">Verse 2.63</p><h3>Anger clouds the mind, the clouded mind forgets what it knows, and then good sense is lost.</h3><p class="gem">Gem: Evenness (stopping the slide)</p>
+<p><b class="bh">Bhakti thought:</b> What we dwell on shapes us, and that works both ways. The mind grows fond of whatever it visits often, so give it good places to visit. Keep a picture of your favourite deity where you study, and look at it for a moment before you begin. Chant God’s name or a small shloka while you walk, wait or lie down to sleep. Listen to one story of Krishna, Rama or Hanuman every week. Thinking of God often grows into fondness, fondness grows into love, and that love brings peace where the other ladder brought anger.</p></div></article>
+<article class="verse" id="v2-63"><div class="va"><p class="num">Verse 2.63</p><p class="gem">💎 Gem: Evenness (stopping the slide)</p><h3>Anger clouds the mind, the clouded mind forgets what it knows, and then good sense is lost.</h3>
 <p class="sk" lang="sa">क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः ।<br>स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥</p><p class="read">krodhaad bhavati sammohah sammohaat smriti-vibhramah | smriti-bhramshaad buddhi-naasho buddhi-naashaat pranashyati</p>
 <p class="meaning">“From anger comes confusion, from confusion loss of memory, and from loss of memory the ruin of understanding. When understanding is ruined, the person is lost.”</p>
-</div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>The words you cannot take back</summary><p>In a fight, you tell your oldest friend, “I never liked you anyway.” It is not true. You forgot, in that moment, ten years of friendship. It takes you three weeks and a long apology to mend what took ten seconds to say.</p></details>
-<details><summary>The broken phone</summary><p>Your friend loses a match online, throws his phone and cracks the screen. He stares at it. “I knew it would break,” he says. “I just did not know it in that second.”</p></details>
-<details><summary>The message sent in anger</summary><p>Your grandmother tells your parents something you wanted kept quiet, and you send her an angry message. An hour later, you remember all the times she took your side. Your sister helps you find the words, and you go to her room to say sorry in person.</p></details>
+</div><div class="vb"><p class="h moments">A real-life moment</p><div class="group stories">
+<details open><summary>The broken model</summary><p>You have spent two weeks building a model for the science fair. Your little brother picks it up while you are out, and it slips and breaks. Follow what happens next, one step at a time.</p><p><b>Anger.</b> You see the pieces on the floor, and your face goes hot.</p><p><b>Confusion.</b> In that heat you can no longer see things at their true size. A broken model looks like the end of the world, and your brother looks like an enemy.</p><p><b>Memory is lost.</b> You forget things you know perfectly well. He is only seven. He picked it up because he admires everything you make. He sat by your bed with his own toys when you had fever last month. You have broken his things too. All of this is true, and none of it is in your mind.</p><p><b>Good sense is lost.</b> With all that forgotten, nothing is left to guide you. You shout, “I wish I did not have a brother,” and you snatch his drawing book off the table and tear it.</p><p><b>Ruin.</b> Now two things are broken, not one. He is crying, your mother is upset, and the fair is still tomorrow. An hour later everything you forgot comes back, and you feel worse than he does. The model took one evening to mend. His trust in you took much longer.</p><p>The slide can be stopped only near the top. If you had walked out of the room at the first step, only a model would have been broken.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Do nothing important while angry.</b> Do not speak, send or decide.</li>
 <li><b>Leave the room, drink water, walk.</b> Understanding returns when the heat goes down.</li>
 <li><b>Repair quickly.</b> Say sorry the same day if you can.</li>
 </ul><p><b class="try">Try this today:</b> Make a rule with a friend that either of you can say “pause” in a quarrel, and the other will stop.</p>
 <p><b class="bh">Bhakti thought:</b> Anger makes us forget who we are and who is in front of us. Saying God’s name in that moment helps us remember both.</p></div></article>
-<article class="verse" id="v2-64"><div class="va"><p class="num">Verse 2.64</p><h3>You can live among all the things of the world and stay peaceful, if strong likes and dislikes do not rule you.</h3><p class="gem">Gem: Evenness (enjoying without being hooked)</p>
+<article class="verse" id="v2-64"><div class="va"><p class="num">Verse 2.64</p><p class="gem">💎 Gem: Evenness (enjoying without being hooked)</p><h3>You can live among all the things of the world and stay peaceful, if strong likes and dislikes do not rule you.</h3>
 <p class="sk" lang="sa">रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन् ।<br>आत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ॥</p><p class="read">raaga-dvesha-viyuktais tu vishayaan indriyaish charan | aatma-vashyair vidheyaatmaa prasaadam adhigachchhati</p>
 <p class="meaning">“But one who moves among the objects of the senses with self-control, free from attraction and dislike, attains peace.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>The friend who can stop</summary><p>You and your friend both enjoy the same game. He plays for half an hour and stops. You cannot. He is not stricter than you. He says, “I like it. I just like other things too.”</p></details>
-<details><summary>At the wedding feast</summary><p>At your cousin’s wedding there is every sweet you love. Last time you ate until you felt sick. This time you take what you enjoy, eat slowly with your friends, and stop. You enjoy the whole evening.</p></details>
+<details><summary>The last gulab jamun</summary><p>Your mother has made gulab jamun, and you have been thinking about your share all through practice. You come home to an empty bowl. Your brother has eaten the last two, and one of them was yours. Your first feeling is fury: “He always takes more!” Then you catch yourself. It is a sweet. You have enjoyed it a hundred times, and you will again. You say, “You owe me one next time,” and laugh. Your brother was ready for a fight. He is so surprised that he breaks his chocolate in half and gives you the bigger piece. You find that you can love a sweet and still be at peace without it.</p></details>
 <details><summary>The match on television</summary><p>You love watching cricket, and so does your uncle. He sits down for the last ten overs, enjoys every ball and switches off. You learn his method: decide how much you will watch before you sit down.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Enjoy things, and keep the off-switch in your own hand.</b></li>
@@ -1135,51 +1153,50 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Do not hate the things you are avoiding.</b> Hating keeps you tied to them as well.</li>
 </ul><p><b class="try">Try this today:</b> Enjoy one treat today, in a fixed amount or for a fixed time, and stop when you said you would.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna’s word for the peace that follows is prasada, the same word we use for food blessed by God. Peace is His gift to a mind that is not grasping.</p></div></article>
-<article class="verse" id="v2-65"><div class="va"><p class="num">Verse 2.65</p><h3>In a peaceful mind, sorrows fade and clear thinking returns quickly.</h3><p class="gem">Gem: Evenness (peace first, then answers)</p>
+<article class="verse" id="v2-65"><div class="va"><p class="num">Verse 2.65</p><p class="gem">💎 Gem: Evenness (peace first, then answers)</p><h3>In a peaceful mind, sorrows fade and clear thinking returns quickly.</h3>
 <p class="sk" lang="sa">प्रसादे सर्वदुःखानां हानिरस्योपजायते ।<br>प्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ॥</p><p class="read">prasaade sarva-duhkhaanaam haanir asyopajaayate | prasanna-chetaso hy aashu buddhih paryavatishthate</p>
 <p class="meaning">“In that peace, all sorrows come to an end. The understanding of a person with a peaceful mind soon becomes steady.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>The problem that solved itself</summary><p>You and your friend struggle with a maths problem for an hour and grow more and more upset. She says, “Leave it. Let us get some air.” On the walk back, the answer comes to you.</p></details>
-<details><summary>After the quarrel</summary><p>You have fought with your brother, and you spend the evening rehearsing arguments. You go for a run. When you return, you can see his side too, and the conversation takes five minutes.</p></details>
-<details><summary>The decision after a good night’s sleep</summary><p>At eleven at night, a fight with your friend looks impossible to mend, and you write a long message ending the friendship. Your mother says, “Sleep. Send it tomorrow if you still want to.” In the morning it is an ordinary quarrel with an ordinary answer.</p></details>
+<details><summary>The missed bus</summary><p>You wake up late on a day that matters, and the bus is already gone. You are furious with yourself, and your eyes are stinging. An elderly neighbour sees your face and says, “Sit down for a minute and drink some water.” After a few slow breaths, your mind stops racing. You remember that your cousin lives two streets away and goes the same way. You call, and you arrive only a little late, calm enough to do your best.</p></details>
+<details><summary>The joke at the family gathering</summary><p>At a family gathering, a relative compares you with a cousin in front of everyone and makes a joke about your marks. Your face burns, and the words you want to say are not kind. You step outside instead and breathe. Your sister comes out and sits beside you without a word. After a few quiet minutes, the hurt shrinks, and you can think clearly about what to say. You return and answer politely, and later you tell a parent how it made you feel.</p></details>
+<details><summary>The missing wallet</summary><p>At the bus stop, you open your bag and find your wallet missing, with your ID card, some cash and a few photos you love. Your heart pounds, and you start blaming yourself and everyone else. A shopkeeper nearby asks you to sit and brings you a glass of water. After a few slow breaths, you begin to think step by step: where did you last use it? Within minutes you remember leaving it at the stationery shop, and when you walk back, it is safe on the counter.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
-<li><b>When you are stuck, calm down first</b> and solve the problem afterwards.</li>
-<li><b>Walk, sleep, pray or sit quietly</b> before a hard conversation.</li>
+<li><b>When you are upset, sit down, drink some water and breathe slowly.</b> Do this first, before you try to solve anything.</li>
+<li><b>Let a calm person help you.</b> A neighbour, a sister or a shopkeeper who says “Sit for a minute” is giving you exactly what you need.</li>
+<li><b>Then think step by step.</b> Once the mind is quiet, the answer is often already there.</li>
 <li><b>Do not trust the thoughts of an upset mind</b> late at night.</li>
-</ul><p><b class="try">Try this today:</b> The next time you are stuck or upset, take a ten-minute walk before you do anything else.</p>
+</ul><p><b class="try">Try this today:</b> The next time you are upset, sit down, drink a glass of water and take ten slow breaths before you do anything else.</p>
 <p><b class="bh">Bhakti thought:</b> Peace is not the prize at the end. It is the ground on which everything else can be done. We can ask God for it first.</p></div></article>
-<article class="verse" id="v2-66"><div class="va"><p class="num">Verse 2.66</p><h3>Without a steady mind there is no peace, and without peace there can be no happiness.</h3><p class="gem">Gem: Evenness</p>
+<article class="verse" id="v2-66"><div class="va"><p class="num">Verse 2.66</p><p class="gem">💎 Gem: Evenness</p><h3>Without a steady mind there is no peace, and without peace there can be no happiness.</h3>
 <p class="sk" lang="sa">नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना ।<br>न चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ॥</p><p class="read">naasti buddhir ayuktasya na chaayuktasya bhaavanaa | na chaabhaavayatah shaantir ashaantasya kutah sukham</p>
 <p class="meaning">“The unsteady person has no understanding and no power to reflect. Without reflection there is no peace, and without peace, how can there be happiness?”</p>
-</div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>The restless holiday</summary><p>In the holidays you have every freedom: games, shows, food and friends online. Yet by evening you feel dull and irritated. Your friend says the same. You both agree that last year’s trek, with no network at all, felt far happier.</p></details>
-<details><summary>The party and the walk</summary><p>At a loud party, you keep checking your phone and comparing yourself with others. The next day you and one friend walk by the lake and talk for an hour. You go home happy and wonder why.</p></details>
-<details><summary>The busy, unhappy week</summary><p>Your week is full of outings, and still you feel empty on Sunday night. A friend who spent her weekend reading and cooking seems far more rested. You ask if you can join her next Saturday.</p></details>
+</div><div class="vb"><p class="h moments">A real-life moment</p><div class="group stories">
+<details open><summary>The birthday that had everything</summary><p>It is your birthday, and you have everything you asked for: the gift you wanted, your favourite food, your friends and a cake. Now follow your mind through the day.</p><p><b>An unsteady mind.</b> It never stays on one thing. While you open a gift, you are checking your phone to see who has wished you. While your friends sing, you are comparing your gift with the one your cousin got last month. While you eat, you are wondering what comes next.</p><p><b>No understanding.</b> A mind that does not stay cannot see what is in front of it. You do not notice that your grandmother travelled two hours to be there, or that your friend made her card by hand.</p><p><b>No reflection.</b> You never pause long enough to let any of it sink in, so you never feel thankful.</p><p><b>No peace.</b> By evening you are restless and cross, and you snap at your sister over nothing.</p><p><b>No happiness.</b> At night you lie awake thinking, “I had everything today. Why was I not happy?”</p><p>The next morning you sit quietly with the handmade card and read it slowly. You call your grandmother to thank her. The happiness that a whole day of good things could not give you arrives in ten quiet minutes.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>When you feel dull or irritated, look for what has disturbed your peace.</b></li>
 <li><b>Build some quiet into each day,</b> even ten minutes.</li>
 <li><b>Choose company and activities that leave you calmer,</b> not more restless.</li>
 </ul><p><b class="try">Try this today:</b> Tonight, write one thing from today that left you peaceful and one that left you restless.</p>
 <p><b class="bh">Bhakti thought:</b> Krishna’s question, “How can there be happiness without peace?”, is worth carrying with us. Peace comes from keeping the mind with Him.</p></div></article>
-<article class="verse" id="v2-67"><div class="va"><p class="num">Verse 2.67</p><h3>A mind that follows every wandering sense is carried off course, like a boat in the wind.</h3><p class="gem">Gem: Mindful action (holding the rudder)</p>
+<article class="verse" id="v2-67"><div class="va"><p class="num">Verse 2.67</p><p class="gem">💎 Gem: Mindful action (holding the rudder)</p><h3>A mind that follows every wandering sense is carried off course, like a boat in the wind.</h3>
 <p class="sk" lang="sa">इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते ।<br>तदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ॥</p><p class="read">indriyaanaam hi charataam yan mano ’nuvidheeyate | tad asya harati prajnaam vaayur naavam ivaambhasi</p>
 <p class="meaning">“When the mind runs after the wandering senses, it carries away a person’s understanding, as the wind carries away a boat on the water.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>One notification</summary><p>You are writing an essay when your phone buzzes. It is only a meme from a friend. You reply, then see a video, then another. Forty minutes later you cannot remember what the essay was about.</p></details>
-<details><summary>“Let’s go, everyone is going”</summary><p>You are saving money for a course. Your friends decide on a sudden trip, then a concert, then new jackets. Each time you go along. At the end of the term, the savings are gone, and so is the course.</p></details>
-<details><summary>The noisy house</summary><p>You sit down to practise, and every sound in the house pulls you in: the television, your brother’s game, a phone call in the next room. By evening you have joined in everything and practised nothing. Your sister shuts your door and says, “Decide where you are going before the wind decides.”</p></details>
+<details><summary>The promise and the playground</summary><p>You have promised your grandfather that you will be home by five to walk with him to the temple. On the way back, you hear shouting from the ground. A match is on. “Just two overs,” you tell yourself. Your ears were pulled first, then your eyes. Your mind followed them, and it took your promise along with it. When you look up, it is dark. He is still sitting by the gate with his walking stick, and he says nothing. You did not stop loving him at any point, and you never decided to break your word. You were a boat with nobody holding the rudder.</p></details>
+<details><summary>The story that went too far</summary><p>At dinner with your cousins, you begin telling a funny story about a friend. Everyone laughs, and the laughter feels good. So you add a little more, then you exaggerate, and then, to keep them laughing, you tell them something she had told only you. Nobody forced you, and you never meant to give away her secret. The pleasure of being listened to was the wind, and it carried you one small step at a time. That night you cannot sleep. The next day you tell her yourself and say sorry.</p></details>
+<details><summary>The same wind, a steady hand</summary><p>Your sister made the same promise to your grandfather last week. She heard the same match from the same ground, and she loves cricket more than you do. She waved, shouted, “Tomorrow!” and kept walking. The wind did not blow any more gently for her. She had her hand on the rudder. She had decided where she was going before she set out, and so one pleasant sound could not turn her.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
-<li><b>Know where you are headed this hour</b> before you begin.</li>
-<li><b>Remove the wind.</b> Silence notifications and move away from distraction.</li>
-<li><b>When you notice you have drifted, come back without scolding yourself.</b></li>
-</ul><p><b class="try">Try this today:</b> Turn off notifications for one app that pulls you away most often.</p>
+<li><b>Decide where you are going before you set out.</b> A boat with a rudder can use the wind. A boat without one is used by it.</li>
+<li><b>Watch the first small pull.</b> It never says, “Break your promise.” It says, “Just two minutes.”</li>
+<li><b>When you notice you have drifted, come back at once,</b> without scolding yourself, and put right what you can.</li>
+</ul><p><b class="try">Try this today:</b> Before one task today, tell yourself where you are going: “For the next half hour, I am doing only this.” Each time something pulls at you, notice it and come back.</p>
 <p><b class="bh">Bhakti thought:</b> A boat needs a rudder and a steady hand. When we give the rudder of the mind to God, the winds lose their power over us.</p></div></article>
-<article class="verse" id="v2-68"><div class="va"><p class="num">Verse 2.68</p><h3>So the person whose senses are fully in hand is the one whose wisdom is steady.</h3><p class="gem">Gem: Mindful action (self-control as strength)</p>
+<article class="verse" id="v2-68"><div class="va"><p class="num">Verse 2.68</p><p class="gem">💎 Gem: Mindful action (self-control as strength)</p><h3>So the person whose senses are fully in hand is the one whose wisdom is steady.</h3>
 <p class="sk" lang="sa">तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः ।<br>इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥</p><p class="read">tasmaad yasya mahaa-baaho nigriheetaani sarvashah | indriyaaneendriyaarthebhyas tasya prajnaa pratishthitaa</p>
 <p class="meaning">“Therefore, mighty Arjuna, one whose senses are completely held back from their objects has steady wisdom.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>The friend who says no easily</summary><p>When your group pushes someone to try a cigarette behind the school, one friend just says, “No, I’m fine,” and changes the subject. Nobody teases him for long. You see that his “no” is a kind of strength, and you stand next to him.</p></details>
-<details><summary>The exam month</summary><p>During exam month, your friend keeps a simple rule: phone with her mother from nine to nine. People call her extreme. After the results, three of them ask her to hold them to the same rule next term.</p></details>
+<details><summary>The exam month</summary><p>Your cousin goes to college from home, and her exams are a month away. Home is comfortable, and that is the difficulty: the television in the hall, her phone, her bed two steps from her desk, snacks in the kitchen and someone always ready to chat. Nobody sets rules for a college student, so she sets her own and tells the family. Her phone stays with her mother during her study hours. She studies at the desk and never on the bed. She watches television with everyone for half an hour after dinner, takes a walk on the terrace at sunset and sleeps by half past ten. When friends message about a film, she says, “After the twentieth.” Her family lowers the television without being asked. After the results, her younger brother asks her to write a timetable for him too.</p></details>
 <details><summary>Movies till morning</summary><p>At a sleepover, your cousins want to watch movies till morning and press you when you refuse. You keep saying, cheerfully, “I am in for one, and then I sleep.” In time they stop pressing, and one cousin quietly rolls out her mat next to yours.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Practise saying no in a friendly voice,</b> without a long explanation.</li>
@@ -1187,9 +1204,9 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Stand beside a friend who says no.</b> It makes it easier for both of you.</li>
 </ul><p><b class="try">Try this today:</b> Say a calm, friendly “no” to one small thing today that you do not really want to do.</p>
 <p><b class="bh">Bhakti thought:</b> Self-control is not a cage. It is the strength that lets us offer a whole, undivided mind to God.</p></div></article>
-<article class="verse" id="v2-69"><div class="va"><p class="num">Verse 2.69</p><h3>A wise person is awake to what others ignore, and is not excited by what excites everyone else.</h3><p class="gem">Gem: My steady Self (my own values)</p>
+<article class="verse" id="v2-69"><div class="va"><p class="num">Verse 2.69</p><p class="gem">💎 Gem: My steady Self (my own values)</p><h3>A wise person is awake to what others ignore, and is not excited by what excites everyone else.</h3>
 <p class="sk" lang="sa">या निशा सर्वभूतानां तस्यां जागर्ति संयमी ।<br>यस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ॥</p><p class="read">yaa nishaa sarva-bhootaanaam tasyaam jaagarti samyamee | yasyaam jaagrati bhootaani saa nishaa pashyato muneh</p>
-<p class="meaning">“What is night for all beings is the time of waking for the self-controlled. What all beings are awake to is night for the sage who sees.”</p>
+<p class="meaning">“What is like night to most people is where the self-controlled person is wide awake: the knowledge and joy of the Self. And what most people are wide awake to, the passing pleasures of the world, is like night to the wise person who sees.” Here, night stands for what a person does not notice or care for, and being awake stands for what they give their attention to.</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
 <details><summary>Not interested in the gossip</summary><p>At lunch, your whole table is excited about who said what about whom. One friend eats quietly and then asks you how your grandmother’s operation went. You realise what she pays attention to, and what she does not.</p></details>
 <details><summary>Carnatic music and film songs</summary><p>You have learned Carnatic music since you were small, and you are good at it. Hardly anyone in your class knows what it is. Everyone sings film songs, which have a huge following, and you start hiding your music class as if it were something uncool. Then you sing at a school function. The hall goes quiet, and afterwards the same friends ask, “How do you do that?” You see that what you are good at does not have to be the popular thing. Growing it is what makes you stand out.</p></details>
@@ -1201,12 +1218,12 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Know what you are good at and keep developing it,</b> even when it is not the cool thing.</li>
 </ul><p><b class="try">Try this today:</b> Notice one thing “everyone” is excited about that you do not really care for, and let yourself skip it.</p>
 <p><b class="bh">Bhakti thought:</b> The devotee is awake to God’s presence, which the busy world sleeps through. The quiet of early morning is a good time to wake to it.</p></div></article>
-<article class="verse" id="v2-70"><div class="va"><p class="num">Verse 2.70</p><h3>Be like the ocean. Rivers pour into it all day, yet it stays full and still.</h3><p class="gem">Gem: Evenness (wide and unshaken)</p>
+<article class="verse" id="v2-70"><div class="va"><p class="num">Verse 2.70</p><p class="gem">💎 Gem: Evenness (wide and unshaken)</p><h3>Be like the ocean. Rivers pour into it all day, yet it stays full and still.</h3>
 <p class="sk" lang="sa">आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् ।<br>तद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ॥</p><p class="read">aapooryamaanam achala-pratishtham samudram aapah pravishanti yadvat | tadvat kaamaa yam pravishanti sarve sa shaantim aapnoti na kaama-kaamee</p>
 <p class="meaning">“Rivers flow into the ocean, which is always being filled and yet stays unmoved. In the same way, one into whom all desires flow without disturbing him attains peace, and not the one who runs after desires.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>Everyone’s plans</summary><p>Your phone fills with plans: a movie, a match, a birthday, a sale. Earlier you tried to do everything and ended up tired. Now you read them all, choose one and wish the others well. Your friends notice that you are calmer.</p></details>
-<details><summary>The friend who is not shaken</summary><p>Offers and temptations come to everyone in your group alike. One friend listens, smiles and takes only what suits him. Nothing seems to push him around. You ask him about it. “I do not have to chase everything that comes,” he says.</p></details>
+<details><summary>The wish list that kept growing</summary><p>Each week someone in your group has something new: a smartwatch, wireless earphones, branded shoes, a gaming chair. You keep a wish list on your phone, and it gets longer every week. When you finally got the earphones, you were happy for about ten days, and then the list grew again. You show the list to your grandfather. He says, “The sea does not run after rivers. It is already full, so the rivers come and go, and it does not change. Be full first.” That night you cut the list down to the two things you actually need, and you feel lighter than you did on the day the earphones came.</p></details>
+<details><summary>The friend who is not shaken</summary><p>Everyone in your group is offered the same things: the new game everybody is buying, a party on a school night, the latest shoes, a dare. Most of you jump at each one and feel bad about whatever you miss. One friend listens to every offer, smiles, takes the one or two that suit him and lets the rest go by without any fuss. He never looks as if he is missing out. He looks full. You ask him how he does it. “Wants keep coming, like rivers,” he says. “I do not have to run after each one. I already have enough.”</p></details>
 <details><summary>A festival morning</summary><p>On a festival morning, everyone wants something from you at once: fetch the flowers, find the lamp, mind your cousin, answer the door. You used to get flustered and snap. Now you take them all in, pick up one at a time and stay level. Your mother asks what has changed.</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
 <li><b>Let wants and offers arrive without jumping at each one.</b></li>
@@ -1214,20 +1231,21 @@ document.addEventListener("click",function(e){var b=e.target.closest&&e.target.c
 <li><b>Choose one thing and let the rest flow past.</b></li>
 </ul><p><b class="try">Try this today:</b> The next time three things pull at you together, pause, choose one and let the other two go.</p>
 <p><b class="bh">Bhakti thought:</b> The ocean is one of the great pictures of God in our tradition. A heart that rests in Him becomes wide like the sea.</p></div></article>
-<article class="verse" id="v2-71"><div class="va"><p class="num">Verse 2.71</p><h3>Peace comes to the one who lets go of craving, of “mine” and of “I am the one who did it.”</h3><p class="gem">Gem: Same Self in all (sharing, and less “me”)</p>
+<article class="verse" id="v2-71"><div class="va"><p class="num">Verse 2.71</p><p class="gem">💎 Gem: Same Self in all (sharing, and less “me”)</p><h3>Peace comes to the one who lets go of craving, of “mine” and of “I am the one who did it.” It is all right not to have everything for yourself, and what you share has a way of coming back.</h3>
 <p class="sk" lang="sa">विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः ।<br>निर्ममो निरहङ्कारः स शान्तिमधिगच्छति ॥</p><p class="read">vihaaya kaamaan yah sarvaan pumaamsh charati nihsprihah | nirmamo nirahankaarah sa shaantim adhigachchhati</p>
 <p class="meaning">“The person who gives up all cravings and lives free from longing, without the sense of ’mine’ and without ego, attains peace.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">
-<details><summary>“My” best friend</summary><p>Your best friend has started spending time with a new girl, and you feel she is being taken from you. You keep saying “my friend.” Then you invite the new girl to sit with both of you. Now there are three of you, and nobody has lost anyone.</p></details>
-<details><summary>Who did the most</summary><p>After the school fest, your team argues about who worked hardest. You know you did a great deal. You say, “We all did it. It went well.” The argument ends, and people remember you kindly for it.</p></details>
-<details><summary>“My” room</summary><p>Your cousin comes to stay for a month and shares your room, your desk and your shelf. You begin to say, “That is mine,” and stop. The room is fuller and louder and, you have to admit, more fun. You clear half a shelf for him.</p></details>
+<details><summary>The bigger piece</summary><p>Whenever your mother cuts a mango, you and your sister measure the pieces with your eyes, and one of you always complains. Today you say, “You take the bigger one,” and you mean it. She stares at you. The mango tastes just as sweet. The next day she saves you the window seat in the car without being asked. The day after, she shares her new colour pens. You did not ask for any of it. When you stopped guarding your portion, she stopped guarding hers, and both of you ended up with more.</p></details>
+<details><summary>Your Saturday</summary><p>You have kept Saturday for yourself: a late morning, your game and your friends. Then your little brother needs help with his project, and your grandmother wants someone to go with her to the temple. You give up your morning, and you do not mention it to anyone. Two weeks later, you are stuck on the night before your own exhibition, with charts still to cut and paste. Your brother, your grandmother and your father all sit down around the table and work with you until it is finished. Nobody asked them to. The time you gave away came back when you needed it most, and more of it than you gave.</p></details>
+<details><summary>Whose choice?</summary><p>On family outings you always want pizza and your brother always wants dosa, and the evening begins with an argument. Today you say, “Let us go to his place.” You expect to feel that you have lost. You do not. The dosa is good, everyone is laughing, and it is a happier evening than any you won by arguing. Next time, before you can open your mouth, your brother says, “Let her choose today.”</p></details>
 </div><p class="h helps">What helps</p><ul class="helps">
+<li><b>It is all right not to have everything for yourself.</b> Your portion, your things, your time, your fun and your choice can all be given up sometimes, and you will still have enough.</li>
 <li><b>Change “mine” to “ours”</b> wherever you can. Share friends, notes and credit.</li>
-<li><b>Let good work speak.</b> You do not need to announce your part.</li>
+<li><b>Trust that what you share comes back.</b> It may not come from the same person or on the same day, but it comes, and often as more than you gave. This is the universe’s way of returning to us what we shared. So do not give in order to get. Give freely, and watch what happens.</li>
 <li><b>Notice how tight “me” and “mine” feel,</b> and how light sharing feels.</li>
-</ul><p><b class="try">Try this today:</b> Share something you usually keep for yourself today, such as your notes, your snack or your friend’s company.</p>
-<p><b class="bh">Bhakti thought:</b> Everything we call “mine” was given by God and belongs to Him. Remembering this turns owning into caring.</p></div></article>
-<article class="verse" id="v2-72"><div class="va"><p class="num">Verse 2.72</p><h3>This is the steady state. Once you reach it you are not confused again, and it is never too late to reach it.</h3><p class="gem">Gem: My steady Self</p>
+</ul><p><b class="try">Try this today:</b> Today, give up one thing that is yours, such as your portion, your turn, your choice or an hour of your time, and do not mention it. Over the next few days, quietly notice what comes back to you.</p>
+<p><b class="bh">Bhakti thought:</b> Everything we call “mine” was given by God and belongs to Him. When we share it freely, He sees that we do not run short.</p></div></article>
+<article class="verse" id="v2-72"><div class="va"><p class="num">Verse 2.72</p><p class="gem">💎 Gem: My steady Self</p><h3>This is the steady state. Once you reach it you are not confused again, and it is never too late to reach it.</h3>
 <p class="sk" lang="sa">एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति ।<br>स्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ॥</p><p class="read">eshaa braahmee sthitih paartha nainaam praapya vimuhyati | sthitvaasyaam anta-kaale ’pi brahma-nirvaanam richchhati</p>
 <p class="meaning">“This, Arjuna, is the state of one who rests in God. Having reached it, a person is not confused again. Staying in it, even at the end of life, one attains oneness with God.”</p>
 </div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">

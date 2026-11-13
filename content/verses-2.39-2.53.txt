@@ -25,7 +25,7 @@ one: No honest effort is ever wasted, and even a little practice protects you fr
 meaning: "On this path no effort is lost, and there is no harm in trying. Even a little of this practice protects one from great fear."
 gem: Mindful action (small steps count)
 s: Ten minutes a day | You are weak at maths and feel it is too late to catch up. Your friend says, "Give me ten minutes after school every day." It seems too little to matter. After two months, you are no longer afraid of the maths period.
-s: The friend learning to swim | Your friend is ashamed that she cannot swim when all of you can. She goes to the pool twice a week and can only float. "It's nothing," she says. But the day your group goes to the river, she is the one who is not afraid.
+s: The friend learning to swim | Your friend cannot swim, and she is so afraid of water that she sits out every pool party and every beach trip. She joins a class twice a week. After two months she can only float and paddle across the shallow end. "It's nothing," she says. "Everyone else can do laps." Then your families go to the beach together. For the first time she walks into the waves with the rest of you, laughing. She has learned only a little, but that little was enough to take away a big fear.
 s: The unfinished lessons | You learned the keyboard for a year and then stopped. You count it as a failure. Two years later your school needs someone to play one simple song on stage, and the half you learned is exactly enough.
 h: **Start small,** with five or ten minutes.
 h: **Do not count a broken streak as a loss.** What you practised is still yours.
@@ -57,7 +57,7 @@ one: Do not be carried away by flowery promises. Check what lies behind them.
 meaning: "Those with little understanding speak flowery words, Arjuna. They delight in the letter of the scriptures and say, 'There is nothing else.'"
 gem: Mindful action (seeing through big promises)
 s: "Score 95 in thirty days" | An advertisement promises top marks in a month with a secret method. Your friend is ready to pay with his birthday money. You both ask a senior who topped last year. She laughs and says, "The secret is the textbook, twice."
-s: The friend who talks big | A new friend talks of rich contacts and sure-shot plans and wants you to put your savings into his scheme. He speaks beautifully. You say, "Let me ask my father first." His plan cannot answer your father's three plain questions.
+s: The friend who talks big | An older boy in your colony says his uncle can get the newest gaming console at half price. "Only five pieces are left. Give me your savings today, and you will have it in two weeks." He describes it so well that you can almost see it on your table. You say, "Let me ask my father first." Your father asks three plain questions: "What is the uncle's shop called? Can we go there and see the console? Will he give a bill?" The boy has no answer to any of them, and he stops asking you. The words were beautiful, but there was nothing behind them.
 s: The shiny camp | A cricket camp promises "state selection guaranteed." A friend who went last year tells you what the days were really like. You are glad you asked before your parents paid.
 h: **Be careful when something sounds too good.** Ask, "What is the plain truth here?"
 h: **Ask someone who has actually done it.**
@@ -105,7 +105,7 @@ one: Rise above the pull of likes and dislikes, stop worrying about getting and 
 meaning: "The scriptures deal with the three qualities of nature. Rise above them, Arjuna. Be free from the pairs of opposites, stay steady in goodness, do not worry about gaining and keeping, and be rooted in the Self."
 gem: Evenness (free of the tug-of-war)
 s: Liked today, ignored tomorrow | On Monday the popular group calls you to sit with them, and you feel wonderful. On Thursday they ignore you, and you feel terrible. Your old friend, who has sat beside you since you were both small, says, "You are the same person on both days."
-s: Keeping your place | You finally make it into the dance team, and now you are afraid of losing your place. You practise from worry, not from joy. An older dancer says, "Dance like the day you auditioned. You had nothing to protect then."
+s: Keeping your place | You have finally made it into the dance team. Until now you danced because you loved it. Now a new girl has joined the class, and you are afraid the teacher will give her your place. At every practice you watch the teacher's face and not your own steps, and you make more mistakes than before. An older dancer says, "At the audition you had no place to lose, so you simply danced. Do that again. Dancing well today is your job. Who stays in the team is the teacher's decision." You stop guarding your place, and your dancing comes back.
 s: Holding on to first place | You have come first in the art contest three years running, and now you lie awake working out how to keep it that way. Your sister, who has never won, draws happily every evening. You ask her how. "I just draw today's picture," she says. "The prize was never in my hands."
 h: **Notice the swing** between "they like me" and "they don't."
 h: **Do what is good,** whether or not it is noticed.
@@ -125,7 +125,7 @@ s: One true friend | Last year you tried hard to be part of every group and felt
 s: Your teacher's praise | You used to need a "very good" from your music teacher after every song to feel you had sung well. After two years, you can hear it for yourself. Praise is still pleasant, but you no longer go looking for it.
 h: **Look for understanding,** not only more material.
 h: **Value depth.** One real friend, one subject truly learned, one prayer truly meant.
-h: **When you feel you need more and more, ask what you are really thirsty for.**
+h: **When you keep wanting more, ask what you actually need.** Wanting more guide books usually means you want to feel sure of the chapter. Wanting to be in more groups usually means you want one person who understands you. Go for that one thing directly, and the wish for "more" becomes quiet.
 try: Take one topic and explain it to a friend in your own words, without the book.
 bhakti: Rituals and books are wells. The love of God is the lake. The wells have done their work when they lead us there.
 
@@ -136,12 +136,13 @@ t: Your right is to the work
 one: The work is in your hands. The result is not. So give your full effort, and never use this as an excuse to do nothing.
 meaning: "You have a right to your work alone, never to its fruits. Do not let the fruit be your reason for acting, and do not be drawn to doing nothing."
 gem: Mindful action
+star: This is the best-known verse of the Gita and the heart of its teaching on action. Your right is to the work, never to the result. A person who truly takes this in can work hard all their life without fear.
 s: The result you cannot control | You and your friend study together for the board exams. She keeps asking, "What if the paper is tough? What if they mark strictly?" You say, "We cannot set the paper. We can only finish this chapter tonight." You both get back to it.
 s: The friend who did not get selected | Your friend practised harder than anyone and was still left out of the team. He says, "So what was the use?" You tell him what you saw: he became a far better player this year. The selection was never in his hands. The practice was.
 s: Practice and the prize | Your father has taught you the veena since you were six, and he still listens to your practice every morning. The night before a competition you ask him, "What if I do not win?" He says, "I did not teach you so that you would win. I taught you to play. The judges are not in your hands. This morning's practice was, and you did it well."
 h: **Ask, "What part of this is in my hands?"** Do that part fully.
 h: **Hand over the rest.** Marks, selection and other people's choices are not yours to control.
-h: **Do not swing to the other side** and say, "Then why try?" Not trying is never the answer.
+h: **Do not swing to the other side** and say, "Then why try?" The result is not in your hands, but without your effort there is no result at all. A seed that is not sown cannot grow, however good the rain. The effort also changes you. You come out of it more skilled and stronger, even when the result disappoints you. Giving up gives you nothing, which is why not trying is never the answer.
 try: Before your next piece of work, write two lists: "In my hands" and "Not in my hands."
 bhakti: This is the best-known verse of the Gita. We do the work as an offering, and we receive whatever comes as His prasad.
 
@@ -153,8 +154,8 @@ one: Work with a steady mind, the same in success and in failure. That evenness 
 meaning: "Stay steady in yoga and do your work, Arjuna, giving up attachment and remaining the same in success and failure. This evenness is called yoga."
 gem: Evenness
 s: Results day | You and your three closest friends open your results together. Two did well, one did badly, and you are in the middle. You make a pact: nobody boasts and nobody sulks today. You all go out to eat as planned.
-s: Winning and losing in one week | Your team wins on Tuesday and loses on Friday. After the win, your captain says, "Good. Practice tomorrow at six." After the loss, she says exactly the same words. You begin to see why the team follows her.
-s: The compliment and the correction | On Monday your aunt tells everyone how well you sang. On Thursday your music teacher stops you three times in one song. Your brother says, "Same singer on both days. Learn from both. Come and eat."
+s: A hackathon win and a hackathon loss | In March your team builds an app at the school hackathon and wins first prize. In August, at the city hackathon, your app crashes in the middle of the demo, and you do not even reach the final round. After the win, your team leader says, "Good. Let us write down what worked and what did not, and meet on Saturday." After the loss, she says exactly the same words. Both days go into the same notebook, and you begin to see why her teams keep getting better.
+s: Sent back twice | You send a story to a children's magazine, and it comes back with a polite "no." You feel flat for an evening, and the next day you write at your usual hour. The second story comes back too, and again you write the next day. The third story is printed. You are happy, your family is proud, and the next day you sit down at the same hour and write again. The "no" did not stop you, and the "yes" did not either.
 h: **Keep your routine the same** after a win and after a loss.
 h: **Celebrate lightly and grieve lightly.** Then return to the work.
 h: **Stand by friends in both.** Be glad for the one who won, and sit with the one who lost.
@@ -190,7 +191,7 @@ s: The mic that stopped | In the middle of your song on stage, the mic goes dead
 h: **Bring your mind to the step in front of you,** not to the scoreboard.
 h: **Breathe before the important moment.** Three slow breaths are enough.
 h: **Practise calm on small things,** so that it is there for the big ones.
-try: Do one ordinary task today, such as writing a page or washing a plate, with your full attention.
+try: Pick one ordinary task today, such as washing your plate after dinner. While you do it, think only about that task: the water, the soap, getting the plate properly clean. Do not hurry to finish. If your mind runs to something else, bring it back to the plate. This is how skill in action is practised, by giving full attention to the step in front of you.
 bhakti: Work done calmly and carefully is itself a prayer. Krishna calls this skill yoga.
 
 ## 2.51
@@ -205,7 +206,7 @@ s: After the competition | Your play did not win. Half the cast is still complai
 s: The credit | The festival decorations at home were your idea, and the guests praise your brother for them. You are upset for an hour. Then you decide to let it go and enjoy the evening. Your mother says later, "You looked happier than the people who fight for every bit of credit."
 h: **Do the good thing and drop it.** Do not keep a list of what others owe you.
 h: **Let last week's result stay in last week.**
-h: **Notice how light you feel** when you stop keeping score.
+h: **Notice how light you feel when you stop keeping score.** Keeping score means holding a list in your head: who thanked you and who did not, who owes you a favour, who got more credit than you. Each item on that list is a small weight, and you carry it into every meeting with that person. When you drop the list, you can simply enjoy your friends again, and helping becomes a pleasure and not a loan.
 try: Let go of one old favour or one old result that you keep bringing up.
 bhakti: Whatever we hand over to God, we no longer have to carry. That is the freedom Krishna speaks of.
 
@@ -232,9 +233,9 @@ t: A mind that stays
 one: When your mind stops being pulled by conflicting voices and stays steady within, you have reached yoga.
 meaning: "When your mind, now confused by all you have heard, stands firm and steady within, then you will reach yoga."
 gem: My steady Self (a settled mind)
-s: Two friends, two opinions | One friend says, "Take biology." Another says, "Take computers." Each time you talk to one of them, you change your mind. Finally you sit alone for an evening with a notebook. In the quiet, you already know which one you want.
-s: The noisy feed | Before every decision, you ask in three groups and watch five videos. You end up more confused. A friend suggests one day with no feed. By evening your own thoughts are clear enough to hear.
-s: After all the advice | You have to choose between the summer camp and a month at your grandparents' house, and you have heard from your parents, friends and cousins. You thank them all. Then you take a long walk by yourself. When you return, you know your answer, and you feel calm about it.
+s: The painting everyone corrected | You are painting a picture for a competition. Your mother says, "Add more colour." Your friend says, "Keep it simple." Your cousin says, "Why not paint a village scene?" You change it after each visit, and by evening it is a muddle that belongs to nobody. The next morning you take a fresh sheet, close your door and paint what you first saw in your mind. It may or may not win, but it is one clear picture, and it is yours.
+s: Two friends, two stories | Two of your friends have quarrelled, and each one tells you her side. After listening to the first, you are angry with the second. After listening to the second, you are angry with the first. Your mind swings like this for a week. Then you sit quietly by yourself and decide: "I will stay a friend to both, and I will not carry words from one to the other." Both of them go on telling you their stories, but the stories no longer swing you.
+s: Who should you be? | An aunt says you are too quiet. A friend says you talk too much. Your teacher says, "Speak up." Your cousin says, "Don't show off." You try to obey all of them, and soon you no longer know how to behave. Your grandmother says, "Sit with yourself for a while. You already know what kind of person you want to be." You think it over and settle on three things: to be kind, to be honest, and to speak when you have something to say. After that, other people's remarks stop pushing you from side to side.
 h: **Listen to advice, and then stop collecting it.**
 h: **Give yourself quiet time** with no phone before a decision.
 h: **Trust the answer that comes when you are calm,** not the one that comes when you are rushed.

@@ -10,7 +10,7 @@ meaning: "So far I have given you this wisdom as knowledge. Now hear it as a way
 gem: Mindful action (putting what I know into practice)
 s: The advice you give but do not follow | You tell your friend, "Don't check your phone while studying," and she follows it and improves. Your own phone is still on your desk. She laughs and says, "Take your own medicine." You put the phone in the next room.
 s: The fitness plan | You and your roommate have watched twenty videos about exercise and made a perfect chart. Neither of you has run once. One morning he knocks on your door at six and says, "Enough planning. Shoes."
-s: The training course | Your company sends you for a course on managing time. You take good notes and go back to working the old way. A friend from the course messages, "Which one thing are you actually trying this week?" You pick one.
+s: Your father's lessons | Your father is also your music teacher. He has taught you and your sister every evening for years, and now he expects both of you to practise on your own, without being called. He knows how much time and effort you have both put in and how good you have become, and he does not want that talent to go to waste. You know exactly what to practise, and still you wait to be told. One morning you hear your sister already singing in the next room. You sit down and begin.
 h: **Pick one thing you already know is right** and do it today.
 h: **Practise with a friend.** Check on each other once a week.
 h: **Keep it small.** One habit that you really do is better than ten that you only plan.
@@ -104,7 +104,7 @@ t: Rooted in yourself
 one: Rise above the pull of likes and dislikes, stop worrying about getting and keeping, and stay rooted in yourself.
 meaning: "The scriptures deal with the three qualities of nature. Rise above them, Arjuna. Be free from the pairs of opposites, stay steady in goodness, do not worry about gaining and keeping, and be rooted in the Self."
 gem: Evenness (free of the tug-of-war)
-s: Liked today, ignored tomorrow | On Monday the popular group calls you to sit with them, and you feel wonderful. On Thursday they ignore you, and you feel terrible. Your old friend, who has sat beside you since Class 3, says, "You are the same person on both days."
+s: Liked today, ignored tomorrow | On Monday the popular group calls you to sit with them, and you feel wonderful. On Thursday they ignore you, and you feel terrible. Your old friend, who has sat beside you since you were both small, says, "You are the same person on both days."
 s: Keeping your place | You finally make it into the college dance team, and now you are afraid of losing your place. You practise from worry, not from joy. A senior says, "Dance like the day you auditioned. You had nothing to protect then."
 s: Holding on | You have a good job and good savings, yet you lie awake working out how to keep it all safe. A friend with far less sleeps soundly. You ask him how. "I do today's work," he says. "The rest was never in my hands."
 h: **Notice the swing** between "they like me" and "they don't."
@@ -138,7 +138,7 @@ meaning: "You have a right to your work alone, never to its fruits. Do not let t
 gem: Mindful action
 s: The result you cannot control | You and your friend study together for the board exams. She keeps asking, "What if the paper is tough? What if they mark strictly?" You say, "We cannot set the paper. We can only finish this chapter tonight." You both get back to it.
 s: The friend who did not get selected | Your friend practised harder than anyone and was still left out of the team. He says, "So what was the use?" You tell him what you saw: he became a far better player this year. The selection was never in his hands. The practice was.
-s: The pitch | You prepare for weeks for a client meeting. The client's budget is cut, and the deal is cancelled for reasons that have nothing to do with you. Your team lead says, "Your work was excellent. Keep that. Leave the rest."
+s: Practice and the prize | Your father has taught you the veena since you were six, and he still listens to your practice every morning. The night before a competition you ask him, "What if I do not win?" He says, "I did not teach you so that you would win. I taught you to play. The judges are not in your hands. This morning's practice was, and you did it well."
 h: **Ask, "What part of this is in my hands?"** Do that part fully.
 h: **Hand over the rest.** Marks, selection and other people's choices are not yours to control.
 h: **Do not swing to the other side** and say, "Then why try?" Not trying is never the answer.

@@ -66,24 +66,28 @@ for n in bad:
     print("translit?", n, [(a[i1:i2], b[j1:j2], a[max(0, i1 - 5):i2 + 5]) for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b).get_opcodes() if op != "equal"])
 
 INDEX = [
-("Nerves before an exam, interview or presentation", "2.2 2.18 2.32 2.35 2.50"),
+("Nerves before a big moment", "2.2 2.32 2.35 2.50"),
 ("Worry about marks and results", "2.38 2.47 2.48"),
-("Low marks, failure and setbacks", "2.3 2.11 2.17 2.21 2.47"),
+("Low marks, failure and setbacks", "2.3 2.17 2.21 2.47"),
 ("Winning and losing", "2.15 2.37 2.38 2.48"),
 ("Being hard on yourself", "2.11 2.17 2.25 2.40"),
-("Comparison and jealousy", "2.4 2.8 2.16 2.25 2.57"),
+("Comparison and jealousy", "2.4 2.8 2.16 2.17 2.25 2.57"),
+("Brothers and sisters", "2.1 2.5 2.11 2.15 2.19"),
+("Parents and children", "2.3 2.4 2.14 2.19 2.39 2.47"),
+("Fitting in and being yourself", "2.8 2.45 2.56 2.69"),
+("Your duties at home, outside and to yourself", "2.14 2.18 2.31"),
 ("Phone, games and scrolling", "2.41 2.58 2.59 2.60 2.67"),
-("Posts, likes and comments online", "2.14 2.15 2.16 2.36 2.44"),
-("Wanting things", "2.44 2.55 2.62 2.70"),
+("Posts, likes and comments online", "2.14 2.16 2.44"),
+("Wanting things", "2.8 2.44 2.55 2.62 2.70"),
 ("Anger and quarrels", "2.56 2.62 2.63 2.65"),
-("Hurtful words and teasing", "2.14 2.19 2.23 2.36"),
-("Friendship trouble and being left out", "2.1 2.9 2.12 2.23 2.30 2.71"),
+("Hurtful words and teasing", "2.14 2.17 2.19 2.23 2.36"),
+("Friendship trouble and being left out", "2.3 2.6 2.9 2.12 2.23 2.30 2.36 2.71"),
 ("Friends moving away and goodbyes", "2.13 2.22 2.27 2.28"),
-("Pressure from friends, and saying no", "2.31 2.56 2.68 2.69"),
+("Pressure from friends, and saying no", "2.56 2.68 2.69"),
 ("Standing up for someone", "2.30 2.33"),
-("Honesty, promises and sharing credit", "2.5 2.34 2.51 2.71"),
+("Honesty, promises and sharing credit", "2.1 2.5 2.34 2.51 2.71"),
 ("Respect for teachers and elders", "2.4 2.5 2.7"),
-("Choosing a stream, a course or a job", "2.6 2.41 2.52 2.53"),
+("Choosing between two paths", "2.6 2.41 2.52 2.53"),
 ("Too much advice, and asking for help", "2.7 2.52 2.53"),
 ("Putting things off", "2.14 2.18 2.39 2.40"),
 ("Feeling empty or restless", "2.8 2.9 2.66"),
@@ -98,7 +102,6 @@ CSS = """
 :root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c; --c-title: #27408f; --c-moments: #0b6e7f; --c-helps: #2f7d32; --c-try: #c2500a; --c-bhakti: #7a3594;
   --text: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sanskrit: "Tiro Devanagari Sanskrit", "Kohinoor Devanagari", "Noto Serif Devanagari", serif; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; color-scheme: dark } }
 :root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; color-scheme: dark }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 1rem; -webkit-text-size-adjust: 100%; }
@@ -148,6 +151,14 @@ h1 { color: var(--accent); }
 b.try { color: var(--c-try); } b.bh { color: var(--c-bhakti); }
 .stories summary::marker { color: var(--c-moments); }
 .helps li::marker { color: var(--c-helps); }
+.gem { margin: 1.2rem 0 0; text-align: center; color: var(--c-bhakti); font-size: .95rem; letter-spacing: .01em; }
+.gem + .sk { margin-top: .5rem; }
+.theme { display: flex; align-items: center; gap: .6rem; margin-top: 1rem; font-size: 1rem; }
+.theme .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.theme button { font: inherit; color: var(--ink); background: var(--bg); border: 0; padding: .35rem .9rem; cursor: pointer; }
+.theme button + button { border-left: 1px solid var(--line); }
+.theme button[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
+.theme button:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
 .side { display: none; }
 @media (min-width: 44rem) { main { max-width: 44rem; padding-inline: 2.5rem; } body { font-size: 1.1875rem; } }
 @media (min-width: 64rem) {
@@ -169,13 +180,14 @@ b.try { color: var(--c-try); } b.bh { color: var(--c-bhakti); }
   .part > p { max-width: 44rem; }
   footer { max-width: 44rem; }
 }
-@media print { .side { display: none !important; } .layout, .verse, .intro { display: block !important; }  .top { display: none; } body { font-size: 11pt; } main { max-width: none; padding: 0; }
+@media print { .side, .theme { display: none !important; } .layout, .verse, .intro { display: block !important; }  .top { display: none; } body { font-size: 11pt; } main { max-width: none; padding: 0; }
   summary { break-after: avoid; } .h, .num, .verse h3 { break-after: avoid; } .sk, .read, li { break-inside: avoid; } .part { break-before: page; } }
 """
+THEME_JS = '<script>(function(){var r=document.documentElement,t="light";try{t=localStorage.getItem("gita-theme")==="dark"?"dark":"light"}catch(e){}\nfunction set(v){r.setAttribute("data-theme",v);document.querySelectorAll("[data-set-theme]").forEach(function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-set-theme")===v))})}\nset(t);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){set(t)});\ndocument.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest("[data-set-theme]");if(!b)return;t=b.getAttribute("data-set-theme");set(t);try{localStorage.setItem("gita-theme",t)}catch(e){}})})();</script>'
 vid = lambda n: "v" + n.replace(".", "-")
 def page(finder, title, standalone):
     H = []
-    head = f'<title>{title}</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Tiro+Devanagari+Sanskrit&display=swap">\n<style>{CSS}</style>'
+    head = f'<title>{title}</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Tiro+Devanagari+Sanskrit&display=swap">\n<style>{CSS}</style>\n' + THEME_JS
     if standalone:
         H.append('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n<meta name="description" content="Bhagavad Gita, Chapter 2, in simple words for young readers, with real-life moments for every verse.">\n' + head + "\n</head>\n<body>")
     else: H.append(head)
@@ -187,7 +199,8 @@ def page(finder, title, standalone):
         H.append("</ul></details>")
     H.append('</nav><main id="top">')
     H.append("<div class='intro'><div><h1>Bhagavad Gita, Chapter 2</h1><p class='sub'>A readable edition for young people. All 72 verses.</p>")
-    H.append("<p>Every verse is set out the same way. First comes its message in one line, then the Sanskrit, how to read it aloud, and the meaning. After that are three real-life moments. Tap a title to open the one that sounds like your day. Each verse ends with what helps, one thing to try today, and a bhakti thought.</p>")
+    H.append('<div class="theme" role="group" aria-label="Theme"><span class="muted">Theme</span><span class="seg"><button type="button" data-set-theme="light" aria-pressed="true">Day</button><button type="button" data-set-theme="dark" aria-pressed="false">Night</button></span></div>')
+    H.append("<p>Every verse is set out the same way. First comes its message in one line and the Gem it belongs to, then the Sanskrit, how to read it aloud, and the meaning. After that are three real-life moments. Tap a title to open the one that sounds like your day. Each verse ends with what helps, one thing to try today, and a bhakti thought.</p>")
     H.append("<p>The chapter is one conversation, so it is best read in order, a few verses at a time.</p>" if not finder else "<p>The chapter is one conversation, so it is best read in order, a few verses at a time. If something particular is on your mind, the list further down will take you to a verse that speaks to it.</p>")
     H.append("</div><div><h2>Four Gems to carry through the chapter</h2><ul>")
     for g in D["gems"]: H.append(f"<li>{q(g)}</li>")
@@ -209,9 +222,9 @@ def page(finder, title, standalone):
         for n in p["verses"]:
             v = V[n]
             who = f" · {v['who']}" if v["who"] else ""
-            H.append(f'<article class="verse" id="{vid(n)}"><div class="va"><p class="num">Verse {n}{who}</p><h3>{v["one"]}</h3>')
+            H.append(f'<article class="verse" id="{vid(n)}"><div class="va"><p class="num">Verse {n}{who}</p><h3>{v["one"]}</h3><p class="gem">Gem: {v["gem"]}</p>')
             H.append(f'<p class="sk" lang="sa">{v["sk"]}</p><p class="read">{html.escape(v["read"], quote=False).replace(chr(39), "’")}</p>')
-            H.append(f'<p class="meaning">{v["meaning"]}</p><p class="muted">Gem: {v["gem"]}</p>')
+            H.append(f'<p class="meaning">{v["meaning"]}</p>')
             if v["next"]: H.append(f'<p><b>What Krishna will teach next:</b> {v["next"]}</p>')
             H.append('</div><div class="vb"><p class="h moments">Real-life moments</p><div class="group stories">')
             for l, s in v["stories"]: H.append(f"<details><summary>{l}</summary><p>{s}</p></details>")

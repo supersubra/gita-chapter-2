@@ -5,7 +5,7 @@ t: Nothing can finish you
 one: Once you know what cannot be destroyed in you, no single event can make you say "I am finished."
 meaning: "Arjuna, a person who knows the Self to be indestructible, eternal, unborn and unchanging cannot truly destroy anyone, or cause anyone to be destroyed."
 gem: My steady Self
-s: The rumour | A classmate spreads a story about you in Class 10, and by lunch it feels as if your name is finished. Your best friend sits beside you with her tiffin, the same as every day. "Nothing about you changed this morning," she says. "Only a story went around."
+s: The rumour | A classmate spreads a story about you, and by lunch it feels as if your name is finished. Your best friend sits beside you with her tiffin, the same as every day. "Nothing about you changed this morning," she says. "Only a story went around."
 s: The friend who failed a year | Your hostel friend fails a year and tells you, "I am finished. There is no point now." You do not argue. You remind him of the night he taught the whole floor maths before the exam. "That person did not fail," you say. "One year did."
 s: The lost account | At work, the client you handled moves to another company. You feel your career has ended at twenty-five. A friend from your team says, "An account ended. You did not. Come, let us see what you learned from it."
 h: **Separate the event from yourself.** Say "Something went wrong," not "I am finished."
@@ -18,10 +18,10 @@ bhakti: The Self in you is God's own gift. No person and no event has the power 
 sk: वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि । तथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ॥
 read: vaasaamsi jeernaani yathaa vihaaya navaani grihnaati naro 'paraani | tathaa shareeraani vihaaya jeernaany anyaani samyaati navaani dehee
 t: Old clothes, new clothes
-one: Just as we change worn-out clothes for new ones, the Self moves on, and the one who wears the clothes stays the same.
-meaning: "Just as a person puts aside worn-out clothes and puts on new ones, the Self puts aside worn-out bodies and enters new ones."
+one: We put away worn-out clothes and wear new ones, and we are still the same person. In the same way, the Self stays the same when the body changes.
+meaning: "A person puts away worn-out clothes and puts on new ones. In the same way, the Self leaves a worn-out body and takes a new one."
 gem: My steady Self (letting go of what is worn out)
-s: The old school uniform | On the last day of Class 10, you fold your uniform for the final time. It feels like folding away your whole childhood. Your friend laughs through her tears and says, "We are not leaving ourselves here. Only the uniform."
+s: The old school uniform | On the last day of school, you fold your uniform for the final time. It feels like folding away your whole childhood. Your friend laughs through her tears and says, "We are not leaving ourselves here. Only the uniform."
 s: Friends in new colleges | Your school group has scattered to different cities. The group chat is quieter, and you worry the friendship is over. When you finally meet in the holidays, everyone looks different, yet within ten minutes you are laughing at the same old jokes.
 s: The role you outgrew | You have been the "junior" in your office for three years, and now you are asked to lead. You feel like an actor in the wrong costume. A friend says, "You are the same person. You have only changed what you wear to work."
 h: **Notice what is only clothing.** A uniform, a role, a group name and a look can all change.
@@ -69,7 +69,7 @@ t: More than what can be seen
 one: The most real part of you cannot be seen, measured or ranked, so do not grieve over the parts that can.
 meaning: "The Self is said to be unseen, beyond thought and unchanging. Knowing this, you should not grieve."
 gem: My steady Self (more than marks and looks)
-s: The rank list | The Class 9 rank list goes up, and you are in the bottom half. You feel as if the paper on the wall is a full description of you. Your friend, who topped, says, "That list does not know you made me laugh every day of my worst month."
+s: The rank list | The rank list goes up, and you are in the bottom half. You feel as if the paper on the wall is a full description of you. Your friend, who topped, says, "That list does not know you made me laugh every day of my worst month."
 s: The mirror | Before a college fest, you stand in front of the mirror hating how you look. Your friend, waiting at the door, says, "We did not become friends because of your face. Come, we are late."
 s: The salary slip | At a reunion, friends compare salaries, and yours is the lowest. You go quiet. On the way home, an old friend says, "I did not come to meet your salary. I came to meet you."
 h: **Remember what cannot be measured,** such as your kindness, your humour and your honesty.
@@ -159,7 +159,7 @@ try: Include one person today who is usually left out.
 bhakti: The Lord lives in every heart, with no exceptions. Every time we make room for someone, we make room for Him.
 
 # Part 3: Your part to play (2.31–2.38)
-intro: Krishna now speaks about duty. At every stage of life there is a part that is yours to play. Doing it with courage is better than running from it.
+intro: Krishna now speaks about duty. At every stage of life there is a part that is yours to play: as a student, at home, in your neighbourhood and towards yourself. Doing it with courage is better than running from it.
 
 ## 2.31
 sk: स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि । धर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ॥
@@ -168,13 +168,14 @@ t: Your own duty
 one: Look at what your own duty is right now, and do not waver from it.
 meaning: "Looking at your own duty too, you should not waver. For a warrior, there is nothing better than a fight for what is right."
 gem: Mindful action (knowing my part)
-s: The class monitor | You are the monitor, and your friends want you to mark them present while they skip the period. Being a good friend and being a fair monitor seem to pull apart. You tell them, "Ask me for anything else. This one is my job."
-s: The group project | In your college group, everyone is waiting for someone else to begin. The report is your part. You stop checking what the others have done and finish your section two days early. Seeing it, two friends start theirs.
-s: The friend who needs the truth | Your friend's business idea has a serious gap, and he asks what you think. Praising it would be easy. As his friend, your duty is to be honest. You say, "I want this to work, so let me show you what worries me."
-h: **Ask, "What is my part here?"** As a student, a friend, a son or daughter, or a team member.
-h: **Do your part first,** before pointing at what others have not done.
-h: **When two duties clash, ask an elder** which comes first.
-try: Write down your three main roles this year and one duty that comes with each.
+s: More than what you were asked | Your mother asks you to lay the table, and you do it. Then you notice that the dustbin is full and the clothes are still on the line with rain coming. Nobody has asked you. You bring the clothes in and take the dustbin out. A home is not a hotel where you are a guest. You are part of it, and its work is partly yours.
+s: The wrapper on the ground | After the match, you and your friends finish your snacks, and the wrappers stay on the ground. "Nobody else picks theirs up," one of them says. That is true. You pick up yours anyway, and then a few more, and walk to the bin. You do it because it is the right thing to do, whatever anyone else does. One friend quietly follows you.
+s: Charging the phone, not yourself | During the holidays you stay up past midnight with shows, eat chips in place of lunch and do not step outside for days. You feel dull and cross. Your father says to you, "My girl, you charge your phone every night without fail. Who is charging you?" You begin with one thing: lights off at ten.
+h: **As a student, your duty is to learn.** Listen in class and put in the effort each subject needs, without waiting for the exam.
+h: **At home, be part of the home.** Do the chores you are asked to do, notice what else needs doing, and offer to help.
+h: **Outside, keep the places you use clean.** Do it because it is right, not because others are doing it.
+h: **Look after yourself every day.** Eat healthy food, keep your body and mind fit, and keep your cravings for food and entertainment in hand. Too much of either is not good for you.
+try: Write one duty you have as a student, one at home, one to your neighbourhood and one to yourself. Do one of them today without being asked.
 bhakti: Each of us has been given a place and a part. Doing it well is a way of saying thank you to the One who gave it.
 
 ## 2.32
@@ -233,7 +234,7 @@ one: Before you step back from something, be honest about whether the reason is 
 meaning: "The great warriors will think you left the battle out of fear. Those who once thought highly of you will think little of you."
 gem: My steady Self (courage)
 s: The debate you skipped | You pull out of the debate, saying you have a cold. Your friend, who was your partner, knows it was nerves. He is not angry, only disappointed. You wish you had told him the truth and asked for help.
-s: The audition | Your friends have signed you up for the college band audition. On the day, you tell them you are "too busy." One of them says, "If you truly do not want it, fine. If you are scared, I will come and stand outside the door." You go.
+s: The festival at your friend's house | Your friend has invited you home for the festival, and you said yes. An hour before, you message, "Sorry, I can't come." The real reason is that the house will be full of people you do not know, your friend will be busy, and you are afraid you will have nobody to talk to. Then you tell her the truth. She replies, "Come half an hour early and help me arrange the lamps. By the time the others arrive, you will know half of them." You go.
 s: The presentation you passed on | Your manager offers you a chance to present to the directors, and you suggest a colleague instead. Later a friend at work asks why. You realise you gave away a chance out of fear and called it modesty.
 h: **Ask honestly, "Is this fear or good sense?"** Good sense has reasons. Fear has excuses.
 h: **Tell a friend the real reason.** Fear shrinks when it is spoken.
@@ -249,11 +250,12 @@ one: People will talk, and it hurts. Do not let their talk decide what you do.
 meaning: "Those who wish you ill will say many unkind things and mock your ability. What could be more painful than that?"
 gem: Evenness (not ruled by what people say)
 s: The laughing group | You answer wrongly in class, and a group at the back laughs and repeats it for days. You stop raising your hand. Your bench-mate says, "They laugh at everyone. If you stop answering, they win and you lose marks."
-s: The comments under your post | You share your first short film in the college group, and two people write mocking comments. Twenty others liked it, but you see only those two. Your friend takes your phone and reads the kind ones aloud.
+s: The friend who believed it | A girl in your class is possessive and jealous, and she wants your closest friend for herself. She tells your friend unkind things about you that are not true. Your friend believes all of it without checking with you or with anyone else, and she stops talking to you for good. It hurts more than anything said to your face. You do not spread stories in return. You tell your friend once, calmly, "That is not true, and you can ask me anything." Whether she comes back is not in your hands. How you behave is.
 s: Office gossip | You hear that some colleagues say you got the promotion "by luck." You want to prove them wrong in every meeting. A friend says, "Do the work the way you always did. That is the only answer that lasts."
-h: **Expect some unkind talk.** Everyone who tries anything gets it.
+h: **Do not be shocked when people talk.** Almost everyone is talked about unkindly at some time, so it does not mean something is wrong with you.
 h: **Count the voices fairly.** Two loud critics are not everyone.
 h: **Answer with steady work,** not with arguments.
+h: **Say the truth once, calmly,** and do not spread stories in return.
 try: Write the names of three people whose opinion of you truly matters. Listen to them first.
 bhakti: Even Arjuna would have been mocked. God's opinion of us does not rise and fall with what people say.
 

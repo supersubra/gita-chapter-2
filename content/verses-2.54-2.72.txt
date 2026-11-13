@@ -11,8 +11,8 @@ meaning: "Krishna, what is a person of steady wisdom like? How does such a perso
 gem: My steady Self (learning from steady people)
 next: Krishna will answer in the next eighteen verses, describing a steady person one quality at a time.
 s: The calm classmate | One girl in your class never panics before tests and never gossips. You and your friends call her "the monk." One day you ask her seriously, "How do you stay like that?" She is surprised that anyone noticed, and she tells you.
-s: The senior everyone respects | A senior in your hostel is the one everyone goes to in a crisis. You start watching how he behaves: how he listens, how he answers slowly, how he never talks about people behind their backs.
-s: Your first good manager | Your manager stays level when a client shouts. You ask a friend on the team, "Was she always like this?" He says, "Watch what she does before each call. She takes two minutes alone."
+s: The boy everyone goes to | An older boy in your colony is the one everyone goes to in a crisis. You start watching how he behaves: how he listens, how he answers slowly, how he never talks about people behind their backs.
+s: Your mother on a bad morning | The tank overflows, the guests arrive early and the gas runs out, all in one hour, and your mother stays level. You ask your father, "Was she always like this?" He says, "Watch what she does each morning. She takes ten quiet minutes before anyone else is awake."
 h: **Find one steady person** among your friends, family or teachers.
 h: **Watch what they actually do,** in how they speak, wait and react.
 h: **Ask them directly.** Most steady people are happy to share how they learned it.
@@ -29,7 +29,7 @@ meaning: "Arjuna, when a person gives up all the cravings of the mind and is con
 gem: Evenness (contentment)
 s: The birthday without a party | Your friend's family cannot afford a party this year. She invites three of you home for her mother's lemon rice and a board game. She is so plainly happy that you all agree it is the best birthday of the year.
 s: The friend who does not need the plan | Your group's weekend trip is cancelled, and everyone is sulking. One friend shrugs, picks up a football and says, "Ground at five?" His happiness never depended on the trip.
-s: The simple desk | Your colleagues are always upgrading their phones, bags and watches. One friend has had the same things for years and seems the most at ease of all of you. "I have enough," he says, and he means it.
+s: The same old watch | Your cousins are always getting new phones, bags and shoes. Your grandfather has had the same watch and the same few shirts for years, and he seems the most at ease of all of you. "I have enough," he says, and he means it.
 h: **Notice what you already have** before you look at what is missing.
 h: **Enjoy simple time with friends,** with no spending and no plan.
 h: **When a want appears, ask,** "Will I be all right without this?" The answer is usually yes.
@@ -45,7 +45,7 @@ meaning: "One whose mind is not shaken in sorrow, who does not crave pleasure, a
 gem: Evenness
 s: The quarrel that did not happen | A friend accuses you, in front of others, of spoiling the group's chart. Your face goes hot. You say, "Let us look at it after the period." By then she has cooled down, you find the real mistake together, and the friendship is unharmed.
 s: Fear of being left out | Your group is going to a late-night party you are not comfortable with. You are afraid that if you say no, you will be dropped. You say, "Not this one. Breakfast tomorrow?" They tease you for a minute, and they come to breakfast.
-s: The angry message | A colleague sends a rude message in the team group. You type a sharp reply, then delete it. You call him instead. He has had a terrible day and apologises within a minute.
+s: The angry message | A friend sends a rude message in the group. You type a sharp reply, then delete it. You call him instead. He has had a terrible day at home and apologises within a minute.
 h: **Put time between the feeling and the reply.** Wait an hour, or a night.
 h: **Name what you feel.** "I am angry" or "I am afraid" is easier to manage than a storm with no name.
 h: **Talk in person** when a message has upset you.
@@ -60,8 +60,8 @@ one: A steady person is not carried away by good fortune and does not turn bitte
 meaning: "One who is unattached everywhere, who neither rejoices on meeting good fortune nor hates bad fortune, has steady wisdom."
 gem: Evenness (free of comparison and jealousy)
 s: Your friend got the prize | Your best friend wins the prize you both wanted. You clap, but inside you feel a pinch. That night you admit it to her. She says, "I felt the same when you won last year." You both laugh, and the pinch goes.
-s: The friend with the better phone, bike and marks | One friend in your hostel seems to get everything. You notice you have started avoiding him. Then he asks you for help with a family problem, and you see that he too has his share of difficulties.
-s: The colleague who was promoted first | A friend who joined with you is promoted before you. You congratulate her, and you mean most of it. You decide to take her out for coffee and ask what she did well. She tells you gladly.
+s: The friend with the better phone, cycle and marks | One friend in your group seems to get everything. You notice you have started avoiding him. Then he asks you for help with a family problem, and you see that he too has his share of difficulties.
+s: Your sister was chosen first | Your younger sister is chosen for the school team before you ever were. You congratulate her, and you mean most of it. Then you ask her to show you how she practises. She shows you gladly.
 h: **Admit jealousy to yourself.** It is a common feeling and it passes sooner when it is seen.
 h: **Congratulate the person out loud.** The words help the heart to follow.
 h: **Learn from the friend you envy** instead of moving away from them.
@@ -76,8 +76,8 @@ one: Like a tortoise pulling in its limbs, a steady person can draw the senses b
 meaning: "When a person draws the senses back from their objects, as a tortoise draws in its limbs, that person's wisdom is steady."
 gem: Mindful action (choosing where my attention goes)
 s: Phones in the basket | You and three friends meet to study, and within minutes all four of you are on your phones. One friend puts a basket on the table. "Phones in. We take them out at the break." You get more done in an hour than in the whole of last week.
-s: The game at midnight | Your hostel friends play online every night till two, and you join because you do not want to miss out. Your mornings are ruined. You tell them, "I am in till eleven, then I am out." They grumble, and then two of them start doing the same.
-s: The meeting and the notifications | In meetings, your eyes keep dropping to your phone. A friend at work turns hers face down at the start of every meeting. You copy her and find that you are actually listening.
+s: The game at midnight | Your friends play online every night till two, and you join because you do not want to miss out. Your mornings are ruined. You tell them, "I am in till ten, then I am out." They grumble, and then two of them start doing the same.
+s: Dinner and the notifications | At dinner, your eyes keep dropping to your phone. Your father turns his face down on the shelf before every meal. You copy him and find that you are actually listening to the conversation.
 h: **Decide when to pull in.** Phone away during study, meals and conversations.
 h: **Make it easy.** Put the phone in another room, a bag or a basket.
 h: **Do it with friends.** A shared rule is easier to keep.
@@ -92,7 +92,7 @@ one: Staying away from something removes the thing but not the taste for it. The
 meaning: "The objects of the senses fall away from one who does not feed on them, but the taste for them remains. Even the taste falls away when one has seen the Highest."
 gem: Mindful action (replacing a habit with something better)
 s: The deleted app | You delete a game before exams, and for a week you think about it all the time. Then your friend drags you to the ground for football every evening. After a month you realise you have not thought about the game for days.
-s: Giving up junk food | You and your roommate swear off fried snacks and spend every evening talking about fried snacks. Then you both learn to make a decent sandwich, and the craving becomes much quieter.
+s: Giving up junk food | You and your brother swear off fried snacks and spend every evening talking about fried snacks. Then you both learn to make a decent sandwich, and the craving becomes much quieter.
 s: The scrolling habit | You set a limit on your social apps and keep overriding it. What finally works is joining a friend's evening badminton group. When your evenings are full of something you enjoy, you forget to scroll.
 h: **Do not only remove a habit. Replace it** with something you enjoy more.
 h: **Expect the craving to stay for a while.** That is normal and not a failure.
@@ -109,7 +109,7 @@ meaning: "Arjuna, the restless senses can forcibly carry away the mind of even a
 gem: Mindful action (being honest about temptation)
 s: "Just one episode" | You are the disciplined one in your group. During study leave you tell yourself, "Just one episode," and look up four hours later. You are shocked at yourself. Your friend says, "It happens to everyone. Give me your password till Friday."
 s: The friend who "would never" | Your friend always said he would never copy. In a tough internal exam, an open book is lying within reach, and he glances at it. Afterwards he tells you, ashamed. You do not judge him. You sit apart from the books together next time.
-s: The sale | You are careful with money. Then a midnight sale begins, and by one o'clock you have ordered things you do not need. In the morning you cancel half of them and remove your saved card.
+s: The festival sweets | You have decided to cut down on sweets. Then the festival boxes arrive, and by evening you have finished half a box on your own. The next morning you ask your mother to keep the boxes in her cupboard and give you two a day.
 h: **Do not say, "I am strong enough."** Keep temptation out of reach instead.
 h: **Tell a friend where you are weak,** and let them help.
 h: **If you slip, do not hide it.** Admit it, repair it and start again.
@@ -124,8 +124,8 @@ one: Hold the senses steady and fix your mind on God. With His support, self-con
 meaning: "Having brought all the senses under control, one should sit steady, with Me as the highest goal. One whose senses are under control has steady wisdom."
 gem: My steady Self (support from God)
 s: The morning five minutes | Your friend's family sits together for five minutes of prayer before school. You used to think it was old-fashioned. When you stay over one night and join in, you notice how calmly their day begins.
-s: The friend who keeps you steady | In college, one friend quietly keeps her fasts and her morning prayer even in the hostel. She never preaches. On your worst day, hers is the room you go to, and you ask if you may sit with her while she prays.
-s: Before the workday | You begin each day by checking messages in bed, and you are tense before you get up. A friend suggests two minutes of quiet and a short prayer first. After a week, your mornings feel like your own again.
+s: The friend who keeps you steady | One friend quietly keeps her fasts and her morning prayer wherever she is. She never preaches. On your worst day, hers is the house you go to, and you ask if you may sit with her while she prays.
+s: Before the day begins | You begin each day by checking messages in bed, and you are tense before you get up. A friend suggests two minutes of quiet and a short prayer first. After a week, your mornings feel like your own again.
 h: **Give the mind something higher to hold.** Willpower alone gets tired.
 h: **Keep a short daily prayer or quiet time,** at the same time every day.
 h: **Stay close to friends whose habits steady you.**
@@ -141,7 +141,7 @@ meaning: "When a person keeps thinking about the objects of the senses, attachme
 gem: Mindful action (catching it early)
 s: The shoes | Your friend shows you the shoes he wants. You look at them online every night. Soon you feel you must have them. When your parents say, "Not this month," you slam your door. Later you wonder how a pair of shoes made you shout at your mother.
 s: Checking her profile | You keep looking at a classmate's profile and her photos with other friends. First it is curiosity, then you want to be in that group, and then you are angry with her for no reason she would understand.
-s: The role you kept imagining | You daydream every day about leading the new project. When it goes to a friend, you are furious with him, though he did nothing wrong. You trace the anger back and find that it began with the daydream.
+s: The gift you kept imagining | Your grandfather is bringing a new cycle, and for weeks you imagine yourself riding it. When it turns out to be for your brother, you are furious with him, though he did nothing wrong. You trace the anger back and find that it began with the daydream.
 h: **Notice what you keep going back to** in your thoughts and on your screen.
 h: **Stop at the first step.** It is far easier to stop looking than to stop being angry.
 h: **When you are angry, ask,** "What did I want that I did not get?"
@@ -157,7 +157,7 @@ meaning: "From anger comes confusion, from confusion loss of memory, and from lo
 gem: Evenness (stopping the slide)
 s: The words you cannot take back | In a fight, you tell your oldest friend, "I never liked you anyway." It is not true. You forgot, in that moment, ten years of friendship. It takes you three weeks and a long apology to mend what took ten seconds to say.
 s: The broken phone | Your friend loses a match online, throws his phone and cracks the screen. He stares at it. "I knew it would break," he says. "I just did not know it in that second."
-s: The email sent in anger | You reply to a senior in anger and copy the whole team. An hour later, you remember all the times she supported you. A friend helps you write the apology, and you walk over to say it in person.
+s: The message sent in anger | Your grandmother tells your parents something you wanted kept quiet, and you send her an angry message. An hour later, you remember all the times she took your side. Your sister helps you find the words, and you go to her room to say sorry in person.
 h: **Do nothing important while angry.** Do not speak, send or decide.
 h: **Leave the room, drink water, walk.** Understanding returns when the heat goes down.
 h: **Repair quickly.** Say sorry the same day if you can.
@@ -173,7 +173,7 @@ meaning: "But one who moves among the objects of the senses with self-control, f
 gem: Evenness (enjoying without being hooked)
 s: The friend who can stop | You and your friend both enjoy the same game. He plays for half an hour and stops. You cannot. He is not stricter than you. He says, "I like it. I just like other things too."
 s: At the wedding feast | At your cousin's wedding there is every sweet you love. Last time you ate until you felt sick. This time you take what you enjoy, eat slowly with your friends, and stop. You enjoy the whole evening.
-s: Social media at work | You need social media for your job. A friend in the same role uses it for an hour, does the work and closes it. You learn her method: decide what you came for before you open it.
+s: The match on television | You love watching cricket, and so does your uncle. He sits down for the last ten overs, enjoys every ball and switches off. You learn his method: decide how much you will watch before you sit down.
 h: **Enjoy things, and keep the off-switch in your own hand.**
 h: **Decide the limit before you start,** not in the middle.
 h: **Do not hate the things you are avoiding.** Hating keeps you tied to them as well.
@@ -188,8 +188,8 @@ one: In a peaceful mind, sorrows fade and clear thinking returns quickly.
 meaning: "In that peace, all sorrows come to an end. The understanding of a person with a peaceful mind soon becomes steady."
 gem: Evenness (peace first, then answers)
 s: The problem that solved itself | You and your friend struggle with a maths problem for an hour and grow more and more upset. She says, "Leave it. Let us get some air." On the walk back, the answer comes to you.
-s: After the quarrel | You have fought with your roommate, and you spend the evening rehearsing arguments. You go for a run. When you return, you can see his side too, and the conversation takes five minutes.
-s: The decision after a good night's sleep | At eleven at night, a work problem looks impossible, and you draft a resignation letter in your head. A friend says, "Sleep. Decide tomorrow." In the morning it is an ordinary problem with an ordinary answer.
+s: After the quarrel | You have fought with your brother, and you spend the evening rehearsing arguments. You go for a run. When you return, you can see his side too, and the conversation takes five minutes.
+s: The decision after a good night's sleep | At eleven at night, a fight with your friend looks impossible to mend, and you write a long message ending the friendship. Your mother says, "Sleep. Send it tomorrow if you still want to." In the morning it is an ordinary quarrel with an ordinary answer.
 h: **When you are stuck, calm down first** and solve the problem afterwards.
 h: **Walk, sleep, pray or sit quietly** before a hard conversation.
 h: **Do not trust the thoughts of an upset mind** late at night.
@@ -204,7 +204,7 @@ one: Without a steady mind there is no peace, and without peace there can be no 
 meaning: "The unsteady person has no understanding and no power to reflect. Without reflection there is no peace, and without peace, how can there be happiness?"
 gem: Evenness
 s: The restless holiday | In the holidays you have every freedom: games, shows, food and friends online. Yet by evening you feel dull and irritated. Your friend says the same. You both agree that last year's trek, with no network at all, felt far happier.
-s: The party and the walk | At a loud college party, you keep checking your phone and comparing yourself with others. The next day you and one friend walk by the lake and talk for an hour. You go home happy and wonder why.
+s: The party and the walk | At a loud party, you keep checking your phone and comparing yourself with others. The next day you and one friend walk by the lake and talk for an hour. You go home happy and wonder why.
 s: The busy, unhappy week | Your week is full of outings, and still you feel empty on Sunday night. A friend who spent her weekend reading and cooking seems far more rested. You ask if you can join her next Saturday.
 h: **When you feel dull or irritated, look for what has disturbed your peace.**
 h: **Build some quiet into each day,** even ten minutes.
@@ -221,7 +221,7 @@ meaning: "When the mind runs after the wandering senses, it carries away a perso
 gem: Mindful action (holding the rudder)
 s: One notification | You are writing an essay when your phone buzzes. It is only a meme from a friend. You reply, then see a video, then another. Forty minutes later you cannot remember what the essay was about.
 s: "Let's go, everyone is going" | You are saving money for a course. Your friends decide on a sudden trip, then a concert, then new jackets. Each time you go along. At the end of the term, the savings are gone, and so is the course.
-s: The open office | Every conversation near your desk pulls you in. By evening you have joined ten discussions and finished nothing. A friend lends you her headphones and says, "Decide where you are going before the wind decides."
+s: The noisy house | You sit down to practise, and every sound in the house pulls you in: the television, your brother's game, a phone call in the next room. By evening you have joined in everything and practised nothing. Your sister shuts your door and says, "Decide where you are going before the wind decides."
 h: **Know where you are headed this hour** before you begin.
 h: **Remove the wind.** Silence notifications and move away from distraction.
 h: **When you notice you have drifted, come back without scolding yourself.**
@@ -236,8 +236,8 @@ one: So the person whose senses are fully in hand is the one whose wisdom is ste
 meaning: "Therefore, mighty Arjuna, one whose senses are completely held back from their objects has steady wisdom."
 gem: Mindful action (self-control as strength)
 s: The friend who says no easily | When your group pushes someone to try a cigarette behind the school, one friend just says, "No, I'm fine," and changes the subject. Nobody teases him for long. You see that his "no" is a kind of strength, and you stand next to him.
-s: The exam month | During exam month, your friend keeps a simple rule: phone in the warden's office from nine to nine. People call her extreme. After the results, three of them ask her to hold them to the same rule next term.
-s: The weekend offer | Colleagues invite you for drinks every Friday and press you when you refuse. You keep saying, cheerfully, "I will come for the food." In time they stop pressing, and one of them quietly joins you with a lime soda.
+s: The exam month | During exam month, your friend keeps a simple rule: phone with her mother from nine to nine. People call her extreme. After the results, three of them ask her to hold them to the same rule next term.
+s: Movies till morning | At a sleepover, your cousins want to watch movies till morning and press you when you refuse. You keep saying, cheerfully, "I am in for one, and then I sleep." In time they stop pressing, and one cousin quietly rolls out her mat next to yours.
 h: **Practise saying no in a friendly voice,** without a long explanation.
 h: **Set your rule in advance,** so that you are not deciding under pressure.
 h: **Stand beside a friend who says no.** It makes it easier for both of you.
@@ -253,7 +253,7 @@ meaning: "What is night for all beings is the time of waking for the self-contro
 gem: My steady Self (my own values)
 s: Not interested in the gossip | At lunch, your whole table is excited about who said what about whom. One friend eats quietly and then asks you how your grandmother's operation went. You realise what she pays attention to, and what she does not.
 s: Carnatic music and film songs | You have learned Carnatic music since you were small, and you are good at it. Hardly anyone in your class knows what it is. Everyone sings film songs, which have a huge following, and you start hiding your music class as if it were something uncool. Then you sing at a school function. The hall goes quiet, and afterwards the same friends ask, "How do you do that?" You see that what you are good at does not have to be the popular thing. Growing it is what makes you stand out.
-s: The early morning | Your colleagues stay up late with shows and wake up tired. A friend sleeps at ten and is up at five to read and walk. They think he is missing out, and he thinks the same about them.
+s: The early morning | Your cousins stay up late with shows and wake up tired. Your grandfather sleeps at nine and is up at five to walk and pray. They think he is missing out, and he thinks the same about them.
 h: **Ask what you value,** not only what everyone around you is excited about.
 h: **It is all right to be the only one** who is not interested in something.
 h: **Give your best hours** to what matters most to you.
@@ -269,8 +269,8 @@ one: Be like the ocean. Rivers pour into it all day, yet it stays full and still
 meaning: "Rivers flow into the ocean, which is always being filled and yet stays unmoved. In the same way, one into whom all desires flow without disturbing him attains peace, and not the one who runs after desires."
 gem: Evenness (wide and unshaken)
 s: Everyone's plans | Your phone fills with plans: a movie, a match, a birthday, a sale. Earlier you tried to do everything and ended up tired. Now you read them all, choose one and wish the others well. Your friends notice that you are calmer.
-s: The friend who is not shaken | In the hostel, offers and temptations come to everyone alike. One friend listens, smiles and takes only what suits him. Nothing seems to push him around. You ask him about it. "I do not have to chase everything that comes," he says.
-s: Requests at work | Ten requests arrive before noon, and each sender calls theirs urgent. You used to run after each one. Now you take them all in, pick up one at a time and stay level. Your friends at work ask what has changed.
+s: The friend who is not shaken | Offers and temptations come to everyone in your group alike. One friend listens, smiles and takes only what suits him. Nothing seems to push him around. You ask him about it. "I do not have to chase everything that comes," he says.
+s: A festival morning | On a festival morning, everyone wants something from you at once: fetch the flowers, find the lamp, mind your cousin, answer the door. You used to get flustered and snap. Now you take them all in, pick up one at a time and stay level. Your mother asks what has changed.
 h: **Let wants and offers arrive without jumping at each one.**
 h: **Make your inside bigger,** through sleep, prayer and time with good friends, so that small things do not flood you.
 h: **Choose one thing and let the rest flow past.**
@@ -285,8 +285,8 @@ one: Peace comes to the one who lets go of craving, of "mine" and of "I am the o
 meaning: "The person who gives up all cravings and lives free from longing, without the sense of 'mine' and without ego, attains peace."
 gem: Same Self in all (sharing, and less "me")
 s: "My" best friend | Your best friend has started spending time with a new girl, and you feel she is being taken from you. You keep saying "my friend." Then you invite the new girl to sit with both of you. Now there are three of you, and nobody has lost anyone.
-s: Who did the most | After the college fest, your team argues about who worked hardest. You know you did a great deal. You say, "We all did it. It went well." The argument ends, and people remember you kindly for it.
-s: "My" idea | In a meeting, a colleague builds on your idea, and it becomes hers in everyone's mind. You begin to say, "Actually, I..." and stop. The idea is working, and the team is better for it. You let it be.
+s: Who did the most | After the school fest, your team argues about who worked hardest. You know you did a great deal. You say, "We all did it. It went well." The argument ends, and people remember you kindly for it.
+s: "My" room | Your cousin comes to stay for a month and shares your room, your desk and your shelf. You begin to say, "That is mine," and stop. The room is fuller and louder and, you have to admit, more fun. You clear half a shelf for him.
 h: **Change "mine" to "ours"** wherever you can. Share friends, notes and credit.
 h: **Let good work speak.** You do not need to announce your part.
 h: **Notice how tight "me" and "mine" feel,** and how light sharing feels.
@@ -302,7 +302,7 @@ meaning: "This, Arjuna, is the state of one who rests in God. Having reached it,
 gem: My steady Self
 s: The friend who changed | A boy in your class was known for his temper. Over two years, with a patient teacher and a few good friends, he became the calmest person in the room. When someone asks how, he says, "A little every day. I am still learning."
 s: Starting late | Your friend used to say, "I am not the spiritual type." In her final year, after a hard time at home, she begins sitting quietly for ten minutes each morning. She tells you, "I wish I had started earlier. But I am glad I have started."
-s: Your grandmother's calm | When you visit home from work, you notice how peaceful your grandmother is, whatever the news. You ask her if she was always like this. She laughs. "Not at your age. It came slowly, and it stayed."
+s: Your grandmother's calm | When you visit your grandmother in the holidays, you notice how peaceful she is, whatever the news. You ask her if she was always like this. She laughs. "Not at your age. It came slowly, and it stayed."
 h: **Go back over the four Gems** and choose the one you most need now.
 h: **Practise a little every day.** The steady state is built in small pieces.
 h: **Do not think it is too late or too early.** Begin from where you are.

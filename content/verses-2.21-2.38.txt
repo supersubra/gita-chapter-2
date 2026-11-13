@@ -6,8 +6,8 @@ one: Once you know what cannot be destroyed in you, no single event can make you
 meaning: "Arjuna, a person who knows the Self to be indestructible, eternal, unborn and unchanging cannot truly destroy anyone, or cause anyone to be destroyed."
 gem: My steady Self
 s: The rumour | A classmate spreads a story about you, and by lunch it feels as if your name is finished. Your best friend sits beside you with her tiffin, the same as every day. "Nothing about you changed this morning," she says. "Only a story went around."
-s: The friend who failed a year | Your hostel friend fails a year and tells you, "I am finished. There is no point now." You do not argue. You remind him of the night he taught the whole floor maths before the exam. "That person did not fail," you say. "One year did."
-s: The lost account | At work, the client you handled moves to another company. You feel your career has ended at twenty-five. A friend from your team says, "An account ended. You did not. Come, let us see what you learned from it."
+s: The friend who failed a year | Your friend has to repeat a year and tells you, "I am finished. There is no point now." You do not argue. You remind him of the week he taught four of you maths before the exam. "That person did not fail," you say. "One year did."
+s: The dropped catch | You drop the last catch, and your street's team loses the final. You are sure nobody will ever pick you again. Your elder brother finds you sitting on the steps. "A catch was dropped. You were not," he says. "Come, I will throw you fifty before dinner."
 h: **Separate the event from yourself.** Say "Something went wrong," not "I am finished."
 h: **Say the same to a friend** who thinks one failure has ended them.
 h: **Ask someone who has known you for years** what has not changed in you.
@@ -22,8 +22,8 @@ one: We put away worn-out clothes and wear new ones, and we are still the same p
 meaning: "A person puts away worn-out clothes and puts on new ones. In the same way, the Self leaves a worn-out body and takes a new one."
 gem: My steady Self (letting go of what is worn out)
 s: The old school uniform | On the last day of school, you fold your uniform for the final time. It feels like folding away your whole childhood. Your friend laughs through her tears and says, "We are not leaving ourselves here. Only the uniform."
-s: Friends in new colleges | Your school group has scattered to different cities. The group chat is quieter, and you worry the friendship is over. When you finally meet in the holidays, everyone looks different, yet within ten minutes you are laughing at the same old jokes.
-s: The role you outgrew | You have been the "junior" in your office for three years, and now you are asked to lead. You feel like an actor in the wrong costume. A friend says, "You are the same person. You have only changed what you wear to work."
+s: Friends in new places | Your school group has scattered to different cities. The group chat is quieter, and you worry the friendship is over. When you finally meet in the holidays, everyone looks different, yet within ten minutes you are laughing at the same old jokes.
+s: Too big for the red cycle | You have outgrown the red cycle you learned to ride on, and your father is giving it to your little cousin. It feels as if a piece of you is being given away. Your father says, "The rider is still here. Only the cycle has become small. Come, try the big one."
 h: **Notice what is only clothing.** A uniform, a role, a group name and a look can all change.
 h: **Keep the friend, not the costume.** Stay in touch even when the setting changes.
 h: **Thank the old stage** before you step into the new one.
@@ -86,8 +86,8 @@ one: Even if you are not sure about the big questions, sinking into sorrow still
 meaning: "Even if you think the Self is born again and again and dies again and again, mighty Arjuna, you still should not grieve like this."
 gem: Evenness (you do not need every answer to take the next step)
 s: "What is the point of studying?" | Late one night your friend messages, "Why study at all? Nothing means anything." You do not have a clever answer. You write, "I don't know either. But come over tomorrow, and we will do the physics chapter together." He comes.
-s: The big questions at 2 a.m. | In the hostel, you and your friends argue till two about God, life and what happens after death. Nobody wins. In the morning you still have to wash your clothes and attend the lab, and somehow that feels steadying.
-s: A friend who has lost faith | A colleague tells you she no longer believes in anything since her father's illness. You do not preach. You bring her tea every afternoon that week and ask about her father. Later she says the tea helped more than any argument.
+s: The big questions at 2 a.m. | At a sleepover on the terrace, you and your cousins argue till two about God, life and what happens after death. Nobody wins. In the morning you still have to fold the bedding and fetch the milk, and somehow that feels steadying.
+s: A friend who has stopped praying | Your friend tells you she no longer believes in anything since her father fell ill. You do not preach. You walk home with her every day that week and ask about her father. Later she says the walks helped more than any argument.
 h: **Let questions stay open.** It is fine to say, "I do not have this answer yet."
 h: **Do the next useful thing anyway.** Wash, eat, study, show up for a friend.
 h: **Take your big questions to an elder or a teacher you trust,** one at a time.
@@ -102,7 +102,7 @@ one: Some things cannot be avoided. Accepting them frees your strength for what 
 meaning: "For one who is born, death is certain, and for one who has died, birth is certain. So you should not grieve over what cannot be avoided."
 gem: Evenness (accepting what cannot be changed)
 s: The friend who is moving away | Your best friend's father is transferred, and she will leave in a month. You spend the first week angry and sad. Then you both make a list of ten things to do together before she goes, and the month becomes one of your best.
-s: The end of college | In the final semester, your group keeps saying, "Let us not talk about it." One friend finally says, "It is ending whether we talk or not. So let us plan how we will stay in touch." You fix a call for the first Sunday of every month.
+s: The end of the summer | Every year you spend the summer with your cousins at your grandparents' house. In the last week everyone keeps saying, "Let us not talk about it." One cousin finally says, "It is ending whether we talk or not. So let us plan how we will stay in touch." You fix a call for the first Sunday of every month.
 s: A grandfather's last months | The doctor says your grandfather has only a few months. You want to stay away because it hurts. Your cousin says, "We cannot change this. We can sit with him every evening." Those evenings become something you treasure for life.
 h: **Ask, "Can this be changed?"** If yes, act. If no, stop fighting it in your head.
 h: **Use the time that is left.** Endings feel softer when the days before them are full.
@@ -118,8 +118,8 @@ one: We see only the middle of every story, so make the most of the part you are
 meaning: "All beings are unseen before they begin, seen in the middle, and unseen again at the end. What is there to grieve about in this, Arjuna?"
 gem: Evenness (being present in the time we have)
 s: A friend for one year | A new girl joins your class for just one year and becomes your closest friend. When she leaves, you ask your mother, "Why did she come at all, if she had to go?" Your mother says, "You had a whole year. Was the year good?" It was.
-s: The summer project team | Four of you from different colleges work together for one summer and become very close. On the last day you promise to stay in touch, knowing it may fade. You decide the summer was complete in itself, and you are thankful.
-s: The colleague who is leaving | Your favourite teammate resigns. For her last two weeks, you could sulk, or you could have lunch together every day. You choose lunch. On her last day you are sad, but you have no regrets.
+s: The summer camp | Four of you from different towns share a tent at a summer camp and become very close. On the last day you promise to stay in touch, knowing it may fade. You decide the summer was complete in itself, and you are thankful.
+s: The neighbour who is leaving | The boy next door, who has played with you every evening since you were five, is moving away in two weeks. You could sulk, or you could play every evening that is left. You choose to play. On his last day you are sad, but you have no regrets.
 h: **Be fully in the part you are in.** Put the phone down when you are with a friend.
 h: **Say the good things now,** while the person is in front of you.
 h: **Be thankful for the middle,** even when you cannot see what comes after.
@@ -134,8 +134,8 @@ one: The Self is a wonder that is hard to understand, so stay curious about your
 meaning: "Some see the Self as a wonder, some speak of it as a wonder, and some hear of it as a wonder. Yet even after hearing, hardly anyone truly knows it."
 gem: Same Self in all (wonder and respect for every person)
 s: The quiet boy | A quiet boy sits at the back of your class, and everyone has decided he is boring. One day you are paired with him for a project and find he writes poetry and knows every bird in your town. You wonder how many people you have judged too quickly.
-s: The friend you thought you knew | After three years in college, your friend tells you she looks after her younger brother alone every evening. You had no idea. You realise that even a close friend is deeper than what you have seen.
-s: The security guard | You pass the same guard at your office gate every day without a word. One evening you stop to talk and learn he is studying for a degree at night. The next day your greeting is different.
+s: The friend you thought you knew | After three years of friendship, your friend tells you she looks after her younger brother alone every evening. You had no idea. You realise that even a close friend is deeper than what you have seen.
+s: The watchman | You pass the same watchman at your apartment gate every day without a word. One evening you stop to talk and learn he is studying for a degree at night. The next day your greeting is different.
 h: **Do not decide too fast who someone is.** Every person has more inside than you can see.
 h: **Ask one real question** and listen to the whole answer.
 h: **Be patient with yourself too.** You are also still discovering who you are.
@@ -150,8 +150,8 @@ one: The same Self lives safely in every single person, which is a reason to tre
 meaning: "The Self that lives in everyone's body can never be destroyed, Arjuna. So you should not grieve for any being."
 gem: Same Self in all
 s: The new student | A new student joins mid-year. His accent is different, and some of your friends copy it for fun. You remember your own first day at this school. At lunch you say, "Come and sit with us," and your friends make room.
-s: The friend from another background | In the hostel, your roommate's food, language and festivals are all different from yours. In the first month you keep your distance. By the third month you are celebrating each other's festivals and calling each other's mothers "aunty."
-s: The colleague nobody includes | An older colleague in your office is never invited for tea because he is "not our type." You start asking him along. He turns out to be the funniest person at the table.
+s: The new neighbours | A family from another state moves in next door. Their food, language and festivals are all different from yours, and in the first month you keep your distance from their daughter. By the third month you are celebrating each other's festivals and calling each other's mothers "aunty."
+s: The cousin nobody includes | At family gatherings, one older cousin is never called to play because he is "not our type." You start asking him along. He turns out to be the funniest person in the room.
 h: **Look for what is the same** before you notice what is different.
 h: **Make room.** One invitation to sit, eat or play together can change someone's whole year.
 h: **Speak up kindly when friends mock someone.** "Let it go, he is all right" is enough.
@@ -202,8 +202,8 @@ one: Walking away from what is right has a cost too, both to you and to those wh
 meaning: "But if you do not take up this fight for what is right, you will give up your duty and your good name, and you will do wrong."
 gem: Mindful action (not walking away)
 s: The friend being bullied | A group teases your friend every day on the bus. You look out of the window and say nothing, and each day you feel smaller. One morning you move to sit beside him. The teasing does not stop at once, but he is no longer alone.
-s: Dropping out of the team | Two days before the inter-college event, you feel like pulling out because practice is tiring. Then you picture your three teammates on stage without a fourth. You go to practice.
-s: The mistake you saw | You notice a wrong figure in a report your friend prepared, and the meeting is in an hour. Staying quiet would save an awkward moment. You call him aside, and together you fix it in ten minutes.
+s: Dropping out of the dance | Two days before the programme, you feel like pulling out of the group dance because practice is tiring. Then you picture your three friends on stage with a gap where you should be. You go to practice.
+s: The mistake you saw | You notice that your friend has written the wrong date on the invitations for his sister's birthday, and they are about to be handed out. Staying quiet would save an awkward moment. You call him aside, and together you correct them in ten minutes.
 h: **Count the cost of doing nothing.** Silence and absence are also choices.
 h: **Think of who is counting on you,** such as a friend, a team or a younger sibling.
 h: **Take the smallest right step.** Sit beside someone. Show up. Say one sentence.
@@ -218,8 +218,8 @@ one: A good name is built by keeping your word, and it is worth protecting.
 meaning: "People will speak of your dishonour for a long time. For one who has been respected, dishonour is worse than death."
 gem: Mindful action (keeping my word)
 s: The borrowed notes | Your friend lends you her notes and asks for them back by Friday. You forget, and she goes into the test without them. She says, "It's okay," but she never lends to you again. You learn how quickly trust can go.
-s: The secret | In the hostel, a friend tells you something private. It would make a great story in the mess. You keep it to yourself. Months later he says, "You are the only one I can tell things to."
-s: The promise to a client | You promised a client the work by Monday. A friend's wedding fills your weekend, and you are tempted to send a rushed job. You wake up early on both days and finish it properly. The client asks for you by name next time.
+s: The secret | A friend tells you something private about his family. It would make a great story for the group. You keep it to yourself. Months later he says, "You are the only one I can tell things to."
+s: The promise to your sister | You promised your little sister you would teach her to ride her cycle on Sunday morning. On Saturday night your friends plan a match for the same time, and you are tempted to tell her, "Next week." You keep the Sunday. She wobbles, falls twice and rides. From then on, when you say you will do something, she never asks twice.
 h: **Promise less and keep every promise.** A small promise kept is worth more than a big one broken.
 h: **Guard what friends tell you.** A secret is not yours to share.
 h: **If you break your word, admit it quickly** and make it right.
@@ -235,7 +235,7 @@ meaning: "The great warriors will think you left the battle out of fear. Those w
 gem: My steady Self (courage)
 s: The debate you skipped | You pull out of the debate, saying you have a cold. Your friend, who was your partner, knows it was nerves. He is not angry, only disappointed. You wish you had told him the truth and asked for help.
 s: The festival at your friend's house | Your friend has invited you home for the festival, and you said yes. An hour before, you message, "Sorry, I can't come." The real reason is that the house will be full of people you do not know, your friend will be busy, and you are afraid you will have nobody to talk to. Then you tell her the truth. She replies, "Come half an hour early and help me arrange the lamps. By the time the others arrive, you will know half of them." You go.
-s: The presentation you passed on | Your manager offers you a chance to present to the directors, and you suggest a colleague instead. Later a friend at work asks why. You realise you gave away a chance out of fear and called it modesty.
+s: The solo you passed on | Your music teacher offers you the solo in the next programme, and you suggest another student. Later your mother asks why. You realise you gave away a chance out of fear and called it modesty.
 h: **Ask honestly, "Is this fear or good sense?"** Good sense has reasons. Fear has excuses.
 h: **Tell a friend the real reason.** Fear shrinks when it is spoken.
 h: **Take a friend along** for the first hard step.
@@ -251,7 +251,7 @@ meaning: "Those who wish you ill will say many unkind things and mock your abili
 gem: Evenness (not ruled by what people say)
 s: The laughing group | You answer wrongly in class, and a group at the back laughs and repeats it for days. You stop raising your hand. Your bench-mate says, "They laugh at everyone. If you stop answering, they win and you lose marks."
 s: The friend who believed it | A girl in your class is possessive and jealous, and she wants your closest friend for herself. She tells your friend unkind things about you that are not true. Your friend believes all of it without checking with you or with anyone else, and she stops talking to you for good. It hurts more than anything said to your face. You do not spread stories in return. You tell your friend once, calmly, "That is not true, and you can ask me anything." Whether she comes back is not in your hands. How you behave is.
-s: Office gossip | You hear that some colleagues say you got the promotion "by luck." You want to prove them wrong in every meeting. A friend says, "Do the work the way you always did. That is the only answer that lasts."
+s: What the relatives say | You hear that some relatives say you won the prize "by luck." You want to prove them wrong at every family gathering. Your mother says, "Practise the way you always did. That is the only answer that lasts."
 h: **Do not be shocked when people talk.** Almost everyone is talked about unkindly at some time, so it does not mean something is wrong with you.
 h: **Count the voices fairly.** Two loud critics are not everyone.
 h: **Answer with steady work,** not with arguments.
@@ -267,8 +267,8 @@ one: When you give an honest effort, you gain something whether you win or lose.
 meaning: "If you fall, you will reach heaven. If you win, you will enjoy the earth. So stand up, Arjuna, with your mind made up."
 gem: Mindful action (making up my mind)
 s: The scholarship exam | You and your friend both want to try for a scholarship, but only a few get it. "What if we fail?" you ask. She says, "Then we will know the syllabus better than anyone else in class. Let's fill in the form."
-s: The start-up weekend | Your friends want to enter a 48-hour business contest. You are sure you will not win. You enter anyway, and you do not win. But you learn to pitch, and you make two friends you still work with.
-s: Asking for the role | A new role opens in your company. If you apply and get it, good. If you do not, your manager at least knows you want to grow. Seen that way, there is no bad result. You apply.
+s: The quiz you could not win | Your friends want to enter the district quiz. You are sure you will not win. You enter anyway, and you do not win. But you learn to think quickly on a stage, and you make two friends you still meet.
+s: Asking to join | Your neighbours are forming a team, and you want to play. If you ask and they say yes, good. If they say no, at least they know you are keen, and they may call you next time. Seen that way, there is no bad result. You ask.
 h: **List what you gain if it goes well, and what you gain if it does not.** There is usually something on both sides.
 h: **Decide once.** A made-up mind saves a great deal of energy.
 h: **Try together with a friend** when you can. Shared effort is lighter.
@@ -283,8 +283,8 @@ one: Treat joy and sorrow, gain and loss, winning and losing alike, and then giv
 meaning: "Treat pleasure and pain, gain and loss, victory and defeat as the same, and then get ready for the fight. In this way you will do no wrong."
 gem: Evenness
 s: Playing against your best friend | You and your best friend reach the badminton final from opposite sides. You are afraid that whoever loses will be hurt. Before the match you agree, "We both play our best, and afterwards we eat together, whatever the score." You do.
-s: One got in, one did not | You and your friend apply to the same college. You get in, and she does not. You do not hide your news, and you do not show it off either. You sit with her while she plans her next step, and the friendship holds.
-s: The team that lost the bid | Your team works for a month on a proposal and loses. The next week another proposal is due. Your team lead says, "Same effort as last time. The result is not ours to fix." You find it easier to begin this time.
+s: One got in, one did not | You and your friend both try for the choir. You get in, and she does not. You do not hide your news, and you do not show it off either. You sit with her while she plans what to try next, and the friendship holds.
+s: The team that lost | Your street's team practises for a month and loses its first match. The next match is a week away. Your captain says, "Same effort as last time. The result is not ours to fix." You find it easier to begin this time.
 h: **Before you start, accept both results.** Say, "I may win, I may lose, and I will be all right."
 h: **Keep the friendship above the score.**
 h: **Give the same effort** after a loss as after a win.

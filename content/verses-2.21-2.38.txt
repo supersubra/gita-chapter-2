@@ -21,6 +21,7 @@ t: Old clothes, new clothes
 one: We put away worn-out clothes and wear new ones, and we are still the same person. In the same way, the Self stays the same when the body changes.
 meaning: "A person puts away worn-out clothes and puts on new ones. In the same way, the Self leaves a worn-out body and takes a new one."
 gem: My steady Self (letting go of what is worn out)
+star: This is the best-known picture in the Gita of the body and the Self. The body is like a set of clothes, and you are the one wearing them. Clothes wear out and are changed, and the wearer stays the same. Once you have this picture, you will not mix up what you have with what you are.
 s: The old school uniform | On the last day of school, you fold your uniform for the final time. It feels like folding away your whole childhood. Your friend laughs through her tears and says, "We are not leaving ourselves here. Only the uniform."
 s: Friends in new places | Your school group has scattered to different cities. The group chat is quieter, and you worry the friendship is over. When you finally meet in the holidays, everyone looks different, yet within ten minutes you are laughing at the same old jokes.
 s: Too big for the red cycle | You have outgrown the red cycle you learned to ride on, and your father is giving it to your little cousin. It feels as if a piece of you is being given away. Your father says, "The rider is still here. Only the cycle has become small. Come, try the big one."
@@ -216,13 +217,14 @@ bhakti: Krishna reminds Arjuna that turning away is not neutral. When we stand u
 sk: अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् । सम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ॥
 read: akeertim chaapi bhootaani kathayishyanti te 'vyayaam | sambhaavitasya chaakeertir maranaad atirichyate
 t: A good name
-one: A good name is built by keeping your word, and it is worth protecting.
+one: A good name is built by telling the truth and keeping your word, and it is worth protecting.
 meaning: "People will speak of your dishonour for a long time. For one who has been respected, dishonour is worse than death."
-gem: Mindful action (keeping my word)
+gem: Mindful action (honesty and keeping my word)
 s: The borrowed notes | Your friend lends you her notes and asks for them back by Friday. You forget, and she goes into the test without them. She says, "It's okay," but she never lends to you again. You learn how quickly trust can go.
 s: The secret | A friend tells you something private about his family. It would make a great story for the group. You keep it to yourself. Months later he says, "You are the only one I can tell things to."
 s: The promise to your sister | You promised your little sister you would teach her to ride her cycle on Sunday morning. On Saturday night your friends plan a match for the same time, and you are tempted to tell her, "Next week." You keep the Sunday. She wobbles, falls twice and rides. From then on, when you say you will do something, she never asks twice.
 h: **Promise less and keep every promise.** A small promise kept is worth more than a big one broken.
+h: **Tell the truth even when a small lie would be easier.** People trust the one whose words match the facts, and that trust is your good name.
 h: **Guard what friends tell you.** A secret is not yours to share.
 h: **If you break your word, admit it quickly** and make it right.
 try: Is there a promise you made and have not kept? Keep it today, or tell the person honestly.
@@ -287,9 +289,9 @@ gem: Evenness
 star: This one verse holds the whole Gem of Evenness. Treat joy and sorrow, gain and loss, winning and losing alike, and then act. Whoever works in this way does no wrong.
 s: Playing against your best friend | You and your best friend reach the badminton final from opposite sides. You are afraid that whoever loses will be hurt. Before the match you agree, "We both play our best, and afterwards we eat together, whatever the score." You do.
 s: One got in, one did not | You and your friend both try for the choir. You get in, and she does not. You do not hide your news, and you do not show it off either. You sit with her while she plans what to try next, and the friendship holds.
-s: The team that lost | Your street's team practises for a month and loses its first match. The next match is a week away. Your captain says, "Same effort as last time. The result is not ours to fix." You find it easier to begin this time.
+s: The stall at the colony fair | You and your cousin run a lemonade stall at the colony fair. On Saturday the sun is hot, the queue is long, and you count six hundred rupees. On Sunday it rains, hardly anyone comes, and you make forty. You are ready to pack up early and sulk. Your cousin is wiping the glasses as carefully as she did the day before, and she greets the three customers who do come with the same smile. "Yesterday's crowd was not our doing, and today's rain is not either," she says. "Our job is good lemonade on both days." You stay till closing time.
 h: **Before you start, accept both results.** Say, "I may win, I may lose, and I will be all right."
 h: **Keep the friendship above the score.**
-h: **Give the same effort** after a loss as after a win.
+h: **Give the same effort** after a loss as after a win, and on a slow day as on a busy one.
 try: Before your next test or match, say to yourself, "My job is the effort."
 bhakti: A mind that stays even in gain and loss can offer everything to God. This verse opens the way to the teaching that follows.

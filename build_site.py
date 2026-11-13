@@ -16,7 +16,7 @@ for p in D["parts"]:
                 "meaning": q(v["meaning"]), "gem": E(v["gem"]), "next": E(D["NEXT"][n]) if n in D["NEXT"] else "",
                 "stories": [(E(l), q(s)) for l, s in zip(D["LEAD"][n], v["stories"])],
                 "helps": [q(h) for h in v["helps"][:-1]], "try": q(re.sub(r"^<b>Try this today:</b>\s*", "", v["helps"][-1])),
-                "note": q(v["note"]), "bhakti": q(v["bhakti"])}
+                "note": q(v["note"]), "bhakti": q(v["bhakti"]), "star": q(v.get("star", ""))}
 V["2.2"]["who"] = "Krishna speaking"; V["2.10"]["who"] = "Sanjaya narrating"
 for f in sorted(glob.glob(ROOT + "/content/*.txt"), key=lambda x: float(re.search(r"verses-2\.(\d+)", x).group(1))):
     cur = None
@@ -38,7 +38,7 @@ for f in sorted(glob.glob(ROOT + "/content/*.txt"), key=lambda x: float(re.searc
 order = [n for p in parts for n in p["verses"]]
 assert order == ["2.%d" % i for i in range(1, 73)], order
 for n in order:
-    v = V[n]; assert len(v["stories"]) in (1, 3) and 3 <= len(v["helps"]) <= 4, n
+    v = V[n]; assert len(v["stories"]) in (1, 3, 4) and 3 <= len(v["helps"]) <= 5, n
     for k in ("sk", "read", "t", "one", "meaning", "gem", "try", "bhakti"): assert v.get(k), (n, k)
 parts[1]["title"] = "Part 2: Who am I, really? (2.11–2.30)"
 
@@ -79,7 +79,7 @@ INDEX = [
 ("Parents and children", "2.3 2.4 2.14 2.19 2.39 2.47"),
 ("Is it fair? What each child gets", "2.57 2.64 2.71"),
 ("Fitting in and being yourself", "2.8 2.45 2.56 2.69"),
-("Your duties at home, outside and to yourself", "2.14 2.18 2.31"),
+("Your duties at home, outside and to yourself", "2.14 2.31"),
 ("Phone, games and scrolling", "2.41 2.59 2.60 2.62 2.68"),
 ("Posts, likes and comments online", "2.14 2.16 2.44"),
 ("Wanting things", "2.8 2.44 2.55 2.58 2.62 2.70"),
@@ -89,7 +89,10 @@ INDEX = [
 ("Friends moving away and goodbyes", "2.13 2.22 2.27 2.28"),
 ("Pressure from friends, and saying no", "2.56 2.68 2.69"),
 ("Standing up for someone", "2.30 2.33"),
-("Honesty, promises and sharing", "2.1 2.5 2.34 2.51 2.67 2.71"),
+("Honesty, promises and sharing", "2.1 2.5 2.34 2.51 2.67 2.69 2.71"),
+("Taking criticism calmly", "2.14 2.48 2.56"),
+("Things you cannot fix: slow wifi, power cuts, bad roads", "2.14 2.27 2.57"),
+("What is the Atma, the real me?", "2.13 2.18 2.20 2.22 2.30"),
 ("Respect for teachers and elders", "2.4 2.5 2.7"),
 ("Choosing between two paths", "2.6 2.41 2.52"),
 ("Too much advice, and other people's opinions", "2.7 2.52 2.53"),
@@ -103,10 +106,10 @@ INDEX = [
 ]
 CSS = """
 /* Layout: phone = one reading column; tablet = wider column; laptop = contents sidebar + each verse in two columns (verse left, practice right). Section labels carry colour. */
-:root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c; --c-title: #27408f; --c-moments: #0b6e7f; --c-helps: #2f7d32; --c-try: #c2500a; --c-bhakti: #7a3594; --gem-bg: #f4eaf8; --c-star: #a35a00; --star-bg: #fff6df;
+:root { --bg: #ffffff; --ink: #1f2328; --muted: #646a73; --line: #e2e2de; --accent: #8a2c2c; --c-title: #27408f; --c-moments: #0b6e7f; --c-helps: #2f7d32; --c-try: #c2500a; --c-bhakti: #7a3594; --gem-bg: #f8f1dc; --gem-ink: #5a4410; --gem-line: #e6dab8; --c-star: #a35a00; --star-bg: #fff6df;
   --text: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sanskrit: "Tiro Devanagari Sanskrit", "Kohinoor Devanagari", "Noto Serif Devanagari", serif; }
-:root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; --gem-bg: #33253b; --c-star: #f2c260; --star-bg: #2e2717; color-scheme: dark }
+:root[data-theme="dark"] { --bg: #17181b; --ink: #e7e5e0; --muted: #a1a5ab; --line: #313338; --accent: #e3a594; --c-title: #aebcf7; --c-moments: #6cc7d6; --c-helps: #8fce91; --c-try: #f2a065; --c-bhakti: #cf9be6; --gem-bg: #efe6cc; --gem-ink: #4a380c; --gem-line: #efe6cc; --c-star: #f2c260; --star-bg: #2e2717; color-scheme: dark }
 * { box-sizing: border-box; }
 html { scroll-padding-top: 1rem; -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--text); font-size: 1.125rem; line-height: 1.65; }
@@ -155,8 +158,10 @@ h1 { color: var(--accent); }
 b.try { color: var(--c-try); } b.bh { color: var(--c-bhakti); }
 .stories summary::marker { color: var(--c-moments); }
 .helps li::marker { color: var(--c-helps); }
-.gem { display: inline-block; margin: .55rem 0 0; padding: .2rem .8rem; border-radius: 999px; background: var(--gem-bg); color: var(--c-bhakti); font-size: .95rem; font-weight: 600; }
-.verse h3 { margin-top: .6rem; }
+.gem { display: inline-block; margin: .55rem 0 0; padding: .3rem .8rem; border-radius: 8px; border: 1px solid var(--gem-line); background: var(--gem-bg); color: var(--gem-ink); font-size: .95rem; font-weight: 600; }
+.verse h3 { margin-top: .7rem; font-family: var(--text); font-size: 1em; line-height: 1.65; text-wrap: wrap; }
+.atma { max-width: 44rem; margin-top: 1.4rem; padding: 1rem 1.2rem 1.2rem; border: 1px solid var(--gem-line); border-radius: 8px; background: var(--gem-bg); color: var(--gem-ink); }
+.atma h3 { font-size: 1.15rem; } .atma p { margin-top: .7rem; }
 .star { display: inline-block; margin-left: .5rem; padding: .05rem .6rem; border-radius: 999px; background: var(--star-bg); color: var(--c-star); font-weight: 600; white-space: nowrap; }
 .star i, .toc i { font-style: normal; display: inline-block; }
 .star i { animation: twinkle 2.4s ease-in-out infinite; }
@@ -194,7 +199,7 @@ b.try { color: var(--c-try); } b.bh { color: var(--c-bhakti); }
   footer { max-width: 44rem; }
 }
 @media print { .side, .theme { display: none !important; } .layout, .verse, .intro { display: block !important; }  .top { display: none; } body { font-size: 11pt; } main { max-width: none; padding: 0; }
-  summary { break-after: avoid; } .h, .num, .verse h3 { break-after: avoid; } .sk, .read, li { break-inside: avoid; } .part { break-before: page; } }
+  summary { break-after: avoid; } .h, .num, .verse h3 { break-after: avoid; } .sk, .read, li, .atma { break-inside: avoid; } .part { break-before: page; } }
 """
 THEME_JS = '<script>(function(){var r=document.documentElement,t="light";try{t=localStorage.getItem("gita-theme")==="dark"?"dark":"light"}catch(e){}\nfunction set(v){r.setAttribute("data-theme",v);document.querySelectorAll("[data-set-theme]").forEach(function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-set-theme")===v))})}\nset(t);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){set(t)});\ndocument.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest("[data-set-theme]");if(!b)return;t=b.getAttribute("data-set-theme");set(t);try{localStorage.setItem("gita-theme",t)}catch(e){}})})();</script>'
 STAR_T = " <i aria-label='Star shloka'>🌟</i>"
@@ -233,7 +238,9 @@ def page(finder, title, standalone):
         H.append("</ul>")
     for p in parts:
         t, name = re.match(r"(Part \d+): (.*)", p["title"]).groups()
-        H.append(f'<section class="part"><h2>{t}<br>{E(name)}</h2><p>{q(p["intro"])}</p></section>')
+        box = ""
+        if t == "Part 2" and D.get("atma"): box = f'<div class="atma"><h3>{E(D["atma"]["title"])}</h3>' + "".join(f"<p>{q(x)}</p>" for x in D["atma"]["paras"]) + "</div>"
+        H.append(f'<section class="part"><h2>{t}<br>{E(name)}</h2><p>{q(p["intro"])}</p>{box}</section>')
         for n in p["verses"]:
             v = V[n]
             who = f" · {v['who']}" if v["who"] else ""

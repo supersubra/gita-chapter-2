@@ -271,8 +271,8 @@ try: Notice one thing "everyone" is excited about that you do not really care fo
 bhakti: The devotee is awake to God's presence, which the busy world sleeps through. The quiet of early morning is a good time to wake to it.
 
 ## 2.70
-sk: आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् । तद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ॥
-read: aapooryamaanam achala-pratishtham samudram aapah pravishanti yadvat | tadvat kaamaa yam pravishanti sarve sa shaantim aapnoti na kaama-kaamee
+sk: आपूर्यमाणमचलप्रतिष्ठं / समुद्रमापः प्रविशन्ति यद्वत् । / तद्वत्कामा यं प्रविशन्ति सर्वे / स शान्तिमाप्नोति न कामकामी ॥
+read: aapooryamaanam achala-pratishtham / samudram aapah pravishanti yadvat / tadvat kaamaa yam pravishanti sarve / sa shaantim aapnoti na kaama-kaamee
 t: Like the ocean
 one: Be like the ocean. Rivers pour into it all day, yet it stays full and still.
 meaning: "Rivers flow into the ocean, which is always being filled and yet stays unmoved. In the same way, one into whom all desires flow without disturbing him attains peace, and not the one who runs after desires."

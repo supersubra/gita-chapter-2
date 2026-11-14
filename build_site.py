@@ -32,13 +32,15 @@ for f in sorted(glob.glob(ROOT + "/content/*.txt"), key=lambda x: float(re.searc
         elif k in ("star", "note"): cur[k] = q(md(val))
         elif k == "ni": cur.setdefault("ni", []).append(q(md(val)))
         elif k == "h": cur["helps"].append(q(md(val)))
-        elif k == "sk": a, b = val.split("।"); cur["sk"] = a.strip() + " ।<br>" + b.strip()
+        elif k == "sk":
+            if " / " in val: cur["sk"] = val.replace(" / ", "<br>")
+            else: a, b = val.split("।"); cur["sk"] = a.strip() + " ।<br>" + b.strip()
         elif k in ("read", "who", "t"): cur[k] = val
         else: cur[k] = E(val)
 order = [n for p in parts for n in p["verses"]]
 assert order == ["2.%d" % i for i in range(1, 73)], order
 for n in order:
-    v = V[n]; assert len(v["stories"]) in (1, 3, 4) and 3 <= len(v["helps"]) <= 5, n
+    v = V[n]; assert len(v["stories"]) in (1, 2, 3, 4) and 3 <= len(v["helps"]) <= 5, n
     for k in ("sk", "read", "t", "one", "meaning", "gem", "try", "bhakti"): assert v.get(k), (n, k)
 parts[1]["title"] = "Part 2: Who am I, really? (2.11–2.30)"
 
@@ -86,7 +88,7 @@ INDEX = [
 ("Anger and quarrels", "2.56 2.62 2.63 2.65"),
 ("Hurtful words and teasing", "2.14 2.17 2.19 2.23 2.36"),
 ("Friendship trouble and being left out", "2.3 2.6 2.9 2.12 2.23 2.30 2.36 2.71"),
-("Friends moving away and goodbyes", "2.13 2.22 2.27 2.28"),
+("Friends moving away and goodbyes", "2.22 2.27 2.28"),
 ("Pressure from friends, and saying no", "2.56 2.68 2.69"),
 ("Standing up for someone", "2.30 2.33"),
 ("Honesty, promises and sharing", "2.1 2.5 2.34 2.51 2.67 2.69 2.71"),
@@ -100,7 +102,7 @@ INDEX = [
 ("Feeling empty or restless", "2.8 2.9 2.66"),
 ("Change and new stages of life", "2.13 2.22"),
 ("Losing a place, a role or a title", "2.12 2.17 2.21"),
-("Being there for someone who is upset", "2.10 2.20 2.26"),
+("Being there for someone who is upset", "2.10 2.26"),
 ("Grief and loss", "2.20 2.27 2.28"),
 ("Daily prayer and quiet time", "2.61 2.62 2.72"),
 ]
@@ -248,7 +250,7 @@ def page(finder, title, standalone):
             one = len(v["stories"]) == 1
             H.append(f'<article class="verse" id="{vid(n)}"><div class="va"><p class="num">Verse {n}{who}{star}</p><p class="gem">💎 Gem: {v["gem"]}</p><h3>{v["one"]}</h3>')
             if v.get("star"): H.append(f'<p class="why"><b>Why this is a star shloka:</b> {v["star"]}</p>')
-            H.append(f'<p class="sk" lang="sa">{v["sk"]}</p><p class="read">{html.escape(v["read"], quote=False).replace(chr(39), "’")}</p>')
+            H.append(f'<p class="sk" lang="sa">{v["sk"]}</p><p class="read">{html.escape(v["read"], quote=False).replace(chr(39), "’").replace(" / ", "<br>")}</p>')
             H.append(f'<p class="meaning">{v["meaning"]}</p>')
             if v["next"]: H.append(f'<p><b>What Krishna will teach next:</b> {v["next"]}</p>')
             H.append(f'</div><div class="vb"><p class="h moments">{"A real-life moment" if one else "Real-life moments"}</p><div class="group stories">')
